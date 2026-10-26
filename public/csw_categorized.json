@@ -1,0 +1,6109 @@
+{
+  "港式/茶餐廳": [
+    {
+      "name": "回味湯飯專門店",
+      "address": "青山道373-379號昭德大廈地下C號舖",
+      "price": "$51-100",
+      "score": 4.84,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ybo7W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "明珠海鮮燒烤",
+      "address": "順寧道98號地下A2號舖",
+      "price": "$101-200",
+      "score": 4.72,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "烤肉",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0yju6W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "東CF士多小食店",
+      "address": "元州街475號地舖",
+      "price": "$51-100",
+      "score": 4.63,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0HQSA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "明利茶餐廳",
+      "address": "昌華街11號",
+      "price": "$50以下",
+      "score": 4.53,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Kvu000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "世一冰室",
+      "address": "順寧道253-263號恆寧閣地舖",
+      "price": "$50以下",
+      "score": 4.5,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0XQmD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "爆辣冷麵",
+      "address": "元州街213號美居中心地下39A號舖",
+      "price": "$50以下",
+      "score": 4.43,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ihuD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "開花結果",
+      "address": "瓊林街83號B座地下06號舖",
+      "price": "$51-100",
+      "score": 4.43,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0dQ0D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "燒味滷師 (安發大廈)",
+      "address": "長發街28號安發大廈地下D號舖",
+      "price": "$50以下",
+      "score": 4.37,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0mMqA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "興記豬什專門店",
+      "address": "元州街482-492號金碧閣地下12號舖",
+      "price": "$50以下",
+      "score": 4.37,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0FBOD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "太子海鮮菜館",
+      "address": "元州街481-483號地舖",
+      "price": "$51-100",
+      "score": 4.35,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "海鮮",
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0DiS600",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "花月冰室 (元州街)",
+      "address": "元州街485-491號富洲大廈地下1號舖",
+      "price": "$51-100",
+      "score": 4.34,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0nq8D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "炯記餐室",
+      "address": "元州街303號元州商場地下G07號舖",
+      "price": "$51-100",
+      "score": 4.33,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0npuB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大煲皇小廚",
+      "address": "青山道155-181號天悅廣場地下CA3-CA5號舖",
+      "price": "$201-400",
+      "score": 4.31,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0U38A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "OK德海南雞飯專門店",
+      "address": "保安道65號美寧中心地下D3號舖",
+      "price": "$50以下",
+      "score": 4.26,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0q48000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "亮仔食堂",
+      "address": "長沙灣道638號長盛豪苑地下B&C號舖",
+      "price": "$50以下",
+      "score": 4.23,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0RNeC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雪山冰廳 (東景大廈)",
+      "address": "青山道413號東景大廈地下4-5號舖",
+      "price": "$51-100",
+      "score": 4.23,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS03Qu900",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "世一冰室",
+      "address": "青山道230號地舖",
+      "price": "$51-100",
+      "score": 4.2,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0GACB00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "御湯皇",
+      "address": "青山道443號地舖",
+      "price": "$50以下",
+      "score": 4.2,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "湯品"
+      ],
+      "url": "https://s.openrice.com/QrbS0Bnq800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "精記蛋卷",
+      "address": "元州街340號地舖",
+      "price": "$50以下",
+      "score": 4.2,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Yre000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "初麵",
+      "address": "元州街498號地下I號舖",
+      "price": "$51-100",
+      "score": 4.17,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS062uF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "賓墟餐廳",
+      "address": "幸祥街8號幸福商場地下1號舖",
+      "price": "$51-100",
+      "score": 4.11,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0D5i000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜樂餐飲.教室",
+      "address": "福華街584號地舖",
+      "price": "$51-100",
+      "score": 4.09,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS00na800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "寶樹堂涼茶",
+      "address": "元州街473號地下5號舖",
+      "price": "$50以下",
+      "score": 4.08,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0L2m800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "串燒兄妹 (昌暉大廈)",
+      "address": "昌華街41-51號昌暉大廈地下6號舖",
+      "price": "$50以下",
+      "score": 4.07,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0D5qD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大煲皇小廚",
+      "address": "青山道155-181號天悅廣場地下CA6號舖",
+      "price": "$201-400",
+      "score": 4.03,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0yfA100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "星廚",
+      "address": "青山道373-379號昭德大廈地下C舖",
+      "price": "$50以下",
+      "score": 4.01,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0hQq100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "唐包點 (港鐵長沙灣站)",
+      "address": "港鐵長沙灣站CSW 3號舖",
+      "price": "$50以下",
+      "score": 3.99,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0X2G800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "敏華冰廳 (元州商場)",
+      "address": "元州街303號元州商場地下G16號舖",
+      "price": "$51-100",
+      "score": 3.99,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0PyK500",
+      "source": "OpenRice"
+    },
+    {
+      "name": "榮發茶餐美食",
+      "address": "長發街22號順輝大廈地下1號舖",
+      "price": "$50以下",
+      "score": 3.97,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS06QK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "時時樂餐廳",
+      "address": "長發街14號地舖",
+      "price": "$50以下",
+      "score": 3.9,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Qte000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "餃串Party",
+      "address": "青山道368號喜韻商場地下2號舖",
+      "price": "$51-100",
+      "score": 3.88,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "雲吞/餃子",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0SW8D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "佳記美食 (青山道)",
+      "address": "青山道234號地舖",
+      "price": "$50以下",
+      "score": 3.87,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0REi900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "許願樹美食",
+      "address": "元州街471號昌華閣地下4號舖",
+      "price": "$101-200",
+      "score": 3.81,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0iyY000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "尼奧餐廳",
+      "address": "青山道273號地舖",
+      "price": "$51-100",
+      "score": 3.78,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0GLK700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "銀龍茶餐廳",
+      "address": "蘇屋村蘇屋商場地下G02號舖",
+      "price": "$51-100",
+      "score": 3.76,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS0xwe900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "甜記餃子",
+      "address": "福華街593-595號麗新商業中心1樓108A號舖",
+      "price": "$51-100",
+      "score": 3.7,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0S3uC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新華茶餐廳",
+      "address": "青山道334號地舖",
+      "price": "$50以下",
+      "score": 3.66,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS08Gq000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "金豪粢飯豆漿店",
+      "address": "元州街249號地下",
+      "price": "$50以下",
+      "score": 3.64,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0LrS000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金園茶餐廳",
+      "address": "青山道314號地舖",
+      "price": "$50以下",
+      "score": 3.53,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0La8000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "金華美食",
+      "address": "昌華街20號金華閣地下1號舖",
+      "price": "$50以下",
+      "score": 3.53,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0WCy0W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "醉瓊樓",
+      "address": "元州街320A號地舖",
+      "price": "$51-100",
+      "score": 3.49,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0XLK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "洪慶海鮮燒臘飯店",
+      "address": "青山道303號 (近發祥街)",
+      "price": "$50以下",
+      "score": 3.45,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "海鮮",
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0440000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新匯江美食中心",
+      "address": "元州街271號昌發工廠大廈地舖",
+      "price": "$51-100",
+      "score": 3.44,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0fwW800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "荷里活冰室 (麗閣商場)",
+      "address": "東京街12號麗閣邨麗閣商場地下17-19號舖",
+      "price": "$51-100",
+      "score": 3.44,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Rly4W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "勤興茶餐室",
+      "address": "保安道325-329號保安道市政大廈3樓CF23號舖",
+      "price": "$50以下",
+      "score": 3.43,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0W4C000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "元朗冰室",
+      "address": "東沙島街167B號地舖",
+      "price": "$51-100",
+      "score": 3.37,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0eHW800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "冰室小菜館",
+      "address": "青山道156-162號永基商業大廈地下A號舖",
+      "price": "$51-100",
+      "score": 3.35,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0JKiB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "銀龍茶餐廳",
+      "address": "荔枝角道608號麗翠苑麗翠商場地下2號舖",
+      "price": "$51-100",
+      "score": 3.33,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS0BL4A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "百份百餐廳 (寶熙苑商場)",
+      "address": "保安道225號寶熙苑商場地下3號舖",
+      "price": "$51-100",
+      "score": 3.29,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0FhO700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "均鴻茶餐廳",
+      "address": "保安道325-329號保安道市政大廈3樓CF11號舖",
+      "price": "$50以下",
+      "score": 3.27,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0D9C100",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "華園餃子館",
+      "address": "元洲街471號地下9號舖",
+      "price": "$50以下",
+      "score": 3.26,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0YLa000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "包點先生 (順寧苑)",
+      "address": "順寧道283號順寧苑地下2號舖",
+      "price": "$50以下",
+      "score": 3.23,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0h7S000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "滙發茶餐廳",
+      "address": "元州街162-188號天悅廣場地舖",
+      "price": "$50以下",
+      "score": 3.17,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS02qG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "好滿足家常菜",
+      "address": "元州街414號地舖",
+      "price": "$50以下",
+      "score": 3.15,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Ma8000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "唐順興燒味",
+      "address": "順寧道329號興隆樓地下A號舖",
+      "price": "$50以下",
+      "score": 3.08,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0PAG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜華餐廳",
+      "address": "蘇屋村蘇屋商場地下G01號舖",
+      "price": "$51-100",
+      "score": 3.06,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS08xa900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "華興點心皇",
+      "address": "東京街31號地下",
+      "price": "$50以下",
+      "score": 3.05,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0L48000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "一粥麵 (元州商場)",
+      "address": "元州街303號元州商場地下G02&G02A號舖",
+      "price": "$50以下",
+      "score": 3,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yPg5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "蓮姐小食",
+      "address": "青山道255號恆輝閣地下5D號舖",
+      "price": "$50以下",
+      "score": 3,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0HYmD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "茶樂冰室",
+      "address": "青山道400號喜盈商場地下1號舖",
+      "price": "$51-100",
+      "score": 2.93,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS07mGD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "君日餐廳 (幸福商場)",
+      "address": "幸祥街8號幸福商場1樓108號舖",
+      "price": "$50以下",
+      "score": 2.84,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ySg000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "肥老虎美味屋",
+      "address": "集輝街2-8號地下1號舖",
+      "price": "$50以下",
+      "score": 2.84,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0hf0000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "牛奶冰室 (喜韻商場)",
+      "address": "青山道368號喜韻商場地下1號舖",
+      "price": "$51-100",
+      "score": 2.78,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0DvKB00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "巴打冰室",
+      "address": "元州街312-314號秉暉工業大廈地舖",
+      "price": "$50以下",
+      "score": 2.7,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0CAW800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "豆豆冰室",
+      "address": "青山道305號One Madison地下1B號舖",
+      "price": "$51-100",
+      "score": 2.7,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0sk8C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "蜜桃冰室",
+      "address": "青山道412-420號永倫大廈地舖",
+      "price": "$51-100",
+      "score": 2.5,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0bGiH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "皇牌冰室 (天悅廣場)",
+      "address": "元州街162-188號天悅廣場地下C-B5號舖",
+      "price": "$51-100",
+      "score": 2.48,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0PXOB00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "森記粥店 (麗閣商場)",
+      "address": "東京街12號麗閣商場麗閣街市地下M12號舖",
+      "price": "$50以下",
+      "score": 2.37,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粥品"
+      ],
+      "url": "https://s.openrice.com/QrbS0828A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "濠軒餐廳",
+      "address": "東京街56-58號嘉莉閣地舖",
+      "price": "$50以下",
+      "score": 2.3,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0tfi100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三悅冰室",
+      "address": "青山道305號地舖",
+      "price": "$51-100",
+      "score": 1.77,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0RgiF00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "Skew'd",
+      "address": "東京街12號麗閣商場麗閣街市地下M10號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0uKaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "一樂冰室",
+      "address": "荔枝角道608號麗翠商場1樓105號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ygq8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "一興餐室",
+      "address": "興華街27號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ANOD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三餸一湯",
+      "address": "青山道271號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0cNmD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "優先生大閘蟹專門店",
+      "address": "青山道430號祥利大廈地下3號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0zRi6W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "包點料理",
+      "address": "元州街372號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0KcOF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "呂錦記手撕雞專門店",
+      "address": "長發街28號安發大廈地下E號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0seuH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "唐坊@快樂小廚 (羅氏商業廣場)",
+      "address": "長沙灣道788號羅氏商業廣場地下B號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0eOKH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "唐記包點 (海達邨二期)",
+      "address": "深旺道38號海達邨二期Market In海達街市地下MK3號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0bbaB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "嗎哪士多",
+      "address": "長沙灣道97號鑽石樓11樓B室",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0lNuA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大口九楊枝甘露",
+      "address": "元州街340號豐祥大廈地下6號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "果汁"
+      ],
+      "url": "https://s.openrice.com/QrbS0D7eF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "尚品",
+      "address": "元州街303號元州商場1樓F02號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "山珍海味"
+      ],
+      "url": "https://s.openrice.com/QrbS0YDy5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "岱民自由餐",
+      "address": "發祥街10號李鄭屋商場3樓307號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0rOKD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "廚房仔美食外賣專門店",
+      "address": "永康街41號匯華工廠大廈地下03舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0pBG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "廣發燒臘",
+      "address": "東京街12號麗閣邨麗閣商場地下小食街M16號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0128A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "御湯皇",
+      "address": "青山道386號倫美大廈地下B1號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "湯品"
+      ],
+      "url": "https://s.openrice.com/QrbS0SAy5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "搞串燒烤",
+      "address": "福華街572號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS06tSB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新口味餐廳",
+      "address": "順寧道439號順寧居地下",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0jWK200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新記茶檔",
+      "address": "長義街2-4號新昌工業大廈地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0JVm700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "施兄廚房",
+      "address": "保安道331號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0C2KF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "昌華美食店",
+      "address": "昌華街39-39C號永寧大廈地下4A號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0kl4A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "樓上派對",
+      "address": "元州街271號昌發工業大廈4樓C89舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0c9q200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "洪運正宗圍村盆菜",
+      "address": "福榮街532地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Joy000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "潮興牛什粉麵茶餐廳",
+      "address": "青山道316號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS02oWH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "燒遙",
+      "address": "順寧道98號地下A4號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "燒烤",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0zvs8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "牛奶冰室 (SOHO West)",
+      "address": "荔盈街10號SOHO West 1樓105號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0C4WD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "瑞生美食",
+      "address": "元州街213號美居中心地下48號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yuE400",
+      "source": "OpenRice"
+    },
+    {
+      "name": "百草園涼茶",
+      "address": "東京街37-39號恆順大廈地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0JaG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "盼盼飯堂",
+      "address": "長沙灣道883號億利工業中心地下8號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0na8H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "真味坊",
+      "address": "元州街482-492號金碧閣地下14號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0UAWD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "福哥茶記",
+      "address": "元州街318-320號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OaWF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "耆樂食堂",
+      "address": "兼善里15號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0VHy5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "英記",
+      "address": "保安道65號美寧中心D座地下15號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0IwO000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "茶舍 (麗閣商場)",
+      "address": "東京街12號麗閣商場地下G23及G24號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0lPaD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "荷里活冰室",
+      "address": "發祥街10號李鄭屋商場地下110-112號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS00geD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "誘營湯",
+      "address": "福榮街535-570號地下",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0IIS900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "賣菜仔",
+      "address": "欽州街36號長沙灣副食品批發市場地下B42號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yJm500",
+      "source": "OpenRice"
+    },
+    {
+      "name": "辣媽美食",
+      "address": "長順街11號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0uWiH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金發美食",
+      "address": "長發街28號安發大廈地下C號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0beK900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金豪粢飯豆漿店",
+      "address": "東沙島街167號地下B1號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0DZOA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金馬鐵板之家",
+      "address": "東沙島街162-164號鴻裕大廈地下A1 & A2號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0FRmF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金龍小食",
+      "address": "元州街213號地下7A號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS04YeD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "錦鯉冰室",
+      "address": "東京街29號睿峰商場1樓52號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0gsCF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "阿哥小食",
+      "address": "元州街353-357號冠榮大廈地下C2號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0lNiH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "隱世威記",
+      "address": "幸祥街8號幸福商場地下G09號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0bmCB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "馬仔冰室",
+      "address": "長發街11號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yZ05W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "魚米 (麗閣商場)",
+      "address": "東京街12號麗閣商場地下23-24號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ziW5W0",
+      "source": "OpenRice"
+    }
+  ],
+  "粵菜/海鮮": [
+    {
+      "name": "窯雞王 (保安道)",
+      "address": "保安道401-405號昌暉大廈地下10C號舖",
+      "price": "$51-100",
+      "score": 5,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS08YSH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "文哥廚房",
+      "address": "保安道325-329號保安道市政大廈3樓CF27-29號舖",
+      "price": "$50以下",
+      "score": 4.64,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0TOGD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "廚哥",
+      "address": "東沙島街167號地下B1號舖",
+      "price": "$51-100",
+      "score": 4.63,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OgKD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "大嘴巴",
+      "address": "東沙島街182號地舖",
+      "price": "$51-100",
+      "score": 4.59,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS09BuD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "王子雞花膠雞湯米線",
+      "address": "福華街571號曉悅地下1號舖",
+      "price": "$51-100",
+      "score": 4.54,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0SZaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "串皇",
+      "address": "福榮街218號美居中心2座地下63號舖",
+      "price": "$51-100",
+      "score": 4.5,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "海鮮",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0pSqC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "匠心手作",
+      "address": "順寧道65號地舖",
+      "price": "$51-100",
+      "score": 4.5,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0Qg4C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "品味餃",
+      "address": "昌華街38號地下3B號舖",
+      "price": "$50以下",
+      "score": 4.4,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS07pmD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "葉公館",
+      "address": "青山道255號恆輝閣1樓",
+      "price": "$101-200",
+      "score": 4.37,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "川菜 (四川)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0IvWB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "八月茶室 (元州街)",
+      "address": "元州街342-356號家壹地下1-3號舖",
+      "price": "$51-100",
+      "score": 4.34,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0I8CB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "艷姐粉麵牛腩之家",
+      "address": "順寧道98號美寧中心A座地下1號舖",
+      "price": "$50以下",
+      "score": 4.33,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0vSC000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "潮興正宗潮州菜館",
+      "address": "福榮街544號地舖",
+      "price": "$101-200",
+      "score": 4.26,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yui600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "客家人",
+      "address": "青山道193A號永業大廈地下B號舖",
+      "price": "$101-200",
+      "score": 4.18,
+      "cuisines": [
+        "客家菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0bA0900",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "食鮮港",
+      "address": "順寧道38號順康居地下4-6號舖",
+      "price": "$101-200",
+      "score": 4.12,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0tCG900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新贊記點心皇",
+      "address": "東沙島街181號地下C號舖",
+      "price": "$51-100",
+      "score": 4.1,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0bTmG00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "明順海鮮菜館",
+      "address": "東京街12號麗閣邨麗閣商場街市地下M03號舖",
+      "price": "$51-100",
+      "score": 4.1,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0BGKA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "香港仔潮州海鮮酒家",
+      "address": "青山道155-181號天悅廣場地下CA6, A23, A24號舖",
+      "price": "$101-200",
+      "score": 4.1,
+      "cuisines": [
+        "潮州菜",
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮"
+      ],
+      "url": "https://s.openrice.com/QrbS0WMKA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "碧儷苑·精點粵菜 (羅氏商業廣場)",
+      "address": "長沙灣道786-788號羅氏商業廣場地下A號舖",
+      "price": "$201-400",
+      "score": 4.05,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "海鮮",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0mzW500",
+      "source": "OpenRice"
+    },
+    {
+      "name": "聚友",
+      "address": "順寧道29-39號地下D舖",
+      "price": "$101-200",
+      "score": 4.02,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0zgM100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "明興石磨腸粉",
+      "address": "青山道443-445號祥利大廈8B&C號地舖",
+      "price": "$50以下",
+      "score": 4.01,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0n6m900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "星公館",
+      "address": "長沙灣道650號中國船舶大廈1樓",
+      "price": "$51-100",
+      "score": 3.99,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0CveC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "錦記鹵鵝店",
+      "address": "順寧道98號美寧中心A座地下7號舖",
+      "price": "$51-100",
+      "score": 3.94,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS043u000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "平發潮洲館",
+      "address": "元州街231-247號潤發大廈地下B3號舖",
+      "price": "$101-200",
+      "score": 3.87,
+      "cuisines": [
+        "潮州菜",
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0mgm800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "佛友源素食",
+      "address": "元州街340號豐祥大廈地下8-10號舖",
+      "price": "$50以下",
+      "score": 3.84,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "素食",
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS09xy000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大中華飯店",
+      "address": "福榮街550-553號地下1-3號舖",
+      "price": "$101-200",
+      "score": 3.82,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮"
+      ],
+      "url": "https://s.openrice.com/QrbS0r30D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "棠棠居海鮮菜館",
+      "address": "元州街231-247號潤發大廈地下A號舖",
+      "price": "$101-200",
+      "score": 3.82,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0N3O900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "永隆正宗潮州滷水",
+      "address": "永隆街5號",
+      "price": "$50以下",
+      "score": 3.82,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0eZy000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "袋記粥店",
+      "address": "長沙灣道76號地舖",
+      "price": "$50以下",
+      "score": 3.78,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "粥品"
+      ],
+      "url": "https://s.openrice.com/QrbS01TO900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "銀城金閣海鮮廚房",
+      "address": "順寧道15號順景閣地下4-6號舖",
+      "price": "$201-400",
+      "score": 3.78,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS02oGC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金翠苑",
+      "address": "東京街12號麗閣商場地下M02號舖",
+      "price": "$51-100",
+      "score": 3.73,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0cECB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "周記醬料",
+      "address": "元州街413號地舖",
+      "price": "$50以下",
+      "score": 3.72,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ZqiA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "歡樂大排檔",
+      "address": "元州街290-296號西岸國際大廈3樓及4樓",
+      "price": "$101-200",
+      "score": 3.72,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "燒臘",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0I8CC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "包點超人",
+      "address": "青山道349號地舖",
+      "price": "$50以下",
+      "score": 3.65,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS02seB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "潮興正宗打冷小廚",
+      "address": "東京街31號恆邦商業大廈地舖",
+      "price": "$101-200",
+      "score": 3.51,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0vkW700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新耀榮粥店",
+      "address": "青山道310號地舖",
+      "price": "$50以下",
+      "score": 3.47,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "粥品"
+      ],
+      "url": "https://s.openrice.com/QrbS0Foi000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "紅廚",
+      "address": "福榮街542 號地下",
+      "price": "$201-400",
+      "score": 3.45,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "客家菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0S7e100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大中華飯店",
+      "address": "福榮街539號地舖",
+      "price": "$101-200",
+      "score": 3.44,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮"
+      ],
+      "url": "https://s.openrice.com/QrbS0Iaa000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "洪慶大飯店",
+      "address": "發祥街10號李鄭屋商場地下114號舖",
+      "price": "$51-100",
+      "score": 3.41,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "燒臘",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0oRK900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "永春堂涼茶",
+      "address": "元州街273-279號泰盛工廠大廈地舖",
+      "price": "$50以下",
+      "score": 3.34,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0ZA4000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "德馨苑海鮮酒家",
+      "address": "蘇屋村蘇屋商場1樓101號舖",
+      "price": "$101-200",
+      "score": 3.32,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0oAy4W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "鴻福堂",
+      "address": "港鐵長沙灣站CSW 7號舖",
+      "price": "$50以下",
+      "score": 3.3,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏",
+        "藥膳"
+      ],
+      "url": "https://s.openrice.com/QrbS0cSa000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "龍興燒臘茶餐廳",
+      "address": "元州街407號義華大廈地舖",
+      "price": "$50以下",
+      "score": 3.3,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS03F4800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "海麗閣海鮮酒家",
+      "address": "東京街12號麗閣商場地下1&1A號舖",
+      "price": "$51-100",
+      "score": 3.28,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0TTeA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "星月樓",
+      "address": "長沙灣道650號中國船舶大廈2樓",
+      "price": "$101-200",
+      "score": 3.27,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0Jlm800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "江湖花甲粉",
+      "address": "東京街12號麗閣商場地下M06號舖",
+      "price": "$50以下",
+      "score": 3.25,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "京川滬"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0BtaD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新華海鮮飯店",
+      "address": "保安道325-329號保安道市政大廈3樓CF8號舖",
+      "price": "$101-200",
+      "score": 3.17,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0V7O900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "冠華粥品店",
+      "address": "青山道255號地下8-9號舖",
+      "price": "$50以下",
+      "score": 3.07,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "粥品"
+      ],
+      "url": "https://s.openrice.com/QrbS0h7W000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "龍寶酒家",
+      "address": "元州街280-288號地舖",
+      "price": "$51-100",
+      "score": 3.07,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0qpO000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "經典廚房",
+      "address": "元州街303號元州商場1樓F11及F12號舖",
+      "price": "$101-200",
+      "score": 2.95,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "燒臘",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0y6C300",
+      "source": "OpenRice"
+    },
+    {
+      "name": "華興點心皇",
+      "address": "元州街162-188號天悦廣場地下A9A號舖",
+      "price": "$50以下",
+      "score": 2.89,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0Iys3W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "超人燒鵝",
+      "address": "青山道349號地舖",
+      "price": "$50以下",
+      "score": 2.64,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0Mz45W0",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "海悅海鮮酒家",
+      "address": "發祥街10號李鄭屋商場地下101號舖",
+      "price": "$101-200",
+      "score": 2.62,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS09RuA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "包任你點",
+      "address": "永隆街1號永順樓地下F號舖",
+      "price": "$50以下",
+      "score": 2.58,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "點心",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0Z50800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "棋哥燒鵝",
+      "address": "青山道250號地舖",
+      "price": "$51-100",
+      "score": 2.49,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS01waA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "富軒",
+      "address": "青山道164-170號宇宙商場1樓",
+      "price": "$101-200",
+      "score": 2.27,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS05FuB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "朱敏記大牌檔",
+      "address": "東京街29號地下8-14號舖",
+      "price": "$101-200",
+      "score": 2.27,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "海鮮"
+      ],
+      "url": "https://s.openrice.com/QrbS0Cb8D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "仁和堂",
+      "address": "東京街12號麗閣商場地下26號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0KI8A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "任點小廚",
+      "address": "青山道261號鉅昌大樓地下1G號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0WViC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "佳運樓酒家",
+      "address": "青山道155-181號天悅廣場2樓",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0B8qD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "厚興瑜記手撕雞",
+      "address": "永隆街3號永隆大廈",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0XPe100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "厚興瑜記手撕雞 (發祥街)",
+      "address": "發祥街9-11號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0QRW700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "善福堂",
+      "address": "福榮街535號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0PPW700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "善福堂",
+      "address": "昌華街23號富華廣場地下6號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS07Py000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜運來點心專門店",
+      "address": "青山道373-379號昭德大廈地下AB號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0KoKF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "回味谷",
+      "address": "青山道135號顯暉大廈地下12-17號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0A4CH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "國記粵香居",
+      "address": "元州街162-168號天悅廣場地下A6號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0kLy8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "安定堂涼茶",
+      "address": "青山道378號地下D號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS03viD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新寧茶記",
+      "address": "青山道152號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OJ8H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新瑞興燒味",
+      "address": "永隆街1-7號永順大廈地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0OAG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新華海鮮飯店",
+      "address": "保安道325-329號保安道市政大廈2樓CF7-9號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0rF0C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "添寶手撕雞 (海達街市)",
+      "address": "深旺道38號海達邨二期Market In海達街市地下68號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0MPWB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "焯記鹵水",
+      "address": "發祥街9-11號家家發大廈地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [
+        "燒臘"
+      ],
+      "url": "https://s.openrice.com/QrbS0BmmD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "益鮮美菜館",
+      "address": "興華街27A-27F和興大廈地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "川菜 (四川)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OQG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "美滿會鵲局小菜",
+      "address": "青山道156-162號永基商業大廈4樓及5樓",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Nhy000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雞姐把關·無骨海南雞",
+      "address": "永隆街9號地下E號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0WdSD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "霓虹獸點心館",
+      "address": "元州街151號新元州大廈地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0GaWH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "香港仔潮州海鮮酒家",
+      "address": "元州街162-188號天悅廣場地下CA3,6號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0GMCA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "駿逸薈",
+      "address": "元州街296號西岸國際大廈2樓",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Eki800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "鳳翔清遠雞",
+      "address": "發祥街9-11號地下2號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0BUW600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "鴻景堂涼茶",
+      "address": "青山道157號鴻裕大廈B座地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "涼茶/龜苓膏"
+      ],
+      "url": "https://s.openrice.com/QrbS0Zg4000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "龍寶酒家",
+      "address": "長沙灣道681號貿易廣場地舖及1樓2號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0UOeH00",
+      "source": "OpenRice + Google/目錄交叉"
+    }
+  ],
+  "日本菜": [
+    {
+      "name": "田森",
+      "address": "順寧道360號麗寶花園地下1B號舖",
+      "price": "$51-100",
+      "score": 4.9,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OPqC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三代目 (SOHO West)",
+      "address": "荔盈街10號SOHO West地下G04號舖",
+      "price": "$101-200",
+      "score": 4.68,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "拉麵",
+        "烏冬"
+      ],
+      "url": "https://s.openrice.com/QrbS0OC8D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "極之拉麵",
+      "address": "元州街399號喜漾地下2號舖",
+      "price": "$51-100",
+      "score": 4.49,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0gx0C00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "鳥海山鐵板燒",
+      "address": "昌華街23號富華廣場地下18號舖",
+      "price": "$201-400",
+      "score": 4.48,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "鐵板燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0ZBaA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大丈夫食堂",
+      "address": "福榮街541號地下",
+      "price": "$51-100",
+      "score": 4.3,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0q6i800",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "沖繩二段料理 (麗新商業中心)",
+      "address": "長沙灣道680號麗新商業中心1樓105號舖",
+      "price": "$101-200",
+      "score": 4.27,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0NZWF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大丈夫食堂",
+      "address": "元州街350號家壹1樓11號舖",
+      "price": "$101-200",
+      "score": 4.23,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0es4B00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "新幹線刺身外賣專門店",
+      "address": "順寕道439號地舖",
+      "price": "$101-200",
+      "score": 4.12,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0zcE300",
+      "source": "OpenRice"
+    },
+    {
+      "name": "活水和風食堂",
+      "address": "福華街571號曉悅地下3號舖",
+      "price": "$51-100",
+      "score": 4.09,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0rAS900",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "金鮨",
+      "address": "兼善里44號地下A3號舖",
+      "price": "$101-200",
+      "score": 4.08,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0wxC200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "海老名沾麵",
+      "address": "元州街213號美居中心地下20號舖",
+      "price": "$51-100",
+      "score": 3.74,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0wgC600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "元気寿司 (泓景滙商場)",
+      "address": "荔枝角道863號泓景滙商場1樓9D, 9H & 12B號舖",
+      "price": "$101-200",
+      "score": 3.66,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0FPq600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "元気寿司 (元州商場)",
+      "address": "元州街303號元州商場地下G12號舖",
+      "price": "$101-200",
+      "score": 3.53,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0jrC700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "OKA's Catering",
+      "address": "福華街544號地下B號",
+      "price": "$51-100",
+      "score": 3.43,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0FQm600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "元祖和風食堂虎藏",
+      "address": "元州街303號元州商場地下G09-10號舖",
+      "price": "$51-100",
+      "score": 3.42,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS04hS800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "櫻羽居",
+      "address": "永隆街1號地舖",
+      "price": "$50以下",
+      "score": 3.4,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0Avu200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "鮨芝屋",
+      "address": "福榮街218號美居中心地下64號舖",
+      "price": "$101-200",
+      "score": 2.63,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS01r0H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Kiji Bakery",
+      "address": "東京街29號睿峰地下GF05號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS09nmH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "亀吉輕食店",
+      "address": "東京街31號恆邦商業大廈地下2號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0joSH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "六朗亭季節料理居酒屋",
+      "address": "順寧道98號美寧中心A座地下A13號舖",
+      "price": "$201-400",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身",
+        "廚師發辦"
+      ],
+      "url": "https://s.openrice.com/QrbS0ce0H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "山崎麵飽",
+      "address": "荔盈街10號Soho West地下G07a號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0CnqH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新幹線刺身外賣專門店",
+      "address": "元州街450-464號寶華閣地下3號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0XWy0W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "橦",
+      "address": "順寧道65號仁順大廈地下2號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0DNGH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "橫濱家系ラーメン野中家",
+      "address": "青山道193號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0yBS8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "櫻羽居",
+      "address": "青山道202號興隆大廈1號",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0P7W000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "迷日店",
+      "address": "瓊林街83號地下G02號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0EmKH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "閒行地",
+      "address": "青山道682號潮流工貿中心16樓1606號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yBG5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "阪神",
+      "address": "東京街12號麗閣商場地下M14號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "鐵板燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0rn4C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "食物實驗室",
+      "address": "東京街12號麗閣商場麗閣街市地下M11號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0csy6W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "點鮨壽司",
+      "address": "青山道155-181號天悅廣場地下B號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0cr8C00",
+      "source": "OpenRice"
+    }
+  ],
+  "韓國菜": [
+    {
+      "name": "SUN HARU (安寧大廈)",
+      "address": "青山道145-153號安寧大廈地下B號舖",
+      "price": "$51-100",
+      "score": 4.71,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [
+        "韓式炸雞"
+      ],
+      "url": "https://s.openrice.com/QrbS0cTSC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "SUN HARU (青華閣)",
+      "address": "元州街498號青華閣地下C號舖",
+      "price": "$51-100",
+      "score": 4.48,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [
+        "韓式炸雞"
+      ],
+      "url": "https://s.openrice.com/QrbS0zHA8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "會長之家烤肉",
+      "address": "福榮街506-510號榮發閣地下A1號舖",
+      "price": "$201-400",
+      "score": 4.44,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [
+        "烤肉",
+        "韓燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0bPeC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "Terrace in seaside (SOHO West)",
+      "address": "荔盈街10號SOHO West 1樓101號舖",
+      "price": "$201-400",
+      "score": 4.43,
+      "cuisines": [
+        "韓國菜",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0rKSD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "SUN HARU (順寧道)",
+      "address": "順寧道65號地舖",
+      "price": "$51-100",
+      "score": 4.29,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [
+        "韓式炸雞"
+      ],
+      "url": "https://s.openrice.com/QrbS0IYaB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "愛瑪小屋",
+      "address": "集輝街2-8號耀輝大廈地下3號舖",
+      "price": "$51-100",
+      "score": 3.67,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ms0C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Schoodlesの研究所",
+      "address": "青山道139號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [
+        "拉麵"
+      ],
+      "url": "https://s.openrice.com/QrbS07pOH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "韓食媽媽",
+      "address": "福榮街500號喜漾商場地下4號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "韓國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS09OqD00",
+      "source": "OpenRice"
+    }
+  ],
+  "泰國菜": [
+    {
+      "name": "101站泰國菜",
+      "address": "保安道325-329號保安道市政大廈3樓CF19號舖",
+      "price": "$51-100",
+      "score": 4.88,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Nt4D00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "孖女廚房泰好味",
+      "address": "元州街213號美居中心2座地下21號舖",
+      "price": "$51-100",
+      "score": 4.63,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0e7mD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "美味的泰國菜",
+      "address": "元州街162號地舖",
+      "price": "$101-200",
+      "score": 4.62,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0DeaD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "金象",
+      "address": "昌華街38號麗寶花園地下2A號舖",
+      "price": "$51-100",
+      "score": 4.62,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0hYKF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "泰好運",
+      "address": "保安道325-329號保安道市政大廈2樓CFS10號舖",
+      "price": "$51-100",
+      "score": 4.23,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [
+        "海鮮",
+        "咖喱"
+      ],
+      "url": "https://s.openrice.com/QrbS03le800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Soi Eat Thai Cuisine",
+      "address": "青山道454號地舖",
+      "price": "$101-200",
+      "score": 4.2,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS087q800",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "泰和味",
+      "address": "營盤街159-161號金德花園地下1號舖",
+      "price": "$51-100",
+      "score": 4.18,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0bIi800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜泰味",
+      "address": "東京街12號麗閣商場地下29號舖",
+      "price": "$101-200",
+      "score": 3.99,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [
+        "燒烤",
+        "咖喱",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0J74A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雞仔去骨海南雞專門店 (青山道)",
+      "address": "青山道232號地舖",
+      "price": "$51-100",
+      "score": 3.93,
+      "cuisines": [
+        "泰國菜",
+        "新加坡菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0XIGA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雞仔去骨海南雞專門店 (靄華大廈)",
+      "address": "元州街493號靄華大廈地下1號舖",
+      "price": "$50以下",
+      "score": 3.89,
+      "cuisines": [
+        "泰國菜",
+        "新加坡菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0IM4800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "I'm Thai",
+      "address": "東沙島街171-175號富華閣地下H號舖",
+      "price": "$51-100",
+      "score": 3.82,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0zX47W0",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "越MAMATHAI",
+      "address": "東京街12號麗閣商場地下M08號舖",
+      "price": "$51-100",
+      "score": 3.5,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0gfOC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "泰叻 (順景華庭)",
+      "address": "順寧道483號順景華庭地下2號舖",
+      "price": "$51-100",
+      "score": 3.35,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0rOy600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "泰禾美",
+      "address": "青山道266號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0EYuH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金泰文泰國菜",
+      "address": "福榮街218號美居中心4座地下41A號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0N1GB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金泰館",
+      "address": "保安道325-329號保安道市政大廈2樓CFS19號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS06x8A00",
+      "source": "OpenRice"
+    }
+  ],
+  "台灣菜": [
+    {
+      "name": "金緣居台式料理",
+      "address": "昌華街23號富華廣場地下16號舖",
+      "price": "$51-100",
+      "score": 4.51,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品"
+      ],
+      "url": "https://s.openrice.com/QrbS0No0F00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "獅子茶舍",
+      "address": "順寧道53號地下F號舖",
+      "price": "$50以下",
+      "score": 4.15,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品"
+      ],
+      "url": "https://s.openrice.com/QrbS0y965W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "茶井奶蓋專門",
+      "address": "元州街498號青華閣地下F2號舖",
+      "price": "$50以下",
+      "score": 4.13,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品",
+        "果汁"
+      ],
+      "url": "https://s.openrice.com/QrbS0vdC900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "煮茶",
+      "address": "元州街162-188號天悅廣場地下A3C號舖",
+      "price": "$50以下",
+      "score": 3.64,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品",
+        "果汁"
+      ],
+      "url": "https://s.openrice.com/QrbS0m2S900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "手作功夫茶 (李鄭屋商場)",
+      "address": "發祥街10號李鄭屋商場地下115號舖",
+      "price": "$50以下",
+      "score": 1.79,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品"
+      ],
+      "url": "https://s.openrice.com/QrbS0IgCA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "手作功夫茶 (幸福商場)",
+      "address": "幸祥街8號幸福商場地下3號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品"
+      ],
+      "url": "https://s.openrice.com/QrbS0rQ4A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "貢茶 (映築)",
+      "address": "青山道233號映築地下6號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品"
+      ],
+      "url": "https://s.openrice.com/QrbS0lPuD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "開台料",
+      "address": "元州街450-464號寶華閣地下3號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0QuGH00",
+      "source": "OpenRice"
+    }
+  ],
+  "川菜/中菜": [
+    {
+      "name": "旺萍川菜館",
+      "address": "青山道129-135號顯暉大廈地下2-7號舖",
+      "price": "$101-200",
+      "score": 4.6,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0EbaC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "魚你相聚",
+      "address": "長沙灣道391號地下1號舖",
+      "price": "$51-100",
+      "score": 4.56,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0OVGB00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "馬宮主",
+      "address": "順寧道83號尚都地下A號舖",
+      "price": "$101-200",
+      "score": 4.5,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0awCC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "嚥宮川粵館",
+      "address": "青山道422-428號秋創商業大廈地舖",
+      "price": "$101-200",
+      "score": 4.33,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS0AmaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "香辣鮮",
+      "address": "青山道456號地舖",
+      "price": "$51-100",
+      "score": 4.2,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "火鍋",
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0RkGA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "莆鮮味滷麵",
+      "address": "青山道446號康利大廈地舖",
+      "price": "$51-100",
+      "score": 4.15,
+      "cuisines": [
+        "閩菜 (福建)"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS03nWC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "尚小館",
+      "address": "蘇屋順寧道長發街17號地舖",
+      "price": "$50以下",
+      "score": 3.92,
+      "cuisines": [
+        "滬菜 (上海)"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0JK0800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "多麵館",
+      "address": "元州街403號義華大廈地舖",
+      "price": "$50以下",
+      "score": 3.79,
+      "cuisines": [
+        "京川滬"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0HouD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "麻辣川米線",
+      "address": "元州街213號美居中心2座地下22號舖",
+      "price": "$50以下",
+      "score": 3.61,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0gIe000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "山東餃子館",
+      "address": "東京街40-42號地下E號舖",
+      "price": "$50以下",
+      "score": 3.55,
+      "cuisines": [
+        "鲁菜 (山東)"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0bZG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "川味美食",
+      "address": "青山道272號地舖",
+      "price": "$50以下",
+      "score": 3.46,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS01AW100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "古城餛飩",
+      "address": "昌華街13號地舖",
+      "price": "$50以下",
+      "score": 3.15,
+      "cuisines": [
+        "滬菜 (上海)"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0fAG900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "小鮮辣",
+      "address": "青山道美奇大廈地下C號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0V7CC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "山東餃子館",
+      "address": "元州街231-247號潤發大廈地下B1號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "鲁菜 (山東)"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0fcqH00",
+      "source": "OpenRice"
+    }
+  ],
+  "西式/咖啡店": [
+    {
+      "name": "Zoie Seafood & Grill",
+      "address": "荔盈街10號Soho West地下G02號舖",
+      "price": "$201-400",
+      "score": 4.86,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "薄餅",
+        "All Day Breakfast"
+      ],
+      "url": "https://s.openrice.com/QrbS0xGeH00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "迦拿",
+      "address": "順寧道338號豐盛居地下1號舖",
+      "price": "$50以下",
+      "score": 4.8,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Kp8H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "We Time Cafe",
+      "address": "長沙灣道680號麗新商業中心地下G55C號舖及1樓155號舖",
+      "price": "$101-200",
+      "score": 4.71,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0AKaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "I'M THIRSTY",
+      "address": "青山道452號地舖",
+      "price": "$51-100",
+      "score": 4.68,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0IeSD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "齋啡",
+      "address": "昌華街23號富華廣場地下13號舖",
+      "price": "$51-100",
+      "score": 4.51,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "素食",
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS0oa8F00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "La Barra Tapas Spanish Restaurant",
+      "address": "福榮街512-518號地下A號舖",
+      "price": "$201-400",
+      "score": 4.48,
+      "cuisines": [
+        "西班牙菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0JDmA00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "Boholic",
+      "address": "福華街561號君凱豪庭地舖及1樓",
+      "price": "$101-200",
+      "score": 4.33,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0dZaA00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "High Bar by Mak's Beer",
+      "address": "茘盈街10號本舍25樓",
+      "price": "$101-200",
+      "score": 4.33,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "酒"
+      ],
+      "url": "https://s.openrice.com/QrbS0jJCD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "中華豆花麵",
+      "address": "順寧道26號康福樓地下4號舖",
+      "price": "$51-100",
+      "score": 4.32,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0LH8H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "活饌 - 輕食社企",
+      "address": "長沙灣道1-5號長勝大廈地下E1號舖",
+      "price": "$51-100",
+      "score": 4.3,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "果汁",
+        "沙律"
+      ],
+      "url": "https://s.openrice.com/QrbS0bnOB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "脆味批",
+      "address": "保安道65號美寧中心D座地下D3號舖",
+      "price": "$51-100",
+      "score": 4.3,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0ZaOB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "白千層",
+      "address": "順寧道50號東寶閣地下6號舖",
+      "price": "$50以下",
+      "score": 4.23,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "果汁"
+      ],
+      "url": "https://s.openrice.com/QrbS0htaA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三寶素食",
+      "address": "昌華街38號麗寶花園地下5號舖",
+      "price": "$51-100",
+      "score": 4.21,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "素食"
+      ],
+      "url": "https://s.openrice.com/QrbS0CoiD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "% Arabica (SOHO West)",
+      "address": "荔盈街10號SOHO West地下G05號舖",
+      "price": "$50以下",
+      "score": 4.17,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0G5WD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "LUNGO",
+      "address": "福華街571號曉悅地下2號舖",
+      "price": "$51-100",
+      "score": 4.12,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yi6500",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Mecca Restaurant",
+      "address": "元州街340號豐祥大廈地下4號舖",
+      "price": "$51-100",
+      "score": 4.04,
+      "cuisines": [
+        "埃及菜"
+      ],
+      "dishes": [
+        "薄餅",
+        "咖喱"
+      ],
+      "url": "https://s.openrice.com/QrbS0fUu700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "哈欠",
+      "address": "東沙島街149-151號地舖",
+      "price": "$51-100",
+      "score": 4.04,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Lzk5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Contrast",
+      "address": "福榮街512-518號依時大廈地舖",
+      "price": "$51-100",
+      "score": 4.03,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Oa0A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Try My Bread (營盤街)",
+      "address": "營盤街138A號地舖",
+      "price": "$51-100",
+      "score": 3.95,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "三文治"
+      ],
+      "url": "https://s.openrice.com/QrbS0RF0900",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "浮島食屋",
+      "address": "順寧道50號東寶閣地下6號舖",
+      "price": "$50以下",
+      "score": 3.93,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ez84W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Coffee Question",
+      "address": "褔華街588號地下B號舖",
+      "price": "$51-100",
+      "score": 3.89,
+      "cuisines": [
+        "意大利菜",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0ONy3W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "角樂",
+      "address": "元州街482-492號金碧閣地下4號舖",
+      "price": "$51-100",
+      "score": 3.85,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "All Day Breakfast"
+      ],
+      "url": "https://s.openrice.com/QrbS0Z68C00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "SOS CSW",
+      "address": "保安道65號美寧中心D座地下D6號舖",
+      "price": "$51-100",
+      "score": 3.81,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0kduC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "趣意廚 (順景華庭)",
+      "address": "順寧道483號順景華庭地下4號舖",
+      "price": "$50以下",
+      "score": 3.73,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0bzS3W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "61E Coffee",
+      "address": "永康街63號Global Gateway Tower 地下5號舖",
+      "price": "$51-100",
+      "score": 3.65,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0mDy5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "What's Cafe",
+      "address": "營盤街147號天悅廣場地下B2號舖",
+      "price": "$50以下",
+      "score": 3.63,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS07N4800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "愛群餐廳",
+      "address": "青山道177-179號鴻裕大廈地舖",
+      "price": "$51-100",
+      "score": 3.16,
+      "cuisines": [
+        "美國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0yWI000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "脆味批",
+      "address": "幸福邨幸福商場地下G2號舖",
+      "price": "$51-100",
+      "score": 2.47,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0eEW200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Dough Bros Pizza & Doughnuts (瑜悦)",
+      "address": "東京街28號瑜悦地下G01號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0ekCG00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "La Barra Takeaway",
+      "address": "青山道538號半島大廈地下3號舖",
+      "price": "$201-400",
+      "score": null,
+      "cuisines": [
+        "西班牙菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0LPWH00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "Waiting For … Bagel",
+      "address": "永明街1號恆昌工廠大廈14樓C室",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0fbeH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Wow malimali home",
+      "address": "長沙灣麗新商業中心909A室",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0nm4B00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "哈妃",
+      "address": "元州街288號地下C號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS01C8B00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜樂餐飲烘焙",
+      "address": "青山道438號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0Rf4H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "太平洋酒吧 (海旭閣)",
+      "address": "元州街298號海旭閣地舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "酒"
+      ],
+      "url": "https://s.openrice.com/QrbS0Pq4000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "峻源國際集團有限公司",
+      "address": "瓊林街82號陸佰中心16樓D號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS000m900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新基裕",
+      "address": "青山道608號榮吉工業大廈A座6樓606C號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0hhqB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "燊峰酒窖",
+      "address": "青山道501-503號國際工業大廈11樓B07室",
+      "price": "$201-400",
+      "score": null,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "酒"
+      ],
+      "url": "https://s.openrice.com/QrbS0OV0100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "萊茵吧",
+      "address": "青山道422-428號秋創商業大廈地下D號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "酒"
+      ],
+      "url": "https://s.openrice.com/QrbS0dg0000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "超級健美食品",
+      "address": "青山道469號聯邦廣場1樓163A號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "果汁",
+        "沙律"
+      ],
+      "url": "https://s.openrice.com/QrbS0SraB00",
+      "source": "OpenRice"
+    }
+  ],
+  "火鍋": [
+    {
+      "name": "鍋癮火鍋",
+      "address": "順寧道25A號薈悅地舖及1樓",
+      "price": "$201-400",
+      "score": 4.65,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "火鍋",
+        "雞煲"
+      ],
+      "url": "https://s.openrice.com/QrbS0vWeH00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "小肥羊·迴轉火鍋",
+      "address": "東京街29號睿峰商場地下2-4號舖",
+      "price": "$101-200",
+      "score": 4.35,
+      "cuisines": [
+        "粵菜 (廣東)",
+        "蒙古菜"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0fhqD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "東京の味",
+      "address": "東京街31號恆邦商業大廈地下3號舖及1樓",
+      "price": "$51-100",
+      "score": 4.24,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "火鍋",
+        "燒烤",
+        "任食/放題"
+      ],
+      "url": "https://s.openrice.com/QrbS0GEuC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "靚雞煲",
+      "address": "東京街12號麗閣商場15-16號舖",
+      "price": "$101-200",
+      "score": 3.97,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋",
+        "雞煲"
+      ],
+      "url": "https://s.openrice.com/QrbS0gtC200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "火滾肥牛海鮮火鍋專門店",
+      "address": "青山道422-428號秋創商業大廈地庫",
+      "price": "$201-400",
+      "score": 3.69,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋",
+        "海鮮"
+      ],
+      "url": "https://s.openrice.com/QrbS02iG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Super大中華火鍋",
+      "address": "青山道413號東景大廈1樓",
+      "price": "$101-200",
+      "score": 3.64,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0Cgi200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金獎藥膳椒麻雞",
+      "address": "順寧道338號豐盛居商場地下1號舖",
+      "price": "$51-100",
+      "score": 3.07,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "雞煲"
+      ],
+      "url": "https://s.openrice.com/QrbS0vZWD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "均鴻晚市火鍋",
+      "address": "保安道325-329號保安道市政大廈2樓CF11號舖",
+      "price": "$101-200",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋"
+      ],
+      "url": "https://s.openrice.com/QrbS0hKm700",
+      "source": "OpenRice + Google/目錄交叉"
+    }
+  ],
+  "粉麵/米線": [
+    {
+      "name": "濟森車仔麵",
+      "address": "昌華街23號富華廣場地下19號舖",
+      "price": "$50以下",
+      "score": 4.5,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0GuaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "魔記車仔麵檔",
+      "address": "福榮街218號美居中心地下50號舖",
+      "price": "$50以下",
+      "score": 4.49,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0SBOF00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三五碗車仔麵",
+      "address": "青山道336號地舖",
+      "price": "$50以下",
+      "score": 4.48,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0MtuD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "日日面",
+      "address": "昌華街38號麗寶花園地下38號舖",
+      "price": "$50以下",
+      "score": 4.47,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0x9SA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "6 DEE米線屋 (青山道)",
+      "address": "青山道252-256號金球閣地下A號舖",
+      "price": "$51-100",
+      "score": 4.44,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0BkCC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "樂園魚旦專家 (幸福商場)",
+      "address": "幸祥街8號幸福商場地下11號舖",
+      "price": "$50以下",
+      "score": 4.36,
+      "cuisines": [
+        "潮州菜",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0XzC5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "越食",
+      "address": "青山道413號東景大廈地下1B號舖",
+      "price": "$51-100",
+      "score": 4.33,
+      "cuisines": [
+        "越南菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0kKiA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "好味餃子店",
+      "address": "元州街497號地舖",
+      "price": "$50以下",
+      "score": 4.31,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0MDqA00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "肥mo車仔麵",
+      "address": "集輝街2-12號耀輝大廈地下5號舖",
+      "price": "$50以下",
+      "score": 4.29,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS05VK800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "滕王閣",
+      "address": "東京街56至58號地舖",
+      "price": "$51-100",
+      "score": 4.27,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "素食"
+      ],
+      "url": "https://s.openrice.com/QrbS0YYm900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "兄妹越南粉",
+      "address": "集輝街2-8號耀輝大廈地下4號舖",
+      "price": "$51-100",
+      "score": 4.21,
+      "cuisines": [
+        "越南菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0ymG600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "毛記飯堂",
+      "address": "福榮街218號美居中心2座地下63號舖",
+      "price": "$50以下",
+      "score": 4.19,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "甜品/糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0GV0G00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "森記牛雜粉麵",
+      "address": "青山道150號地下C號舖",
+      "price": "$50以下",
+      "score": 4.16,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0PEa900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "萍姐美食",
+      "address": "青山道380號和興大廈地舖",
+      "price": "$50以下",
+      "score": 4.13,
+      "cuisines": [
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "車仔麵",
+        "串燒"
+      ],
+      "url": "https://s.openrice.com/QrbS0Ffy000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "甜記餃子",
+      "address": "昌華街23號富華廣場19號地舖",
+      "price": "$51-100",
+      "score": 4.12,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS05ze400",
+      "source": "OpenRice"
+    },
+    {
+      "name": "一鍋雞",
+      "address": "營盤街145號天悅廣場B1B號舖",
+      "price": "$51-100",
+      "score": 4.11,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS012GC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "車仔麵皇",
+      "address": "順寧道98號美寧中心A座地下5號舖",
+      "price": "$50以下",
+      "score": 4.09,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0sQK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "梅花邨小館",
+      "address": "青山道460號地舖",
+      "price": "$101-200",
+      "score": 4.04,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0yFm3W0",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "求奇點",
+      "address": "東沙島街171-175號富華閣地下D號舖",
+      "price": "$50以下",
+      "score": 3.96,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0rUm600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "德發茶餐廳",
+      "address": "保安道325-329號保安道市政大廈3樓CF6號舖",
+      "price": "$50以下",
+      "score": 3.87,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0usK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "興發麵家",
+      "address": "保安道337號地舖",
+      "price": "$50以下",
+      "score": 3.87,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0iaS000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新記越式牛肉粉",
+      "address": "青山道349號地舖",
+      "price": "$50以下",
+      "score": 3.85,
+      "cuisines": [
+        "越南菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS01uS200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "合成粥粉麵",
+      "address": "元州街368號長發大廈地舖",
+      "price": "$51-100",
+      "score": 3.83,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "火鍋",
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0hvi000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "一興粉麵",
+      "address": "青山道376號和興大廈地舖",
+      "price": "$50以下",
+      "score": 3.81,
+      "cuisines": [
+        "潮州菜",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0nU8900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "裕一品四川雲南米線",
+      "address": "青山道267號地舖",
+      "price": "$50以下",
+      "score": 3.81,
+      "cuisines": [
+        "滇菜 (雲南)",
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0hRG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雲桂香米線專門店",
+      "address": "元州街393號地舖",
+      "price": "$50以下",
+      "score": 3.77,
+      "cuisines": [
+        "滇菜 (雲南)",
+        "桂菜 (廣西)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS00JSA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "明德清湯腩",
+      "address": "青山道524號地舖",
+      "price": "$51-100",
+      "score": 3.76,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS054WA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "德記粉麵茶餐廳",
+      "address": "青山道152A號地舖",
+      "price": "$50以下",
+      "score": 3.75,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0Jq8000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雲南風味小鍋米線",
+      "address": "福榮街573號地舖",
+      "price": "$50以下",
+      "score": 3.72,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS046u700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "鴻運車仔麵",
+      "address": "永隆街12號地舖",
+      "price": "$50以下",
+      "score": 3.71,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0r3O000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "囍麵",
+      "address": "福華街586號地舖",
+      "price": "$50以下",
+      "score": 3.69,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "粥品",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0WWCB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "德輝潮州牛雜粉麵",
+      "address": "荔盈街1號海盈邨地下8號舖",
+      "price": "$50以下",
+      "score": 3.68,
+      "cuisines": [
+        "潮州菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0E6S900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "越泰軒",
+      "address": "青山道274號地舖",
+      "price": "$50以下",
+      "score": 3.66,
+      "cuisines": [
+        "越南菜",
+        "泰國菜"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0Udq700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "順豐麵家",
+      "address": "長發街17號永寧大廈地下10號舖",
+      "price": "$50以下",
+      "score": 3.66,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0q44000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "南記粉麵 (元州商場)",
+      "address": "元州街303號元州商場地下G05-G06號舖",
+      "price": "$50以下",
+      "score": 3.65,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0aY8A00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "譚仔三哥米線 (元州商場)",
+      "address": "元州街303號元州商場地下G01號舖",
+      "price": "$50以下",
+      "score": 3.64,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0MFGC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "西少爺",
+      "address": "長發街10號長發大廈地舖",
+      "price": "$50以下",
+      "score": 3.6,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0bpWC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "坤記竹昇麵",
+      "address": "永隆街1E號地舖",
+      "price": "$50以下",
+      "score": 3.57,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0Yy2000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "師傅仔 (金碧閣)",
+      "address": "元州街482-492號金碧閣地舖",
+      "price": "$50以下",
+      "score": 3.47,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0yGG3W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雲南老巷",
+      "address": "元州街473號地舖",
+      "price": "$50以下",
+      "score": 3.47,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0qkK700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "笑金蝦粥麵",
+      "address": "元州街324號地舖",
+      "price": "$51-100",
+      "score": 3.43,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "粥品"
+      ],
+      "url": "https://s.openrice.com/QrbS0TmiC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "金園粉麵店",
+      "address": "元州街316號地舖",
+      "price": "$50以下",
+      "score": 3.41,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0Z5K000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "譚仔雲南米線 (金球閣)",
+      "address": "青山道252-256金球閣地下C號舖",
+      "price": "$50以下",
+      "score": 3.38,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0c2O000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "君好粉麵專家",
+      "address": "青山道278號地舖",
+      "price": "$50以下",
+      "score": 3.29,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0ZrK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "香港仔正宗魚蛋王",
+      "address": "元州街162-188號天悅廣場地下A5號舖",
+      "price": "$51-100",
+      "score": 2.9,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0LriC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "日日面",
+      "address": "昌華街38號麗寶商埸地下14E＆17A號舖",
+      "price": "$50以下",
+      "score": 1.75,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵",
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0VcSD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "囍記車仔麵",
+      "address": "元州街303號元州商場地下8號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS0Ln4H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "壹碗佰味",
+      "address": "長發街10號長發大廈地下E號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0iGCH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "外婆辣酒米線專門店",
+      "address": "青山道413號創食薈1樓14號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "川菜 (四川)"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "烏冬"
+      ],
+      "url": "https://s.openrice.com/QrbS0MaWA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "富貴粉麵",
+      "address": "昌華街23號富華廣場地下7號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "潮州菜",
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0hFeG00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "幸福麵館",
+      "address": "東京街12號麗閣商場麗閣街市地下M15號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "車仔麵"
+      ],
+      "url": "https://s.openrice.com/QrbS05YOH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新滋味軒",
+      "address": "醫局街555號怡高工業中心地下2號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0BLq700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "榮記麵家",
+      "address": "順寧道88號美寧中心B座地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0Qq4000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "譚仔三哥米線",
+      "address": "元州街303號元州商場地下1號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS0MjSC00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "雲南風味小鍋米線",
+      "address": "青山道512號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "滇菜 (雲南)"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0QmCH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "雲在線小鍋米線紅薯粉",
+      "address": "永隆街1D號地舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "粉麵/米線"
+      ],
+      "url": "https://s.openrice.com/QrbS08uiH00",
+      "source": "OpenRice"
+    }
+  ],
+  "快餐/連鎖": [
+    {
+      "name": "廚房",
+      "address": "東沙島街171-175號富華閣地下E號舖",
+      "price": "$50以下",
+      "score": 4.61,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0nRy6W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "麥當勞 (蘇屋商場)",
+      "address": "蘇屋村蘇屋商場地下G09-G10號舖",
+      "price": "$50以下",
+      "score": 4.59,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0uWCA00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "急便丼",
+      "address": "元州街162-188號天悅廣場地下A4號舖",
+      "price": "$50以下",
+      "score": 4.47,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0DzA5W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "家湯溫暖",
+      "address": "昌華街20號金華閣地下7號舖",
+      "price": "$51-100",
+      "score": 4.25,
+      "cuisines": [
+        "港式",
+        "日本菜"
+      ],
+      "dishes": [
+        "沙律"
+      ],
+      "url": "https://s.openrice.com/QrbS08tCB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "MOS Burger (麗閣邨)",
+      "address": "東京街12號麗閣邨第4座地下31號舖",
+      "price": "$50以下",
+      "score": 3.9,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0Wd8A00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "快樂蜂 (家壹)",
+      "address": "元州街342-356號家壹1樓12號舖",
+      "price": "$51-100",
+      "score": 3.85,
+      "cuisines": [
+        "菲律賓菜",
+        "美國菜"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0q50B00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "意樂餐廳 (寶熙苑商場)",
+      "address": "保安道255號寶熙苑商場地下12號舖",
+      "price": "$51-100",
+      "score": 3.61,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS05H8800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "麥當勞 (幸福商場)",
+      "address": "幸祥街8號幸福商場1樓111號舖",
+      "price": "$50以下",
+      "score": 3.6,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS007CA00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "麥當勞 (美居中心)",
+      "address": "元州街213號美居中心地下9-19號舖及23-26號舖",
+      "price": "$50以下",
+      "score": 3.43,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0YLK000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "麥當勞 (元州街)",
+      "address": "元州街416號地舖",
+      "price": "$50以下",
+      "score": 3.42,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0mGW000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "薩莉亞意式餐廳 (喜薈商場)",
+      "address": "青山道399號喜薈商場地下3號舖",
+      "price": "$51-100",
+      "score": 3.38,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0ANO800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "星巴克咖啡",
+      "address": "元州街303號元州商場地下G01號舖",
+      "price": "$50以下",
+      "score": 3.37,
+      "cuisines": [
+        "美國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0AxmB00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "八方雲集鍋貼水餃專門店 (元州商場)",
+      "address": "元州街303號元州商場地下6號舖",
+      "price": "$50以下",
+      "score": 3.35,
+      "cuisines": [
+        "台灣菜"
+      ],
+      "dishes": [
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0Ika100",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大快活 (喜薈)",
+      "address": "青山道399號喜薈地下2號舖",
+      "price": "$51-100",
+      "score": 3.25,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0nIu800",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "大家樂 (元州商場)",
+      "address": "元州街303號元州商場1樓F21-F22號舖",
+      "price": "$51-100",
+      "score": 3.24,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS0oK4800",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "君戶鍋貼大王",
+      "address": "元州街471號昌華閣地下2-3號舖",
+      "price": "$50以下",
+      "score": 3.17,
+      "cuisines": [
+        "滬菜 (上海)"
+      ],
+      "dishes": [
+        "粉麵/米線",
+        "雲吞/餃子"
+      ],
+      "url": "https://s.openrice.com/QrbS0BZi000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "肯德基家鄉雞 (KFC)",
+      "address": "元州街303號元州商場地下G04號舖",
+      "price": "$50以下",
+      "score": 3.15,
+      "cuisines": [
+        "美國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0mPi600",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "麥當勞 (瑞麗閣)",
+      "address": "青山道212-214號瑞麗閣地舖及1樓",
+      "price": "$50以下",
+      "score": 3.03,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "漢堡包"
+      ],
+      "url": "https://s.openrice.com/QrbS0mWW000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "意樂餐廳 (幸福商場)",
+      "address": "幸祥街8號幸福商場地下G16-17號舖",
+      "price": "$51-100",
+      "score": 2.98,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0asGA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大家樂 (幸福商場)",
+      "address": "幸祥街8號幸福商場1樓109及109A號舖",
+      "price": "$51-100",
+      "score": 2.84,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "無肉餐單"
+      ],
+      "url": "https://s.openrice.com/QrbS0Qyi100",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "美心MX (蘇屋商場)",
+      "address": "蘇屋村蘇屋商場地下G08號舖",
+      "price": "$50以下",
+      "score": 2.75,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0YZeC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "必勝客 (順景華庭)",
+      "address": "順寧道483號順景華庭地下3號舖",
+      "price": "$101-200",
+      "score": 2.62,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0qr0000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "爭鮮迴轉壽司 (元州商場)",
+      "address": "元州街303號元州商場地下3號舖",
+      "price": "$51-100",
+      "score": 2.4,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0axa900",
+      "source": "OpenRice"
+    },
+    {
+      "name": "大快活 (SOHO West)",
+      "address": "荔盈街10號SOHO West 2樓204-205號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0XfKD00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "必勝客 (幸福商場)",
+      "address": "幸祥街8號幸福商場地下2號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0ofmD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "爭鮮外帶壽司 (港鐵長沙灣站)",
+      "address": "港鐵長沙灣站CSW 4號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS09IaH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "華御結 (港鐵長沙灣站)",
+      "address": "港鐵長沙灣站CSW 5號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "日本菜"
+      ],
+      "dishes": [
+        "壽司/刺身"
+      ],
+      "url": "https://s.openrice.com/QrbS0jmqC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "薩莉亞意式餐廳 (映築)",
+      "address": "青山道233號映築1樓9號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "意大利菜"
+      ],
+      "dishes": [
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0YpmH00",
+      "source": "OpenRice"
+    }
+  ],
+  "甜品/冰品": [
+    {
+      "name": "LamLam.lei",
+      "address": "東京街12號麗閣商場麗閣街市地下M10號舖",
+      "price": "$50以下",
+      "score": 4.8,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "雪糕/乳酪"
+      ],
+      "url": "https://s.openrice.com/QrbS0zuq8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "CLS Coffee & Bar",
+      "address": "順寧道98號美寧中心A座地下A8號舖",
+      "price": "$51-100",
+      "score": 4.74,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS087aH00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Cake Sakura",
+      "address": "保安道55號美寧中心地下C7號舖",
+      "price": "$201-400",
+      "score": 4.56,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "西式糕點"
+      ],
+      "url": "https://s.openrice.com/QrbS0T20B00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "甜心婆婆",
+      "address": "荔枝角道863號泓景滙商場1樓22A號舖",
+      "price": "$50以下",
+      "score": 4.16,
+      "cuisines": [
+        "港式",
+        "台灣菜"
+      ],
+      "dishes": [
+        "台式飲品",
+        "甜品/糖水",
+        "中式糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0L3eA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "櫻桃麵飽西餅",
+      "address": "永隆街3號地舖",
+      "price": "$50以下",
+      "score": 4.15,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0CnS800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "三井飽餅專門店",
+      "address": "元州街334號南廬大廈地下6-11號舖",
+      "price": "$50以下",
+      "score": 4,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0gvi000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "英王麵包店",
+      "address": "港鐵長沙灣站CSW 1號舖",
+      "price": "$50以下",
+      "score": 3.95,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0GWKA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "喜樂點心甜品專門店",
+      "address": "青山道438號麗群閣地下1-4號舖",
+      "price": "$51-100",
+      "score": 3.92,
+      "cuisines": [
+        "粵菜 (廣東)"
+      ],
+      "dishes": [
+        "甜品/糖水",
+        "粥品",
+        "點心"
+      ],
+      "url": "https://s.openrice.com/QrbS02fGD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "榮華餅家",
+      "address": "青山道300號",
+      "price": "$50以下",
+      "score": 3.87,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店",
+        "唐餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0L2K000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "四喜麵包西餅",
+      "address": "青山道500號百美工業大廈地下B6-8號舖",
+      "price": "$50以下",
+      "score": 3.79,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0Yha700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "甜一刻",
+      "address": "福榮街218號美居中心地下62號舖",
+      "price": "$50以下",
+      "score": 3.78,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [
+        "甜品/糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0zCM100",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "芒B甜品",
+      "address": "青山道195號恆輝樓地舖",
+      "price": "$50以下",
+      "score": 3.73,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "甜品/糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0mGeD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "順興隆桂記荳品廠",
+      "address": "順寧道451號地舖",
+      "price": "$50以下",
+      "score": 3.69,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "中式糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0xYm000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "批&撻專門店",
+      "address": "港鐵長沙灣站CSW 8號舖",
+      "price": "$50以下",
+      "score": 3.67,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0ObW200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "美其香餅家",
+      "address": "興華街27E號地舖",
+      "price": "$50以下",
+      "score": 3.64,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0SaS000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "御記糖水專門店",
+      "address": "元州街471號昌華閣11號舖",
+      "price": "$50以下",
+      "score": 3.61,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "甜品/糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0EoC800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Cafe 330",
+      "address": "永康街111號明愛醫院懷信樓4樓",
+      "price": "$50以下",
+      "score": 3.56,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [
+        "西式糕點"
+      ],
+      "url": "https://s.openrice.com/QrbS0L7i700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "松記糖水店",
+      "address": "元州街162-188號天悅廣場地下CB58號舖",
+      "price": "$50以下",
+      "score": 3.56,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "甜品/糖水",
+        "中式糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0r04000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "東京麵包餅食 (長發街)",
+      "address": "長發街18號地舖",
+      "price": "$50以下",
+      "score": 3.4,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0FqK000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "聖安娜餅屋 (港鐵長沙灣站)",
+      "address": "港鐵長沙灣站CSW 9號舖",
+      "price": "$50以下",
+      "score": 3.1,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS04iK000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "聖安娜餅屋 (寶熙苑商場)",
+      "address": "保安道225號寶熙苑商場地下10號舖",
+      "price": "$50以下",
+      "score": 3.07,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0q1S000",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "檸檬廊",
+      "address": "保安道2號樂年花園第2座地下C2號舖 ",
+      "price": "$50以下",
+      "score": 3.05,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0sAG000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "豐麥園麵包",
+      "address": "東京街37-39號恆順大廈地下6號舖",
+      "price": "$50以下",
+      "score": 3.03,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店",
+        "中式包點"
+      ],
+      "url": "https://s.openrice.com/QrbS0dxu200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "貴族甜品 (元州街)",
+      "address": "元州街412號地舖",
+      "price": "$50以下",
+      "score": 3.03,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "甜品/糖水",
+        "中式糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0Rn0800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新樂富麵包西餅",
+      "address": "元州街473-475號地下2號舖",
+      "price": "$50以下",
+      "score": 2.17,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS09d4700",
+      "source": "OpenRice"
+    },
+    {
+      "name": "MAMA Bakery (寶熙苑商場)",
+      "address": "保安道225號寶熙苑商場地下3號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "西式"
+      ],
+      "dishes": [
+        "麵包店",
+        "三文治"
+      ],
+      "url": "https://s.openrice.com/QrbS0Qpy6W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Patisserie.B.K",
+      "address": "醫局西街1033號源盛工業大廈5樓5室",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "西式"
+      ],
+      "dishes": [
+        "西式糕點"
+      ],
+      "url": "https://s.openrice.com/QrbS0K0KB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "Rewind",
+      "address": "保安道55號美寧中心C座地下C1號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "多國菜"
+      ],
+      "dishes": [
+        "甜品/糖水",
+        "薄餅"
+      ],
+      "url": "https://s.openrice.com/QrbS0Yf4H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新樂富美食",
+      "address": "永隆街11號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0uy6000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "新樂富麵包西餅",
+      "address": "順寧道277號地下E號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS08um200",
+      "source": "OpenRice"
+    },
+    {
+      "name": "木村面包屋",
+      "address": "幸祥街8號幸福邨幸福商場地下15號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS03yM600",
+      "source": "OpenRice"
+    },
+    {
+      "name": "東京麵包餅食 (海盈邨)",
+      "address": "荔盈街1號海盈邨地下7號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0UeaC00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "榮華餅家 (青山道)",
+      "address": "青山道220號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店",
+        "唐餅"
+      ],
+      "url": "https://s.openrice.com/QrbS075y500",
+      "source": "OpenRice"
+    },
+    {
+      "name": "永福豆品",
+      "address": "元州街316A號地下2號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "甜品/糖水"
+      ],
+      "url": "https://s.openrice.com/QrbS0zmw8W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "百份百大師‧即造烘焙 (寶熙苑商場)",
+      "address": "保安道255號寶熙苑商場地下3號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0m98800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "美心西餅 (元州商場)",
+      "address": "元州街303號元州商場地下G13號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0cxO800",
+      "source": "OpenRice"
+    },
+    {
+      "name": "英王麵包店",
+      "address": "元州街303號元州商場地下G15號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式",
+        "日本菜",
+        "西式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0TqKD00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "麥田餅店",
+      "address": "昌華街39-39C號永寧大廈地下1號舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0TOaA00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "麥芝連餅店",
+      "address": "青山道324號地舖",
+      "price": "$50以下",
+      "score": null,
+      "cuisines": [
+        "港式"
+      ],
+      "dishes": [
+        "麵包店"
+      ],
+      "url": "https://s.openrice.com/QrbS0YW8C00",
+      "source": "OpenRice"
+    }
+  ],
+  "其他（東南亞／南亞等）": [
+    {
+      "name": "Annam Banh Mi",
+      "address": "青山道155號天悅廣場地下B3C號舖",
+      "price": "$51-100",
+      "score": 4.53,
+      "cuisines": [
+        "越南菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0PH4H00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "蘇山雞飯",
+      "address": "元州街411號義華大廈地舖",
+      "price": "$51-100",
+      "score": 4.35,
+      "cuisines": [
+        "新加坡菜",
+        "馬來西亞菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0wA8A00",
+      "source": "OpenRice + Google/目錄交叉"
+    },
+    {
+      "name": "COSY",
+      "address": "保安道383號麗寶花園地下9-11A號舖",
+      "price": "$51-100",
+      "score": 4.3,
+      "cuisines": [
+        "越南菜",
+        "泰國菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0zsg4W0",
+      "source": "OpenRice"
+    },
+    {
+      "name": "蘇亞印度餐廳",
+      "address": "長沙灣道638號長盛豪苑地下D號舖",
+      "price": "$51-100",
+      "score": 3.79,
+      "cuisines": [
+        "印度菜"
+      ],
+      "dishes": [
+        "咖喱"
+      ],
+      "url": "https://s.openrice.com/QrbS0rKC000",
+      "source": "OpenRice"
+    },
+    {
+      "name": "超哥印尼餐廳",
+      "address": "青山道62號地下B號舖",
+      "price": "$51-100",
+      "score": 3.55,
+      "cuisines": [
+        "印尼菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0SFeB00",
+      "source": "OpenRice"
+    },
+    {
+      "name": "越南媽媽",
+      "address": "順寧道439號順寧居地下2號舖",
+      "price": "$51-100",
+      "score": null,
+      "cuisines": [
+        "越南菜"
+      ],
+      "dishes": [],
+      "url": "https://s.openrice.com/QrbS0R98H00",
+      "source": "OpenRice"
+    }
+  ]
+}

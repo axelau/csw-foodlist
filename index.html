@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>長沙灣食店目錄</title>
+    <meta
+      name="description"
+      content="長沙灣食店目錄：收錄 OpenRice 標示為長沙灣的食店，可按種類篩選、搜尋地址與菜式，並開啟 OpenRice 頁面。"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://axelau.github.io/csw-foodlist/" />
+    <meta property="og:title" content="長沙灣食店目錄" />
+    <meta
+      property="og:description"
+      content="收錄 OpenRice 標示為長沙灣的食店，可按種類篩選、搜尋，並開啟 OpenRice 頁面。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_HK" />
+    <meta property="og:url" content="https://axelau.github.io/csw-foodlist/" />
+  </head>
+  <body>
+    <a class="skip" href="#content">跳至內容</a>
+    <p class="rail rail-left">資料截至二〇二六年十月</p>
+    <p class="rail rail-right">長沙灣 · 食店目錄</p>
+    <header class="mast" id="top">
+      <div class="mast-inner">
+        <a class="pill" id="home-pill" href="#/"><span class="pill-mark" aria-hidden="true"></span>全部食店</a>
+        <a class="brand" href="#/">
+          <span class="brand-kicker">食店目錄</span>
+          <span class="brand-name">長沙灣</span>
+        </a>
+        <form class="mast-right" id="search-form" role="search">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
+              <circle cx="10.5" cy="10.5" r="6.25" fill="none" stroke="currentColor" stroke-width="1.8" />
+              <path d="M15.2 15.2 L20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+            <input
+              id="q"
+              type="search"
+              placeholder="搜尋店名、地址或菜式"
+              aria-label="搜尋店名、地址或菜式"
+              autocomplete="off"
+              spellcheck="false"
+              enterkeyhint="search"
+            />
+          </label>
+        </form>
+      </div>
+    </header>
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div class="chips" id="chips" role="group" aria-label="按種類篩選"></div>
+        <div class="toolbar-end">
+          <label class="sort-label">
+            <span class="vh">排序</span>
+            <select id="sort" aria-label="排序">
+              <option value="score">按評分</option>
+              <option value="category">按分類</option>
+              <option value="name">按店名</option>
+            </select>
+          </label>
+          <p class="count" id="count" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+    <main id="content" tabindex="-1">
+      <p class="state">正在載入食店目錄…</p>
+    </main>
+    <footer class="site-foot">
+      <div class="wrap foot-inner">
+        <p class="foot-brand">長沙灣</p>
+        <p id="foot-note">
+          長沙灣食店目錄收錄 OpenRice 標示為長沙灣的食店，資料截取日期 2026年10月26日。本站只是靜態索引，並非
+          OpenRice 或店家官方網站。
+        </p>
+        <a class="toplink" href="#top">返回頁首</a>
+      </div>
+    </footer>
+    <noscript>
+      <p class="state">這個目錄需要 JavaScript 先可以搜尋同篩選食店。</p>
+    </noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
