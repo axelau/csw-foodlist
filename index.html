@@ -6,7 +6,7 @@
     <title>長沙灣食店目錄</title>
     <meta
       name="description"
-      content="長沙灣食店目錄：收錄 OpenRice 標示為長沙灣的食店，可按種類篩選、搜尋地址與菜式，並開啟 OpenRice 頁面。"
+      content="長沙灣食店目錄：收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記鐘意同食開，隨機抽一間，並開啟 OpenRice 頁面。"
     />
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
@@ -14,7 +14,7 @@
     <meta property="og:title" content="長沙灣食店目錄" />
     <meta
       property="og:description"
-      content="收錄 OpenRice 標示為長沙灣的食店，可按種類篩選、搜尋，並開啟 OpenRice 頁面。"
+      content="收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記鐘意同食開，並隨機抽一間。"
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_HK" />
@@ -66,6 +66,9 @@
         </div>
       </div>
     </div>
+    <div class="refine-bar">
+      <div class="refine" id="refine"></div>
+    </div>
     <main id="content" tabindex="-1">
       <p class="state">正在載入食店目錄…</p>
     </main>
@@ -82,6 +85,16 @@
     <noscript>
       <p class="state">這個目錄需要 JavaScript 先可以搜尋同篩選食店。</p>
     </noscript>
+    <div id="pick" class="pick" hidden>
+      <div class="pick-card" role="dialog" aria-modal="true" aria-labelledby="pick-title" tabindex="-1">
+        <div class="pick-top">
+          <p class="pick-kicker" id="pick-title">隨機一間</p>
+          <button type="button" class="text-btn" data-pick-close>關閉</button>
+        </div>
+        <div class="pick-pools" id="pick-pools" role="group" aria-label="抽取範圍"></div>
+        <div class="pick-result" id="pick-result" aria-live="polite"></div>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

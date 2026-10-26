@@ -14,11 +14,46 @@ export const CATEGORY_ORDER = [
   '其他（東南亞／南亞等）',
 ] as const;
 
-export const STREETS = ['青山道', '元州街', '順寧道', '保安道'] as const;
+export const FEATURED_STREETS = ['青山道', '元州街', '順寧道', '保安道'] as const;
+
+export const STREETS = [
+  '青山道',
+  '元州街',
+  '順寧道',
+  '保安道',
+  '東京街',
+  '昌華街',
+  '福榮街',
+  '長沙灣道',
+  '永隆街',
+  '長發街',
+  '幸祥街',
+  '東沙島街',
+  '福華街',
+  '荔盈街',
+  '發祥街',
+  '荔枝角道',
+  '集輝街',
+  '營盤街',
+  '瓊林街',
+  '興華街',
+  '永康街',
+] as const;
+
+export const PRICE_BANDS = ['$50以下', '$51-100', '$101-200', '$201-400'] as const;
 
 export const DATA_AS_OF = '2026年10月26日';
 
+const STREET_FIXES: readonly (readonly [string, string])[] = [
+  ['元洲街', '元州街'],
+  ['順寕道', '順寧道'],
+  ['茘盈街', '荔盈街'],
+  ['褔華街', '福華街'],
+];
+
 export type SortKey = 'score' | 'category' | 'name';
+export type Scope = 'all' | 'like' | 'been';
+export type PickPool = 'all' | 'filters' | 'saved';
 
 export interface Restaurant {
   id: string;
@@ -39,6 +74,9 @@ export interface ListRoute {
   cat: string | null;
   q: string;
   sort: SortKey;
+  price: string | null;
+  street: string | null;
+  scope: Scope;
 }
 
 export interface DetailRoute {
@@ -48,21 +86,17 @@ export interface DetailRoute {
 
 export type Route = ListRoute | DetailRoute;
 
-const PLATE: Record<string, string> = {
-  '港式/茶餐廳': '#f3eee4',
-  '粵菜/海鮮': '#e6f1ec',
-  '粉麵/米線': '#f6efe2',
-  '西式/咖啡店': '#efece6',
-  '甜品/冰品': '#f6eef1',
-  '日本菜': '#e7eef3',
-  '快餐/連鎖': '#f1f1ee',
-  '泰國菜': '#f6f3e4',
-  '川菜/中菜': '#f7eee7',
-  '火鍋': '#f3ebe6',
-  '韓國菜': '#f3eef3',
-  '台灣菜': '#eef3ea',
-  '其他（東南亞／南亞等）': '#eef1ef',
-};
+export interface Marks {
+  like: string[];
+  been: string[];
+  lastPick: string | null;
+}
+
+export interface PickResult {
+  restaurant: Restaurant | null;
+  avoided: boolean;
+  onlyChoice: boolean;
+}
 
 const ESC: Record<string, string> = {
   '&': '&amp;',
@@ -91,19 +125,6 @@ export function shortCategory(category: string): string {
   return cut || category;
 }
 
-export function plateColor(category: string): string {
-  return PLATE[category] ?? '#f4f1ea';
-}
-
-export function monogram(name: string): string {
-  const first = [...name.trim()][0];
-  return first ?? '食';
-}
-
-export function isLatinMonogram(char: string): boolean {
-  return /^[A-Za-z0-9]$/.test(char);
-}
-
 export function safeUrl(url: string): string | null {
   try {
     const parsed = new URL(url);
@@ -115,11 +136,71 @@ export function safeUrl(url: string): string | null {
 }
 
 export function lede(restaurant: Restaurant): string {
-  const score =
-    restaurant.score == null ? '暫無評分' : `評分 ${formatScore(restaurant.score)}`;
+  const score = restaurant.score == null ? '暫無評分' : `評分 ${formatScore(restaurant.score)}`;
   const sentence = `${restaurant.address}。價錢 ${restaurant.price}，${score}。`;
   if (restaurant.dishes.length === 0) return sentence;
   return `${sentence}菜式：${restaurant.dishes.join('、')}。`;
+}
+
+export function emptyMarks(): Marks {
+  return { like: [], been: [], lastPick: null };
+}
+
+export function normalizeMarks(value: unknown): Marks {
+  if (!value || typeof value !== 'object') return emptyMarks();
+  const record = value as Record<string, unknown>;
+  const list = (item: unknown): string[] => {
+    if (!Array.isArray(item)) return [];
+    const ids = item.filter((id): id is string => typeof id === 'string' && id.trim() !== '');
+    return [...new Set(ids)];
+  };
+  const last = record.lastPick;
+  return {
+    like: list(record.like),
+    been: list(record.been),
+    lastPick: typeof last === 'string' && last.trim() ? last : null,
+  };
+}
+
+export function toggleId(ids: readonly string[], id: string): string[] {
+  return ids.includes(id) ? ids.filter((item) => item !== id) : [...ids, id];
+}
+
+export function streetOf(address: string): string | null {
+  let text = address;
+  for (const [from, to] of STREET_FIXES) text = text.replaceAll(from, to);
+  let found: { name: string; at: number } | null = null;
+  for (const name of STREETS) {
+    const at = text.indexOf(name);
+    if (at < 0) continue;
+    if (!found || at < found.at || (at === found.at && name.length > found.name.length)) {
+      found = { name, at };
+    }
+  }
+  return found?.name ?? null;
+}
+
+export function defaultList(): ListRoute {
+  return {
+    view: 'list',
+    cat: null,
+    q: '',
+    sort: 'score',
+    price: null,
+    street: null,
+    scope: 'all',
+  };
+}
+
+export function isDefaultList(route: ListRoute): boolean {
+  return (
+    route.cat === null &&
+    route.q.trim() === '' &&
+    route.sort === 'score' &&
+    route.price === null &&
+    route.street === null &&
+    route.scope === 'all'
+  );
 }
 
 function asString(value: unknown): string | null {
@@ -146,12 +227,7 @@ function uniqueId(base: string, seen: Map<string, number>): string {
   return count === 0 ? base : `${base}-${count + 1}`;
 }
 
-function toRestaurant(
-  row: unknown,
-  category: string,
-  order: number,
-  seen: Map<string, number>,
-): Restaurant {
+function toRestaurant(row: unknown, category: string, order: number, seen: Map<string, number>): Restaurant {
   if (!row || typeof row !== 'object') {
     throw new Error(`分類「${category}」有一筆資料格式不正確`);
   }
@@ -227,6 +303,15 @@ export function matches(restaurant: Restaurant, query: string): boolean {
   return needle.split(/[\s\u3000]+/).every((part) => haystack.includes(part));
 }
 
+export function matchesFilters(restaurant: Restaurant, route: ListRoute, marks: Marks): boolean {
+  if (route.cat && restaurant.category !== route.cat) return false;
+  if (route.price && restaurant.price !== route.price) return false;
+  if (route.street && streetOf(restaurant.address) !== route.street) return false;
+  if (route.scope === 'like' && !marks.like.includes(restaurant.id)) return false;
+  if (route.scope === 'been' && !marks.been.includes(restaurant.id)) return false;
+  return matches(restaurant, route.q);
+}
+
 function scoreValue(score: number | null): number {
   return score == null ? Number.NEGATIVE_INFINITY : score;
 }
@@ -245,33 +330,45 @@ export function sortRestaurants(rows: Restaurant[], sort: SortKey): Restaurant[]
   return copy;
 }
 
-export function filterAndSort(restaurants: Restaurant[], route: ListRoute): Restaurant[] {
-  const rows = restaurants.filter(
-    (restaurant) => (route.cat === null || restaurant.category === route.cat) && matches(restaurant, route.q),
+export function filterAndSort(restaurants: Restaurant[], route: ListRoute, marks: Marks): Restaurant[] {
+  return sortRestaurants(
+    restaurants.filter((restaurant) => matchesFilters(restaurant, route, marks)),
+    route.sort,
   );
-  return sortRestaurants(rows, route.sort);
 }
 
-export function countMatches(restaurants: Restaurant[], category: string | null, query: string): number {
-  return restaurants.filter(
-    (restaurant) => (category === null || restaurant.category === category) && matches(restaurant, query),
-  ).length;
+export function countMatches(restaurants: Restaurant[], route: ListRoute, marks: Marks): number {
+  return restaurants.filter((restaurant) => matchesFilters(restaurant, route, marks)).length;
 }
 
-export function neighbors(restaurants: Restaurant[], restaurant: Restaurant): {
-  prev: Restaurant | null;
-  next: Restaurant | null;
-} {
+export function pickRestaurant(
+  pool: readonly Restaurant[],
+  excludeId: string | null,
+  random: () => number = Math.random,
+): PickResult {
+  if (pool.length === 0) return { restaurant: null, avoided: false, onlyChoice: false };
+  const rest = excludeId ? pool.filter((item) => item.id !== excludeId) : pool;
+  if (rest.length === 0) return { restaurant: pool[0] ?? null, avoided: false, onlyChoice: true };
+  const raw = Math.floor(random() * rest.length);
+  const index = Math.min(rest.length - 1, Math.max(0, raw));
+  const avoided = Boolean(excludeId && pool.some((item) => item.id === excludeId));
+  return { restaurant: rest[index] ?? null, avoided, onlyChoice: false };
+}
+
+export function neighbors(
+  restaurants: Restaurant[],
+  restaurant: Restaurant,
+): { prev: Restaurant | null; next: Restaurant | null } {
   const group = restaurants.filter((item) => item.category === restaurant.category);
   const index = group.findIndex((item) => item.id === restaurant.id);
   return {
-    prev: index > 0 ? group[index - 1] ?? null : null,
-    next: index >= 0 ? group[index + 1] ?? null : null,
+    prev: index > 0 ? (group[index - 1] ?? null) : null,
+    next: index >= 0 ? (group[index + 1] ?? null) : null,
   };
 }
 
 export function footerText(total: number): string {
-  return `長沙灣食店目錄收錄 OpenRice 標示為長沙灣的食店，資料截取日期 ${DATA_AS_OF}，共 ${total} 間，按主要菜式分類。本站只是靜態索引，並非 OpenRice 或店家官方網站。店名、地址、價錢同評分會隨時間改變，請以 OpenRice 頁面為準。`;
+  return `長沙灣食店目錄收錄 OpenRice 標示為長沙灣的食店，資料截取日期 ${DATA_AS_OF}，共 ${total} 間，按主要菜式分類。本站只是靜態索引，並非 OpenRice 或店家官方網站。店名、地址、價錢同評分會隨時間改變，請以 OpenRice 頁面為準。鐘意同食開只儲存在這部裝置。`;
 }
 
 function decodePart(value: string): string {
@@ -280,6 +377,20 @@ function decodePart(value: string): string {
   } catch {
     return value;
   }
+}
+
+function knownPrice(value: string | null): string | null {
+  if (!value || !value.trim()) return null;
+  return (PRICE_BANDS as readonly string[]).includes(value) ? value : null;
+}
+
+function knownStreet(value: string | null): string | null {
+  if (!value || !value.trim()) return null;
+  return (STREETS as readonly string[]).includes(value) ? value : null;
+}
+
+function scopeOf(value: string | null): Scope {
+  return value === 'like' || value === 'been' ? value : 'all';
 }
 
 export function parseRoute(hash: string): Route {
@@ -299,14 +410,20 @@ export function parseRoute(hash: string): Route {
     cat: category && category.trim() ? category : null,
     q: params.get('q') ?? '',
     sort,
+    price: knownPrice(params.get('price')),
+    street: knownStreet(params.get('street')),
+    scope: scopeOf(params.get('scope')),
   };
 }
 
-export function listHash(category: string | null, query: string, sort: SortKey): string {
+export function listHash(route: Omit<ListRoute, 'view'>): string {
   const params = new URLSearchParams();
-  if (category) params.set('cat', category);
-  if (query) params.set('q', query);
-  if (sort !== 'score') params.set('sort', sort);
+  if (route.cat) params.set('cat', route.cat);
+  if (route.q) params.set('q', route.q);
+  if (route.sort !== 'score') params.set('sort', route.sort);
+  if (route.price) params.set('price', route.price);
+  if (route.street) params.set('street', route.street);
+  if (route.scope !== 'all') params.set('scope', route.scope);
   const qs = params.toString();
   return qs ? `/?${qs}` : '/';
 }

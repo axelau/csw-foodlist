@@ -8,6 +8,7 @@
   --aqua-deep: #0a7a68;
   --wrap: 1120px;
   --mast-h: 76px;
+  --toolbar-h: 148px;
   --font: "Noto Sans TC", "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
   --num: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
   color-scheme: light;
@@ -103,7 +104,7 @@ svg {
 }
 
 #content {
-  scroll-margin-top: calc(var(--mast-h) + 72px);
+  scroll-margin-top: calc(var(--mast-h) + var(--toolbar-h) + 12px);
 }
 
 .rail {
@@ -337,6 +338,78 @@ svg {
   white-space: nowrap;
 }
 
+.refine-bar {
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.refine {
+  width: min(var(--wrap), calc(100% - 48px));
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 22px;
+  padding: 4px 0 12px;
+}
+
+.refine-group,
+.refine-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.refine-actions {
+  margin-left: auto;
+}
+
+.refine-label {
+  color: var(--faint);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.mini-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip.sm {
+  min-height: 32px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.street-select {
+  border: 0;
+  background: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 6px 2px;
+  max-width: 12.5rem;
+}
+
+.text-btn {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--aqua-deep);
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.btn-sm {
+  min-height: 36px;
+  padding: 6px 14px;
+  font-size: 0.86rem;
+}
+
 .hero {
   position: relative;
   background: #fff;
@@ -383,6 +456,7 @@ svg {
   line-height: 1.22;
   letter-spacing: -0.02em;
   max-width: 16em;
+  overflow-wrap: break-word;
 }
 
 .hero-link:hover h1 {
@@ -497,49 +571,31 @@ svg {
 }
 
 .entry {
+  --entry-num: 4.5rem;
+  --entry-gap: 18px;
   content-visibility: auto;
-  contain-intrinsic-size: auto 148px;
-  display: grid;
-  grid-template-columns: 4.5rem 11.75rem minmax(0, 1fr);
-  gap: 8px 28px;
-  align-items: start;
-  padding: 26px 0;
+  contain-intrinsic-size: auto 112px;
+  position: relative;
+  padding: 22px 0 18px;
   border-top: 1px solid var(--line);
-  text-decoration: none;
+}
+
+.entry-main {
+  display: grid;
+  grid-template-columns: var(--entry-num) minmax(0, 1fr);
+  gap: 2px var(--entry-gap);
+  align-items: start;
   color: inherit;
+  text-decoration: none;
 }
 
 .entry .num {
-  padding-top: 4px;
+  padding-top: 6px;
 }
 
-.plate {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 118px;
-  aspect-ratio: 3 / 2;
-  padding: 10px 12px 12px;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
-}
-
-.plate-char {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 0.9;
-  letter-spacing: -0.04em;
-}
-
-.plate-char.latin {
-  font-family: var(--num);
-  font-weight: 600;
-  letter-spacing: -0.03em;
-}
-
-.plate-cat {
-  color: var(--aqua);
-  font-size: 0.78rem;
-  font-weight: 700;
+.entry-body {
+  min-width: 0;
+  padding-right: 8.5rem;
 }
 
 .entry h2 {
@@ -547,6 +603,7 @@ svg {
   font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.015em;
+  overflow-wrap: break-word;
 }
 
 .entry:hover h2 {
@@ -605,6 +662,65 @@ svg {
 .btn svg {
   width: 16px;
   height: 16px;
+}
+
+.marks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+}
+
+.marks-float {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 1;
+}
+
+.hero-marks {
+  margin-top: 14px;
+}
+
+.detail-marks {
+  margin-top: 16px;
+}
+
+.mark {
+  border: 0;
+  padding: 2px 0;
+  background: transparent;
+  color: var(--aqua-deep);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.detail-marks .mark,
+.hero-marks .mark,
+.pick-marks .mark {
+  font-size: 1rem;
+}
+
+.mark[aria-pressed="true"] {
+  color: #111;
+  background: var(--aqua);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.mark:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.mark[aria-pressed="true"]:hover {
+  text-decoration: none;
+}
+
+.mark-note {
+  margin-top: 8px;
 }
 
 .btn-ghost {
@@ -769,6 +885,75 @@ svg {
   text-underline-offset: 0.18em;
 }
 
+body.pick-open {
+  overflow: hidden;
+}
+
+.pick {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background: rgba(20, 20, 20, 0.46);
+}
+
+.pick[hidden] {
+  display: none;
+}
+
+.pick-card {
+  width: min(640px, 100%);
+  max-height: min(88vh, 760px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: #fff;
+  padding: 28px 32px 32px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.18);
+}
+
+.pick-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pick-pools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.pick-result {
+  margin-top: 22px;
+}
+
+.pick-range {
+  margin-bottom: 10px;
+}
+
+.pick-name {
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+}
+
+.pick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.pick-marks {
+  margin-top: 16px;
+}
+
 @media (max-width: 1320px) {
   .rail {
     display: none;
@@ -782,12 +967,8 @@ svg {
   }
 
   .entry {
-    grid-template-columns: 3.2rem minmax(0, 1fr);
-    gap: 10px 14px;
-  }
-
-  .plate {
-    display: none;
+    --entry-num: 3.2rem;
+    --entry-gap: 12px;
   }
 
   .facts {
@@ -798,7 +979,8 @@ svg {
 @media (max-width: 720px) {
   .wrap,
   .mast-inner,
-  .toolbar-inner {
+  .toolbar-inner,
+  .refine {
     width: min(var(--wrap), calc(100% - 28px));
   }
 
@@ -840,6 +1022,23 @@ svg {
 
   .hero-copy {
     margin-top: -3.4rem;
+  }
+
+  .entry-body {
+    padding-right: 0;
+  }
+
+  .marks-float {
+    position: static;
+    margin: 10px 0 0 calc(var(--entry-num) + var(--entry-gap));
+  }
+
+  .refine-actions {
+    margin-left: 0;
+  }
+
+  .pick-card {
+    padding: 22px 18px 24px;
   }
 
   .neighbors {
