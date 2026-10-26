@@ -26,6 +26,7 @@ import {
   footerText,
   formatScore,
   isDefaultList,
+  lede,
   listHash,
   listMetaParts,
   loadRestaurants,
@@ -294,28 +295,44 @@ function emptyCopy(route: ListRoute): { title: string; help: string } {
   return { title: '找不到相符食店', help: '試下其他種類、價錢或街道，或者清除篩選。' };
 }
 
-function introHtml(route: ListRoute, hasResults: boolean): string {
-  if (!hasResults) {
-    const copy = emptyCopy(route);
-    return `<div class="intro-copy"><h1 class="empty-title">${esc(copy.title)}</h1><p class="help">${esc(copy.help)}</p><p class="mark-note">${esc(MARK_NOTE)}</p><div class="empty-actions"><button type="button" class="btn" id="clear-filters">清除篩選</button></div></div>`;
+function heroCopy(restaurant: Restaurant | null, route: ListRoute, shown: number): string {
+  if (restaurant) {
+    return `<div class="wrap hero-copy"><a class="hero-link" href="#${detailHash(restaurant.id)}"><p class="num">01.</p><h1>${esc(restaurant.name)}</h1>${metaHtml(restaurant)}</a>${marksHtml(restaurant, 'marks hero-marks')}</div>`;
   }
-  return `<div class="intro-copy"><p class="help">點開食店可看地址、價錢同評分。可以篩選、標記食開或唔鐘意，也可以隨機抽一間。</p><p class="mark-note">${esc(MARK_NOTE)}</p></div>`;
+  if (shown > 0) {
+    return `<div class="wrap hero-copy"><p class="num">00.</p><h1>目前結果都已標記唔鐘意</h1><p class="help">按「解除」會還原完整卡片，並回到原本排序位置。</p></div>`;
+  }
+  const copy = emptyCopy(route);
+  return `<div class="wrap hero-copy"><p class="num">00.</p><h1>${esc(copy.title)}</h1><p class="help">${esc(copy.help)}</p><p class="mark-note">${esc(MARK_NOTE)}</p><div class="empty-actions"><button type="button" class="btn" id="clear-filters">清除篩選</button></div></div>`;
+}
+
+function dekIntro(lead: Restaurant | null, shown: number): string {
+  if (lead) {
+    return `<div class="intro-copy"><p class="lede">${esc(lede(lead))}</p><p class="help">點開食店可看地址、價錢、評分，並前往 OpenRice。可以篩選、標記食開或唔鐘意，也可以隨機抽一間。</p><p class="mark-note">${esc(MARK_NOTE)}</p></div>`;
+  }
+  if (shown > 0) {
+    return `<div class="intro-copy"><p class="help">完整卡片收在名單最底，按「解除」即可還原。</p></div>`;
+  }
+  return `<div class="intro-copy"><p class="help">可以改用種類、價錢或街道，也可以搜尋店名同菜式。</p></div>`;
 }
 
 function listHtml(route: ListRoute): string {
   const ordered = arrangeList(restaurants, route, marks);
-  const art = `<section class="hero hero-slim" aria-hidden="true"><div class="hero-art">${heroSvg}</div></section>`;
-  const dek = `<section class="dek wrap">${introHtml(route, ordered.length > 0)}${asideHtml(route, ordered.length, restaurants.length)}</section>`;
-  if (ordered.length === 0) return `${art}${dek}`;
-  let index = 0;
-  const items = ordered
+  const lead = ordered.find((restaurant) => !marks.dislike.includes(restaurant.id)) ?? null;
+  const rest = lead ? ordered.filter((restaurant) => restaurant.id !== lead.id) : ordered;
+  const hero = `<section class="hero"><div class="hero-art" aria-hidden="true">${heroSvg}</div>${heroCopy(lead, route, ordered.length)}</section>`;
+  const dek = `<section class="dek wrap">${dekIntro(lead, ordered.length)}${asideHtml(route, ordered.length, restaurants.length)}</section>`;
+  if (rest.length === 0) return `${hero}${dek}`;
+  let index = lead ? 1 : 0;
+  const items = rest
     .map((restaurant) => {
       if (marks.dislike.includes(restaurant.id)) return collapsedHtml(restaurant);
       index += 1;
       return entryHtml(restaurant, index);
     })
     .join('');
-  return `${art}${dek}<section class="wrap list">${items}</section>`;
+  const continueLabel = lead ? `<p class="continue">其餘 ${rest.length} 間</p>` : '';
+  return `${hero}${dek}<section class="wrap list">${continueLabel}${items}</section>`;
 }
 
 function detailHtml(id: string): string {
@@ -484,7 +501,7 @@ function render(opts: { scroll?: boolean | 'auto' } = {}): void {
   const main = document.querySelector<HTMLElement>('#content');
   if (!main) return;
   if (loadError) {
-    main.innerHTML = `<section class="hero hero-slim" aria-hidden="true"><div class="hero-art">${heroSvg}</div></section><div class="wrap intro-copy"><h1 class="empty-title">資料載入失敗</h1><p class="help">${esc(loadError)}請重新整理頁面。</p></div>`;
+    main.innerHTML = `<section class="hero"><div class="hero-art" aria-hidden="true">${heroSvg}</div><div class="wrap hero-copy"><p class="num">00.</p><h1>資料載入失敗</h1><p class="help">${esc(loadError)}請重新整理頁面。</p></div></section>`;
   } else if (!ready) {
     main.innerHTML = `<p class="state">正在載入食店目錄…</p>`;
   } else if (route.view === 'detail') {
@@ -607,15 +624,47 @@ function focusSelector(action: MarkAction, id: string): string {
   return `[data-mark="dislike"]${idSel}`;
 }
 
+function restoreScroll(x: number, y: number): void {
+  const root = document.documentElement;
+  const previous = root.style.scrollBehavior;
+  root.style.scrollBehavior = 'auto';
+  window.scrollTo(x, y);
+  root.style.scrollBehavior = previous;
+}
+
+/** Keep restoring for a couple of frames so focus and scroll anchoring cannot follow a moved card. */
+function holdScroll(x: number, y: number): void {
+  restoreScroll(x, y);
+  requestAnimationFrame(() => {
+    restoreScroll(x, y);
+    requestAnimationFrame(() => restoreScroll(x, y));
+  });
+}
+
+/** Height of a card that sits fully above the sticky header. Closing that gap would yank the viewport unless scroll shrinks with it. */
+function aboveFoldShift(id: string): number {
+  const node = document.querySelector<HTMLElement>(dataSelector('id', id))?.closest<HTMLElement>('.entry, .hero-copy');
+  if (!node) return 0;
+  const rect = node.getBoundingClientRect();
+  const headerBottom = document.querySelector('.list-chrome')?.getBoundingClientRect().bottom ?? 0;
+  if (rect.bottom <= headerBottom + 1) return rect.height;
+  return 0;
+}
+
 function toggleMark(action: MarkAction, id: string): void {
+  const x = window.scrollX;
+  const y = window.scrollY;
+  const nextY = Math.max(0, y - aboveFoldShift(id));
   marks = applyMark(marks, action, id);
   saveMarks(marks);
   render();
   if (pickOpen) paintPick();
+  restoreScroll(x, nextY);
   const root = pickOpen ? document.querySelector('#pick') : document;
   const again = root?.querySelector<HTMLElement>(focusSelector(action, id));
-  if (again) again.focus();
-  else if (!pickOpen) document.querySelector<HTMLElement>('#content')?.focus();
+  if (again) again.focus({ preventScroll: true });
+  else if (!pickOpen) document.querySelector<HTMLElement>('#content')?.focus({ preventScroll: true });
+  holdScroll(x, nextY);
 }
 
 function focusableInPick(): HTMLElement[] {

@@ -105,6 +105,7 @@ svg {
 
 #content {
   scroll-margin-top: calc(var(--mast-h) + var(--toolbar-h) + 12px);
+  overflow-anchor: none;
 }
 
 .rail {
@@ -281,7 +282,7 @@ svg {
   grid-template-columns: minmax(0, 1fr) auto;
   column-gap: 16px;
   align-items: center;
-  padding: 4px 0 0;
+  padding: 10px 0 8px;
 }
 
 .toolbar-bar,
@@ -416,14 +417,19 @@ svg {
   white-space: nowrap;
 }
 
+.refine-bar {
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
 .refine {
-  grid-column: 1 / -1;
-  grid-row: 2;
+  width: min(var(--wrap), calc(100% - 48px));
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 22px;
-  padding: 2px 0 8px;
+  padding: 4px 0 12px;
 }
 
 .refine-group,
@@ -495,7 +501,7 @@ svg {
 }
 
 .hero-art {
-  height: clamp(40px, 6vw, 72px);
+  height: clamp(220px, 34vw, 390px);
   overflow: hidden;
   background: #e7f0eb;
 }
@@ -505,15 +511,20 @@ svg {
   height: 100%;
 }
 
-.intro-copy {
-  min-width: 0;
+.hero-copy {
+  position: relative;
+  margin-top: -5.2rem;
+  padding-bottom: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 32px);
 }
 
-.empty-title {
-  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
+.hero-copy .meta {
+  gap: 6px 14px;
+  margin-top: 12px;
+}
+
+.intro-copy {
+  min-width: 0;
 }
 
 .num {
@@ -532,6 +543,7 @@ svg {
   color: inherit;
 }
 
+.hero-copy h1,
 .hero-link h1,
 .detail h1 {
   font-size: clamp(2rem, 4.4vw, 3.15rem);
@@ -1104,7 +1116,8 @@ body.is-detail .list-chrome {
 @media (max-width: 720px) {
   .wrap,
   .mast-inner,
-  .toolbar-inner {
+  .toolbar-inner,
+  .refine {
     width: min(var(--wrap), calc(100% - 28px));
   }
 
@@ -1181,8 +1194,8 @@ body.is-detail .list-chrome {
     width: 100%;
   }
 
-  .hero-art {
-    height: 40px;
+  .hero-copy {
+    margin-top: -3.4rem;
   }
 
   .dek {
