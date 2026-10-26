@@ -6,7 +6,7 @@
     <title>長沙灣食店目錄</title>
     <meta
       name="description"
-      content="長沙灣食店目錄：收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記鐘意同食開，隨機抽一間，並開啟 OpenRice 頁面。"
+      content="長沙灣食店目錄：收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記食開同唔鐘意，隨機抽一間，並開啟 OpenRice 頁面。"
     />
     <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
@@ -14,7 +14,7 @@
     <meta property="og:title" content="長沙灣食店目錄" />
     <meta
       property="og:description"
-      content="收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記鐘意同食開，並隨機抽一間。"
+      content="收錄 OpenRice 標示為長沙灣的食店，可按種類、價錢、街道篩選，標記食開同唔鐘意，並隨機抽一間。"
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_HK" />
@@ -47,27 +47,45 @@
               enterkeyhint="search"
             />
           </label>
+          <button type="submit" class="search-submit">搜尋</button>
         </form>
       </div>
     </header>
-    <div class="toolbar">
-      <div class="toolbar-inner">
-        <div class="chips" id="chips" role="group" aria-label="按種類篩選"></div>
-        <div class="toolbar-end">
-          <label class="sort-label">
-            <span class="vh">排序</span>
-            <select id="sort" aria-label="排序">
-              <option value="score">按評分</option>
-              <option value="category">按分類</option>
-              <option value="name">按店名</option>
-            </select>
-          </label>
-          <p class="count" id="count" aria-live="polite"></p>
+    <div class="list-chrome" id="list-chrome">
+      <div class="toolbar">
+        <div class="toolbar-inner">
+          <div class="toolbar-bar">
+            <button
+              type="button"
+              class="filter-toggle"
+              id="filter-toggle"
+              aria-expanded="false"
+              aria-controls="filter-panel"
+            >
+              篩選
+            </button>
+            <p class="count" id="count" aria-live="polite"></p>
+          </div>
+          <div class="filter-panel" id="filter-panel">
+            <div class="filter-row">
+              <div class="chips-scroller" id="chips-scroller">
+                <div class="chips" id="chips" role="group" aria-label="按種類篩選"></div>
+              </div>
+              <div class="toolbar-end">
+                <label class="sort-label">
+                  <span class="vh">排序</span>
+                  <select id="sort" aria-label="排序">
+                    <option value="score">按評分</option>
+                    <option value="category">按分類</option>
+                    <option value="name">按店名</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="refine" id="refine"></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="refine-bar">
-      <div class="refine" id="refine"></div>
     </div>
     <main id="content" tabindex="-1">
       <p class="state">正在載入食店目錄…</p>
@@ -92,6 +110,7 @@
           <button type="button" class="text-btn" data-pick-close>關閉</button>
         </div>
         <div class="pick-pools" id="pick-pools" role="group" aria-label="抽取範圍"></div>
+        <p class="fine pick-hint">預設範圍唔包括唔鐘意的食店。</p>
         <div class="pick-result" id="pick-result" aria-live="polite"></div>
       </div>
     </div>

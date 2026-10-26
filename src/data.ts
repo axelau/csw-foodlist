@@ -52,8 +52,9 @@ const STREET_FIXES: readonly (readonly [string, string])[] = [
 ];
 
 export type SortKey = 'score' | 'category' | 'name';
-export type Scope = 'all' | 'like' | 'been';
+export type Scope = 'all' | 'been' | 'dislike';
 export type PickPool = 'all' | 'filters' | 'saved';
+export type MarkAction = 'been' | 'dislike' | 'clear';
 
 export interface Restaurant {
   id: string;
@@ -74,7 +75,7 @@ export interface ListRoute {
   cat: string | null;
   q: string;
   sort: SortKey;
-  price: string | null;
+  price: string[];
   street: string | null;
   scope: Scope;
 }
@@ -87,8 +88,8 @@ export interface DetailRoute {
 export type Route = ListRoute | DetailRoute;
 
 export interface Marks {
-  like: string[];
   been: string[];
+  dislike: string[];
   lastPick: string | null;
 }
 
@@ -120,6 +121,38 @@ export function formatScore(score: number | null): string {
   return String(rounded);
 }
 
+export function scoreText(score: number | null): string {
+  if (score == null || Number.isNaN(score)) return '暫無評分';
+  return `評分 ${formatScore(score)}`;
+}
+
+export function categoryAliases(category: string): Set<string> {
+  const aliases = new Set<string>();
+  const add = (value: string) => {
+    const trimmed = value.trim();
+    if (trimmed) aliases.add(trimmed);
+  };
+  add(category);
+  add(shortCategory(category));
+  for (const part of category.split(/[/／]/)) add(part);
+  return aliases;
+}
+
+/** Category, extra cuisines (duplicates removed), price, and a labelled score. */
+export function listMetaParts(restaurant: Restaurant): string[] {
+  const seen = categoryAliases(restaurant.category);
+  const tags = [restaurant.category];
+  for (const cuisine of restaurant.cuisines) {
+    const label = cuisine.trim();
+    if (!label || seen.has(label)) continue;
+    seen.add(label);
+    tags.push(label);
+  }
+  tags.push(restaurant.price);
+  tags.push(scoreText(restaurant.score));
+  return tags;
+}
+
 export function shortCategory(category: string): string {
   const cut = category.split(/[/（]/)[0];
   return cut || category;
@@ -136,30 +169,59 @@ export function safeUrl(url: string): string | null {
 }
 
 export function lede(restaurant: Restaurant): string {
-  const score = restaurant.score == null ? '暫無評分' : `評分 ${formatScore(restaurant.score)}`;
-  const sentence = `${restaurant.address}。價錢 ${restaurant.price}，${score}。`;
+  const sentence = `${restaurant.address}。價錢 ${restaurant.price}，${scoreText(restaurant.score)}。`;
   if (restaurant.dishes.length === 0) return sentence;
   return `${sentence}菜式：${restaurant.dishes.join('、')}。`;
 }
 
 export function emptyMarks(): Marks {
-  return { like: [], been: [], lastPick: null };
+  return { been: [], dislike: [], lastPick: null };
 }
 
+function idList(item: unknown): string[] {
+  if (!Array.isArray(item)) return [];
+  const ids = item.filter((id): id is string => typeof id === 'string' && id.trim() !== '');
+  return [...new Set(ids)];
+}
+
+/** Old 「鐘意」 (`like`) becomes 「食開」. `like` is not kept. Dislike wins if an id is in both. */
 export function normalizeMarks(value: unknown): Marks {
   if (!value || typeof value !== 'object') return emptyMarks();
   const record = value as Record<string, unknown>;
-  const list = (item: unknown): string[] => {
-    if (!Array.isArray(item)) return [];
-    const ids = item.filter((id): id is string => typeof id === 'string' && id.trim() !== '');
-    return [...new Set(ids)];
-  };
+  const like = idList(record.like);
+  const been = new Set([...idList(record.been), ...like]);
+  const dislike = idList(record.dislike);
+  for (const id of dislike) been.delete(id);
   const last = record.lastPick;
   return {
-    like: list(record.like),
-    been: list(record.been),
+    been: [...been],
+    dislike,
     lastPick: typeof last === 'string' && last.trim() ? last : null,
   };
+}
+
+export function marksHaveLegacyLike(value: unknown): boolean {
+  return Boolean(value && typeof value === 'object' && 'like' in value);
+}
+
+export function applyMark(marks: Marks, action: MarkAction, id: string): Marks {
+  if (action === 'been') {
+    const on = marks.been.includes(id);
+    return {
+      ...marks,
+      been: on ? marks.been.filter((item) => item !== id) : [...marks.been, id],
+      dislike: on ? marks.dislike : marks.dislike.filter((item) => item !== id),
+    };
+  }
+  if (action === 'dislike') {
+    const on = marks.dislike.includes(id);
+    return {
+      ...marks,
+      dislike: on ? marks.dislike.filter((item) => item !== id) : [...marks.dislike, id],
+      been: on ? marks.been : marks.been.filter((item) => item !== id),
+    };
+  }
+  return { ...marks, dislike: marks.dislike.filter((item) => item !== id) };
 }
 
 export function toggleId(ids: readonly string[], id: string): string[] {
@@ -186,7 +248,7 @@ export function defaultList(): ListRoute {
     cat: null,
     q: '',
     sort: 'score',
-    price: null,
+    price: [],
     street: null,
     scope: 'all',
   };
@@ -197,7 +259,7 @@ export function isDefaultList(route: ListRoute): boolean {
     route.cat === null &&
     route.q.trim() === '' &&
     route.sort === 'score' &&
-    route.price === null &&
+    route.price.length === 0 &&
     route.street === null &&
     route.scope === 'all'
   );
@@ -305,10 +367,10 @@ export function matches(restaurant: Restaurant, query: string): boolean {
 
 export function matchesFilters(restaurant: Restaurant, route: ListRoute, marks: Marks): boolean {
   if (route.cat && restaurant.category !== route.cat) return false;
-  if (route.price && restaurant.price !== route.price) return false;
+  if (route.price.length > 0 && !route.price.includes(restaurant.price)) return false;
   if (route.street && streetOf(restaurant.address) !== route.street) return false;
-  if (route.scope === 'like' && !marks.like.includes(restaurant.id)) return false;
   if (route.scope === 'been' && !marks.been.includes(restaurant.id)) return false;
+  if (route.scope === 'dislike' && !marks.dislike.includes(restaurant.id)) return false;
   return matches(restaurant, route.q);
 }
 
@@ -335,6 +397,18 @@ export function filterAndSort(restaurants: Restaurant[], route: ListRoute, marks
     restaurants.filter((restaurant) => matchesFilters(restaurant, route, marks)),
     route.sort,
   );
+}
+
+/** Full sort order, then 唔鐘意 rows sink to the bottom without changing their relative order. */
+export function arrangeList(restaurants: Restaurant[], route: ListRoute, marks: Marks): Restaurant[] {
+  const sorted = filterAndSort(restaurants, route, marks);
+  const open: Restaurant[] = [];
+  const collapsed: Restaurant[] = [];
+  for (const restaurant of sorted) {
+    if (marks.dislike.includes(restaurant.id)) collapsed.push(restaurant);
+    else open.push(restaurant);
+  }
+  return [...open, ...collapsed];
 }
 
 export function countMatches(restaurants: Restaurant[], route: ListRoute, marks: Marks): number {
@@ -368,7 +442,7 @@ export function neighbors(
 }
 
 export function footerText(total: number): string {
-  return `長沙灣食店目錄收錄 OpenRice 標示為長沙灣的食店，資料截取日期 ${DATA_AS_OF}，共 ${total} 間，按主要菜式分類。本站只是靜態索引，並非 OpenRice 或店家官方網站。店名、地址、價錢同評分會隨時間改變，請以 OpenRice 頁面為準。鐘意同食開只儲存在這部裝置。`;
+  return `長沙灣食店目錄收錄 OpenRice 標示為長沙灣的食店，資料截取日期 ${DATA_AS_OF}，共 ${total} 間，按主要菜式分類。本站只是靜態索引，並非 OpenRice 或店家官方網站。店名、地址、價錢同評分會隨時間改變，請以 OpenRice 頁面為準。食開同唔鐘意只儲存在這部裝置。`;
 }
 
 function decodePart(value: string): string {
@@ -379,9 +453,15 @@ function decodePart(value: string): string {
   }
 }
 
-function knownPrice(value: string | null): string | null {
-  if (!value || !value.trim()) return null;
-  return (PRICE_BANDS as readonly string[]).includes(value) ? value : null;
+export function knownPrices(value: string | null): string[] {
+  if (!value || !value.trim()) return [];
+  const wanted = new Set(
+    value
+      .split(',')
+      .map((part) => part.trim())
+      .filter((part) => (PRICE_BANDS as readonly string[]).includes(part)),
+  );
+  return PRICE_BANDS.filter((band) => wanted.has(band));
 }
 
 function knownStreet(value: string | null): string | null {
@@ -390,7 +470,9 @@ function knownStreet(value: string | null): string | null {
 }
 
 function scopeOf(value: string | null): Scope {
-  return value === 'like' || value === 'been' ? value : 'all';
+  if (value === 'like' || value === 'been') return 'been';
+  if (value === 'dislike') return 'dislike';
+  return 'all';
 }
 
 export function parseRoute(hash: string): Route {
@@ -410,7 +492,7 @@ export function parseRoute(hash: string): Route {
     cat: category && category.trim() ? category : null,
     q: params.get('q') ?? '',
     sort,
-    price: knownPrice(params.get('price')),
+    price: knownPrices(params.get('price')),
     street: knownStreet(params.get('street')),
     scope: scopeOf(params.get('scope')),
   };
@@ -421,11 +503,23 @@ export function listHash(route: Omit<ListRoute, 'view'>): string {
   if (route.cat) params.set('cat', route.cat);
   if (route.q) params.set('q', route.q);
   if (route.sort !== 'score') params.set('sort', route.sort);
-  if (route.price) params.set('price', route.price);
+  if (route.price.length > 0) params.set('price', route.price.join(','));
   if (route.street) params.set('street', route.street);
   if (route.scope !== 'all') params.set('scope', route.scope);
-  const qs = params.toString();
+  const qs = readableQuery(params.toString());
   return qs ? `/?${qs}` : '/';
+}
+
+function readableQuery(qs: string): string {
+  const decoded = qs.replace(/(?:%[0-9A-Fa-f]{2})+/g, (seq) => {
+    try {
+      const text = decodeURIComponent(seq);
+      return /^[\u0000-\u007f]*$/.test(text) ? seq : text;
+    } catch {
+      return seq;
+    }
+  });
+  return decoded.replace(/%2C/gi, ',').replace(/%24/g, '$');
 }
 
 export function detailHash(id: string): string {

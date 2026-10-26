@@ -7,13 +7,17 @@ import {
   PRICE_BANDS,
   STREETS,
   type ListRoute,
+  type MarkAction,
   type Marks,
   type PickPool,
   type Restaurant,
   type Route,
   type Scope,
   type SortKey,
+  applyMark,
+  arrangeList,
   categoriesIn,
+  categoryAliases,
   countMatches,
   defaultList,
   detailHash,
@@ -22,9 +26,10 @@ import {
   footerText,
   formatScore,
   isDefaultList,
-  lede,
   listHash,
+  listMetaParts,
   loadRestaurants,
+  marksHaveLegacyLike,
   neighbors,
   normalizeMarks,
   pad,
@@ -33,10 +38,13 @@ import {
   safeUrl,
   shortCategory,
   streetOf,
-  toggleId,
 } from './data';
 
-const MARKS_KEY = 'csw-foodlist.marks.v1';
+const MARKS_KEY = 'csw-foodlist.marks';
+const LEGACY_MARKS_KEY = 'csw-foodlist.marks.v1';
+const SEARCH_DEBOUNCE_MS = 280;
+const MARK_NOTE = '食開同唔鐘意只儲存在這部裝置，不會上傳。';
+const NARROW_QUERY = '(max-width: 720px)';
 
 let restaurants: Restaurant[] = [];
 let ready = false;
@@ -51,6 +59,7 @@ let pickOpen = false;
 let pickPool: PickPool = 'all';
 let pickId: string | null = null;
 let pickNote = '';
+let filtersOpen = false;
 
 const EXTERNAL_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-9 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 13.5V18a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
 
@@ -60,9 +69,21 @@ function emptyStoredMarks(): Marks {
 
 function loadMarks(): Marks {
   try {
-    const raw = localStorage.getItem(MARKS_KEY);
+    const current = localStorage.getItem(MARKS_KEY);
+    const legacy = current ? null : localStorage.getItem(LEGACY_MARKS_KEY);
+    const raw = current ?? legacy;
     if (!raw) return emptyStoredMarks();
-    return normalizeMarks(JSON.parse(raw) as unknown);
+    const parsed: unknown = JSON.parse(raw);
+    const next = normalizeMarks(parsed);
+    if (legacy || marksHaveLegacyLike(parsed)) {
+      saveMarks(next);
+      try {
+        localStorage.removeItem(LEGACY_MARKS_KEY);
+      } catch {
+        // The legacy key can stay; the new key is already the source of truth.
+      }
+    }
+    return next;
   } catch {
     return emptyStoredMarks();
   }
@@ -70,7 +91,8 @@ function loadMarks(): Marks {
 
 function saveMarks(next: Marks): void {
   try {
-    localStorage.setItem(MARKS_KEY, JSON.stringify(next));
+    const stored: Marks = { been: next.been, dislike: next.dislike, lastPick: next.lastPick };
+    localStorage.setItem(MARKS_KEY, JSON.stringify(stored));
   } catch {
     // Private mode or a full disk: keep the in-memory copy for this visit.
   }
@@ -85,11 +107,63 @@ function canonical(hash: string): string {
   return route.view === 'detail' ? detailHash(route.id) : listHash(route);
 }
 
+function rewriteLegacyHash(): void {
+  const current = currentHash();
+  const route = parseRoute(current);
+  if (route.view !== 'list') return;
+  const query = current.includes('?') ? current.slice(current.indexOf('?') + 1) : '';
+  const params = new URLSearchParams(query);
+  const legacyLike = params.get('scope') === 'like';
+  const rawPrice = params.get('price');
+  const priceChanged = rawPrice != null && rawPrice !== route.price.join(',');
+  if (!legacyLike && !priceChanged) return;
+  const next = listHash(route);
+  if (next === current) return;
+  history.replaceState(null, '', `${location.pathname}${location.search}#${next}`);
+}
+
 function syncBars(): void {
   const mast = document.querySelector<HTMLElement>('.mast');
   const toolbar = document.querySelector<HTMLElement>('.toolbar');
   if (mast) document.documentElement.style.setProperty('--mast-h', `${mast.offsetHeight}px`);
   if (toolbar) document.documentElement.style.setProperty('--toolbar-h', `${toolbar.offsetHeight}px`);
+}
+
+function narrowFilters(): boolean {
+  return window.matchMedia(NARROW_QUERY).matches;
+}
+
+function updateChipOverflow(): void {
+  const scroller = document.querySelector<HTMLElement>('#chips');
+  const wrap = document.querySelector<HTMLElement>('#chips-scroller');
+  if (!scroller || !wrap) return;
+  const overflow = scroller.scrollWidth > scroller.clientWidth + 8;
+  const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 8;
+  wrap.classList.toggle('can-scroll', overflow && !atEnd);
+}
+
+function syncFilterUi(): void {
+  const route = parseRoute(currentHash());
+  const detail = route.view === 'detail';
+  document.body.classList.toggle('is-detail', detail);
+  document.body.classList.toggle('filters-open', filtersOpen);
+  const toggle = document.querySelector<HTMLButtonElement>('#filter-toggle');
+  if (toggle) {
+    const expanded = !detail && (!narrowFilters() || filtersOpen);
+    toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    if (route.view === 'list') {
+      const active = [
+        route.cat,
+        route.price.length > 0,
+        route.street,
+        route.scope !== 'all',
+        route.sort !== 'score',
+      ].filter(Boolean).length;
+      toggle.textContent = active > 0 ? `篩選 · ${active}` : '篩選';
+    }
+  }
+  syncBars();
+  requestAnimationFrame(updateChipOverflow);
 }
 
 function go(hash: string, mode: 'push' | 'replace', scroll: boolean | 'auto'): void {
@@ -126,32 +200,44 @@ function activeList(): ListRoute {
   return saved.view === 'list' ? saved : defaultList();
 }
 
-function metaHtml(restaurant: Restaurant, includeCategory: boolean): string {
-  const tags: string[] = [];
-  if (includeCategory) tags.push(`<span>${esc(restaurant.category)}</span>`);
-  for (const cuisine of restaurant.cuisines) tags.push(`<span>${esc(cuisine)}</span>`);
-  tags.push(`<span>${esc(restaurant.price)}</span>`);
-  tags.push(
-    restaurant.score == null
-      ? `<span class="muted">暫無評分</span>`
-      : `<span>${esc(formatScore(restaurant.score))}</span>`,
-  );
-  return `<p class="meta">${tags.join('')}</p>`;
+function draftList(): ListRoute {
+  const base = activeList();
+  const input = document.querySelector<HTMLInputElement>('#q');
+  if (!input) return base;
+  return { ...base, q: input.value };
 }
 
-function markPressed(kind: 'like' | 'been', id: string): boolean {
-  return kind === 'like' ? marks.like.includes(id) : marks.been.includes(id);
+function goList(patch: Partial<Omit<ListRoute, 'view'>>, mode: 'push' | 'replace', scroll: boolean | 'auto'): void {
+  window.clearTimeout(searchTimer);
+  searchTimer = 0;
+  go(listHash({ ...draftList(), ...patch }), mode, scroll);
 }
 
-function markButton(kind: 'like' | 'been', restaurant: Restaurant): string {
-  const label = kind === 'like' ? '鐘意' : '食開';
-  const on = markPressed(kind, restaurant.id);
+function metaHtml(restaurant: Restaurant): string {
+  const parts = listMetaParts(restaurant);
+  const tags = parts
+    .map((tag) => {
+      const muted = tag === '暫無評分' ? ' class="muted"' : '';
+      return `<span${muted}>${esc(tag)}</span>`;
+    })
+    .join('');
+  return `<p class="meta">${tags}</p>`;
+}
+
+function markButton(kind: 'been' | 'dislike', restaurant: Restaurant): string {
+  const label = kind === 'been' ? '食開' : '唔鐘意';
+  const on = kind === 'been' ? marks.been.includes(restaurant.id) : marks.dislike.includes(restaurant.id);
   const action = on ? `取消${label}` : label;
-  return `<button type="button" class="mark" data-mark="${kind}" data-id="${esc(restaurant.id)}" aria-pressed="${on ? 'true' : 'false'}" aria-label="${esc(action)} ${esc(restaurant.name)}">${label}</button>`;
+  return `<button type="button" class="mark" data-mark="${kind}" data-id="${esc(restaurant.id)}" aria-pressed="${on ? 'true' : 'false'}" aria-label="${esc(`${action} ${restaurant.name}`)}">${label}</button>`;
+}
+
+function clearButton(restaurant: Restaurant): string {
+  return `<button type="button" class="mark mark-clear" data-mark="clear" data-id="${esc(restaurant.id)}" aria-pressed="true" aria-label="${esc(`解除唔鐘意 ${restaurant.name}`)}">解除</button>`;
 }
 
 function marksHtml(restaurant: Restaurant, className: string): string {
-  return `<div class="${className}" role="group" aria-label="標記${esc(restaurant.name)}">${markButton('like', restaurant)}${markButton('been', restaurant)}</div>`;
+  const clear = marks.dislike.includes(restaurant.id) ? clearButton(restaurant) : '';
+  return `<div class="${className}" role="group" aria-label="${esc(`標記 ${restaurant.name}`)}">${markButton('been', restaurant)}${markButton('dislike', restaurant)}${clear}</div>`;
 }
 
 function entryHtml(restaurant: Restaurant, index: number): string {
@@ -159,7 +245,15 @@ function entryHtml(restaurant: Restaurant, index: number): string {
     restaurant.dishes.length > 0
       ? `<p class="excerpt dishes">菜式：${esc(restaurant.dishes.join('、'))}</p>`
       : '';
-  return `<article class="entry"><a class="entry-main" href="#${detailHash(restaurant.id)}"><span class="num">${pad(index)}.</span><span class="entry-body"><h2>${esc(restaurant.name)}</h2>${metaHtml(restaurant, true)}<p class="excerpt">${esc(restaurant.address || '未有地址')}</p>${dishes}</span></a>${marksHtml(restaurant, 'marks marks-float')}</article>`;
+  return `<article class="entry"><a class="entry-main" href="#${detailHash(restaurant.id)}"><span class="num">${pad(index)}.</span><span class="entry-body"><h2>${esc(restaurant.name)}</h2>${metaHtml(restaurant)}<p class="excerpt">${esc(restaurant.address || '未有地址')}</p>${dishes}</span></a>${marksHtml(restaurant, 'marks marks-float')}</article>`;
+}
+
+function collapsedHtml(restaurant: Restaurant): string {
+  return `<article class="entry entry-collapsed"><h2 class="collapsed-name"><a href="#${detailHash(restaurant.id)}">${esc(restaurant.name)}</a></h2>${clearButton(restaurant)}</article>`;
+}
+
+function scopeCount(route: ListRoute, scope: Scope): number {
+  return countMatches(restaurants, { ...route, scope }, marks);
 }
 
 function asideHtml(route: ListRoute, shown: number, total: number): string {
@@ -168,51 +262,60 @@ function asideHtml(route: ListRoute, shown: number, total: number): string {
     const pressed = active ? 'true' : 'false';
     return `<button type="button" class="street${active}" data-street="${esc(street)}" aria-pressed="${pressed}">${esc(street)}</button>`;
   }).join('');
-  return `<aside class="aside"><p class="aside-kicker">今次顯示</p><p class="aside-count">${shown}</p><p class="aside-unit">間食店</p><p class="aside-note">全部 ${total} 間 · ${categoriesIn(restaurants).length} 個種類<br>鐘意 ${marks.like.length} · 食開 ${marks.been.length}<br>資料截至 ${DATA_AS_OF}</p><div class="streets" role="group" aria-label="街道篩選">${streetButtons}</div></aside>`;
+  const beenIn = scopeCount(route, 'been');
+  const dislikeIn = scopeCount(route, 'dislike');
+  return `<aside class="aside"><p class="aside-kicker">今次顯示</p><p class="aside-count">${shown}</p><p class="aside-unit">間食店</p><p class="aside-note">全部 ${total} 間 · ${categoriesIn(restaurants).length} 個種類 · 此篩選內 食開 ${beenIn} · 唔鐘意 ${dislikeIn}<br>${esc(MARK_NOTE)}</p><div class="streets" role="group" aria-label="街道篩選">${streetButtons}</div></aside>`;
+}
+
+function hasNarrowing(route: ListRoute): boolean {
+  return Boolean(route.cat || route.q.trim() || route.price.length > 0 || route.street);
 }
 
 function emptyCopy(route: ListRoute): { title: string; help: string } {
-  const narrowed = Boolean(route.cat || route.q.trim() || route.price || route.street);
-  if (route.scope === 'like' && !narrowed && marks.like.length === 0) {
-    return {
-      title: '未有鐘意的食店',
-      help: '打開一間食店，按「鐘意」就會記在這部裝置。清除篩選可以返回全部食店。',
-    };
-  }
+  const narrowed = hasNarrowing(route);
   if (route.scope === 'been' && !narrowed && marks.been.length === 0) {
     return {
       title: '未有食開的食店',
-      help: '食過的店可以按「食開」記低。標記只留在這部裝置，不會上傳。',
+      help: '食過的店可以按「食開」記低。',
     };
   }
-  if (route.scope === 'like') {
-    return { title: '沒有符合的鐘意食店', help: '試下放寬種類、價錢或街道，或者清除篩選。' };
+  if (route.scope === 'dislike' && !narrowed && marks.dislike.length === 0) {
+    return {
+      title: '未有唔鐘意的食店',
+      help: '唔想再抽中的店可以按「唔鐘意」，嗰行會收成店名，並移到名單最底。',
+    };
   }
   if (route.scope === 'been') {
     return { title: '沒有符合的食開食店', help: '試下放寬種類、價錢或街道，或者清除篩選。' };
   }
+  if (route.scope === 'dislike') {
+    return { title: '沒有符合的唔鐘意食店', help: '試下放寬種類、價錢或街道，或者清除篩選。' };
+  }
   return { title: '找不到相符食店', help: '試下其他種類、價錢或街道，或者清除篩選。' };
 }
 
-function heroCopy(restaurant: Restaurant | null, route: ListRoute): string {
-  if (!restaurant) {
+function introHtml(route: ListRoute, hasResults: boolean): string {
+  if (!hasResults) {
     const copy = emptyCopy(route);
-    return `<div class="wrap hero-copy"><p class="num">00.</p><h1>${esc(copy.title)}</h1><p class="help">${esc(copy.help)}</p><div class="empty-actions"><button type="button" class="btn" id="clear-filters">清除篩選</button></div></div>`;
+    return `<div class="intro-copy"><h1 class="empty-title">${esc(copy.title)}</h1><p class="help">${esc(copy.help)}</p><p class="mark-note">${esc(MARK_NOTE)}</p><div class="empty-actions"><button type="button" class="btn" id="clear-filters">清除篩選</button></div></div>`;
   }
-  return `<div class="wrap hero-copy"><a class="hero-link" href="#${detailHash(restaurant.id)}"><p class="num">01.</p><h1>${esc(restaurant.name)}</h1>${metaHtml(restaurant, true)}</a>${marksHtml(restaurant, 'marks hero-marks')}</div>`;
+  return `<div class="intro-copy"><p class="help">點開食店可看地址、價錢同評分。可以篩選、標記食開或唔鐘意，也可以隨機抽一間。</p><p class="mark-note">${esc(MARK_NOTE)}</p></div>`;
 }
 
 function listHtml(route: ListRoute): string {
-  const filtered = filterAndSort(restaurants, route, marks);
-  const [lead, ...rest] = filtered;
-  const intro = lead
-    ? `<div><p class="lede">${esc(lede(lead))}</p><p class="help">點開食店可看地址、價錢、評分，並前往 OpenRice。可以按種類、價錢、街道篩選，標記鐘意或食開，也可以隨機抽一間。</p></div>`
-    : `<div><p class="help">可以改用種類、價錢或街道，也可以搜尋店名同菜式。</p></div>`;
-  const dek = `<section class="dek wrap">${intro}${asideHtml(route, filtered.length, restaurants.length)}</section>`;
-  const hero = `<section class="hero"><div class="hero-art" aria-hidden="true">${heroSvg}</div>${heroCopy(lead ?? null, route)}</section>${dek}`;
-  if (!lead || rest.length === 0) return hero;
-  const items = rest.map((restaurant, index) => entryHtml(restaurant, index + 2)).join('');
-  return `${hero}<section class="wrap list"><p class="continue">其餘 ${rest.length} 間</p>${items}</section>`;
+  const ordered = arrangeList(restaurants, route, marks);
+  const art = `<section class="hero hero-slim" aria-hidden="true"><div class="hero-art">${heroSvg}</div></section>`;
+  const dek = `<section class="dek wrap">${introHtml(route, ordered.length > 0)}${asideHtml(route, ordered.length, restaurants.length)}</section>`;
+  if (ordered.length === 0) return `${art}${dek}`;
+  let index = 0;
+  const items = ordered
+    .map((restaurant) => {
+      if (marks.dislike.includes(restaurant.id)) return collapsedHtml(restaurant);
+      index += 1;
+      return entryHtml(restaurant, index);
+    })
+    .join('');
+  return `${art}${dek}<section class="wrap list">${items}</section>`;
 }
 
 function detailHtml(id: string): string {
@@ -223,10 +326,10 @@ function detailHtml(id: string): string {
   const link = safeUrl(restaurant.url);
   const street = streetOf(restaurant.address);
   const kicker = street ? `${restaurant.category} · ${street}` : restaurant.category;
+  const aliases = categoryAliases(restaurant.category);
+  const cuisines = restaurant.cuisines.filter((cuisine) => !aliases.has(cuisine.trim()));
   const cuisineMeta =
-    restaurant.cuisines.length > 0
-      ? `<p class="meta">${restaurant.cuisines.map((cuisine) => `<span>${esc(cuisine)}</span>`).join('')}</p>`
-      : '';
+    cuisines.length > 0 ? `<p class="meta">${cuisines.map((cuisine) => `<span>${esc(cuisine)}</span>`).join('')}</p>` : '';
   const scoreValue =
     restaurant.score == null
       ? `<dd class="score-empty">暫無評分</dd>`
@@ -245,7 +348,7 @@ function detailHtml(id: string): string {
   const next = nearby.next
     ? `<a class="neighbor next" href="#${detailHash(nearby.next.id)}"><span class="neighbor-kicker">下一間</span><span class="neighbor-name">${esc(nearby.next.name)}</span></a>`
     : `<span></span>`;
-  return `<article class="detail wrap"><a class="back" href="#${esc(lastListHash)}">← 返回目錄</a><p class="kicker">${esc(kicker)}</p><h1 tabindex="-1">${esc(restaurant.name)}</h1>${cuisineMeta}${marksHtml(restaurant, 'marks detail-marks')}<p class="fine mark-note">標記只儲存在這部裝置，不會上傳。</p><p class="lede">${esc(restaurant.address || '未有地址')}</p><dl class="facts"><div><dt>價錢</dt><dd class="fact-num">${esc(restaurant.price)}</dd></div><div><dt>評分</dt>${scoreValue}</div><div><dt>來源</dt><dd>${esc(restaurant.source)}</dd></div></dl>${dishes}${openRice}<p class="fine">資料截至 ${DATA_AS_OF}。營業狀況、價錢同評分以 OpenRice 及店家為準。</p><nav class="neighbors" aria-label="同種類食店">${prev}${next}</nav></article>`;
+  return `<article class="detail wrap"><a class="back" href="#${esc(lastListHash)}">← 返回目錄</a><p class="kicker">${esc(kicker)}</p><h1 tabindex="-1">${esc(restaurant.name)}</h1>${cuisineMeta}${marksHtml(restaurant, 'marks detail-marks')}<p class="fine mark-note">${esc(MARK_NOTE)}</p><p class="lede">${esc(restaurant.address || '未有地址')}</p><dl class="facts"><div><dt>價錢</dt><dd class="fact-num">${esc(restaurant.price)}</dd></div><div><dt>評分</dt>${scoreValue}</div><div><dt>來源</dt><dd>${esc(restaurant.source)}</dd></div></dl>${dishes}${openRice}<p class="fine">資料截至 ${DATA_AS_OF}。營業狀況、價錢同評分以 OpenRice 及店家為準。</p><nav class="neighbors" aria-label="同種類食店">${prev}${next}</nav></article>`;
 }
 
 function titleFor(route: Route): string {
@@ -255,10 +358,10 @@ function titleFor(route: Route): string {
     return restaurant ? `${restaurant.name} · 長沙灣食店目錄` : '找不到這間食店 · 長沙灣食店目錄';
   }
   const bits: string[] = [];
-  if (route.scope === 'like') bits.push('鐘意');
   if (route.scope === 'been') bits.push('食開');
+  if (route.scope === 'dislike') bits.push('唔鐘意');
   if (route.street) bits.push(route.street);
-  if (route.price) bits.push(route.price);
+  if (route.price.length > 0) bits.push(route.price.join('、'));
   if (route.cat) bits.push(route.cat);
   if (route.q.trim()) bits.push(`「${route.q.trim()}」`);
   if (bits.length === 0) return '長沙灣食店目錄';
@@ -298,19 +401,27 @@ function updateChips(route: ListRoute): void {
   } else {
     chips.scrollLeft = prevScroll;
   }
+  requestAnimationFrame(updateChipOverflow);
+}
+
+function togglePrices(current: readonly string[], price: string): string[] {
+  const next = new Set(current);
+  if (next.has(price)) next.delete(price);
+  else next.add(price);
+  return PRICE_BANDS.filter((band) => next.has(band));
 }
 
 function updateRefine(route: ListRoute): void {
   const refine = document.querySelector<HTMLElement>('#refine');
   if (!refine) return;
   const prices = [
-    chip('不限', countMatches(restaurants, { ...route, price: null }, marks), 'data-price=""', route.price === null),
+    chip('不限', scopeCount({ ...route, price: [] }, route.scope), 'data-price=""', route.price.length === 0),
     ...PRICE_BANDS.map((price) =>
       chip(
         price,
-        countMatches(restaurants, { ...route, price }, marks),
+        countMatches(restaurants, { ...route, price: [price] }, marks),
         `data-price="${esc(price)}"`,
-        route.price === price,
+        route.price.includes(price),
       ),
     ),
   ].join('');
@@ -324,21 +435,16 @@ function updateRefine(route: ListRoute): void {
   ].join('');
   const scopes: { scope: Scope; label: string }[] = [
     { scope: 'all', label: '全部' },
-    { scope: 'like', label: '鐘意' },
     { scope: 'been', label: '食開' },
+    { scope: 'dislike', label: '唔鐘意' },
   ];
   const scopeButtons = scopes
     .map(({ scope, label }) =>
-      chip(
-        label,
-        countMatches(restaurants, { ...route, scope }, marks),
-        `data-scope="${scope}"`,
-        route.scope === scope,
-      ),
+      chip(label, scopeCount(route, scope), `data-scope="${scope}"`, route.scope === scope),
     )
     .join('');
   const clear = isDefaultList(route) ? '' : `<button type="button" class="text-btn" data-clear>清除篩選</button>`;
-  refine.innerHTML = `<div class="refine-group"><span class="refine-label" id="price-label">價錢</span><div class="mini-chips" role="group" aria-labelledby="price-label">${prices}</div></div><div class="refine-group"><span class="refine-label" id="street-label">街道</span><select id="street" class="street-select" aria-labelledby="street-label">${streetOptions}</select></div><div class="refine-group"><span class="refine-label" id="scope-label">標記</span><div class="mini-chips" role="group" aria-labelledby="scope-label">${scopeButtons}</div></div><div class="refine-actions"><button type="button" class="btn btn-sm" data-open-pick ${ready ? '' : 'disabled'}>隨機一間</button>${clear}</div>`;
+  refine.innerHTML = `<div class="refine-group"><span class="refine-label" id="price-label">價錢</span><div class="mini-chips" role="group" aria-labelledby="price-label">${prices}</div></div><div class="refine-group"><span class="refine-label" id="street-label">街道</span><select id="street" class="street-select" aria-labelledby="street-label">${streetOptions}</select></div><div class="refine-group"><span class="refine-label" id="scope-label">標記<span class="refine-hint">此篩選內</span></span><div class="mini-chips" role="group" aria-labelledby="scope-label">${scopeButtons}</div></div><div class="refine-actions"><button type="button" class="btn btn-sm" data-open-pick ${ready ? '' : 'disabled'}>隨機一間</button>${clear}</div>`;
 }
 
 function updateChrome(route: Route): void {
@@ -353,14 +459,14 @@ function updateChrome(route: Route): void {
       count.textContent = restaurant ? shortCategory(restaurant.category) : '';
     } else {
       const shown = countMatches(restaurants, route, marks);
-      const suffix = route.scope === 'like' ? '鐘意' : route.scope === 'been' ? '食開' : '';
+      const suffix = route.scope === 'been' ? '食開' : route.scope === 'dislike' ? '唔鐘意' : '';
       count.textContent = suffix ? `顯示 ${shown} 間${suffix}` : `顯示 ${shown} 間`;
     }
   }
   const select = document.querySelector<HTMLSelectElement>('#sort');
   if (select && document.activeElement !== select) select.value = list.sort;
   const input = document.querySelector<HTMLInputElement>('#q');
-  if (input && document.activeElement !== input) input.value = list.q;
+  if (input && document.activeElement !== input && searchTimer === 0 && input.value !== list.q) input.value = list.q;
   const pill = document.querySelector<HTMLAnchorElement>('#home-pill');
   if (pill) {
     const onHome = route.view === 'list' && isDefaultList(route);
@@ -378,7 +484,7 @@ function render(opts: { scroll?: boolean | 'auto' } = {}): void {
   const main = document.querySelector<HTMLElement>('#content');
   if (!main) return;
   if (loadError) {
-    main.innerHTML = `<section class="hero"><div class="hero-art" aria-hidden="true">${heroSvg}</div><div class="wrap hero-copy"><p class="num">00.</p><h1>資料載入失敗</h1><p class="help">${esc(loadError)}請重新整理頁面。</p></div></section>`;
+    main.innerHTML = `<section class="hero hero-slim" aria-hidden="true"><div class="hero-art">${heroSvg}</div></section><div class="wrap intro-copy"><h1 class="empty-title">資料載入失敗</h1><p class="help">${esc(loadError)}請重新整理頁面。</p></div>`;
   } else if (!ready) {
     main.innerHTML = `<p class="state">正在載入食店目錄…</p>`;
   } else if (route.view === 'detail') {
@@ -392,28 +498,33 @@ function render(opts: { scroll?: boolean | 'auto' } = {}): void {
   const scroll = opts.scroll ?? false;
   if (scroll === true) window.scrollTo(0, 0);
   else if (scroll === 'auto' && window.scrollY > 360) window.scrollTo(0, 0);
-  syncBars();
+  syncFilterUi();
+}
+
+function withoutDislike(rows: readonly Restaurant[]): Restaurant[] {
+  return rows.filter((restaurant) => !marks.dislike.includes(restaurant.id));
 }
 
 function poolOf(pool: PickPool): Restaurant[] {
-  if (pool === 'all') return restaurants;
-  if (pool === 'saved') {
-    const ids = new Set([...marks.like, ...marks.been]);
-    return restaurants.filter((restaurant) => ids.has(restaurant.id));
-  }
-  return filterAndSort(restaurants, activeList(), marks);
+  if (pool === 'all') return withoutDislike(restaurants);
+  if (pool === 'saved') return restaurants.filter((restaurant) => marks.been.includes(restaurant.id));
+  const list = activeList();
+  const filtered = filterAndSort(restaurants, list, marks);
+  if (list.scope === 'dislike') return filtered;
+  return withoutDislike(filtered);
 }
 
 function describeFilters(route: ListRoute): string {
   const parts: string[] = [];
-  if (route.scope === 'like') parts.push('鐘意');
-  else if (route.scope === 'been') parts.push('食開');
+  if (route.scope === 'been') parts.push('食開');
+  else if (route.scope === 'dislike') parts.push('唔鐘意');
   if (route.cat) parts.push(route.cat);
-  if (route.price) parts.push(route.price);
+  if (route.price.length > 0) parts.push(route.price.join('、'));
   if (route.street) parts.push(route.street);
   if (route.q.trim()) parts.push(`「${route.q.trim()}」`);
-  if (parts.length === 0) return '目前沒有額外篩選';
-  return parts.map((part) => esc(part)).join(' · ');
+  const base = parts.length === 0 ? '目前沒有額外篩選' : parts.join(' · ');
+  if (route.scope === 'dislike') return base;
+  return `${base} · 不包括唔鐘意`;
 }
 
 function paintPick(): void {
@@ -423,7 +534,7 @@ function paintPick(): void {
   const choices: { id: PickPool; label: string }[] = [
     { id: 'all', label: '全部' },
     { id: 'filters', label: '目前篩選' },
-    { id: 'saved', label: '鐘意同食開' },
+    { id: 'saved', label: '食開' },
   ];
   pools.innerHTML = choices
     .map(({ id, label }) => {
@@ -434,21 +545,21 @@ function paintPick(): void {
     .join('');
   const restaurant = pickId ? (restaurants.find((item) => item.id === pickId) ?? null) : null;
   if (!restaurant) {
-    result.innerHTML = `<h2 class="pick-name">這個範圍沒有食店</h2><p class="help">試下改選全部或目前篩選。鐘意同食開要先標記，先會有得抽。</p>`;
+    result.innerHTML = `<h2 class="pick-name">這個範圍沒有食店</h2><p class="help">試下改選全部、目前篩選或食開。預設唔會抽中唔鐘意的食店。</p>`;
     return;
   }
   const range =
     pickPool === 'filters'
       ? describeFilters(activeList())
       : pickPool === 'saved'
-        ? `鐘意同食開 ${poolOf('saved').length} 間`
-        : `全部 ${restaurants.length} 間`;
+        ? `食開 ${poolOf('saved').length} 間`
+        : `全部 ${poolOf('all').length} 間，已排除唔鐘意`;
   const note = pickNote ? `<p class="fine">${esc(pickNote)}</p>` : '';
   const dishes =
     restaurant.dishes.length > 0
       ? `<p class="excerpt dishes">菜式：${esc(restaurant.dishes.join('、'))}</p>`
       : '';
-  result.innerHTML = `<p class="fine pick-range">${range}</p><h2 class="pick-name">${esc(restaurant.name)}</h2>${metaHtml(restaurant, true)}<p class="excerpt">${esc(restaurant.address || '未有地址')}</p>${dishes}${note}<div class="pick-actions"><button type="button" class="btn" data-pick-again>再抽一次</button><a class="btn btn-ghost" href="#${detailHash(restaurant.id)}">看這間食店</a></div>${marksHtml(restaurant, 'marks pick-marks')}`;
+  result.innerHTML = `<p class="fine pick-range">${esc(range)}</p><h2 class="pick-name">${esc(restaurant.name)}</h2>${metaHtml(restaurant)}<p class="excerpt">${esc(restaurant.address || '未有地址')}</p>${dishes}${note}<div class="pick-actions"><button type="button" class="btn" data-pick-again>再抽一次</button><a class="btn btn-ghost" href="#${detailHash(restaurant.id)}">看這間食店</a></div>${marksHtml(restaurant, 'marks pick-marks')}`;
 }
 
 function drawPick(): void {
@@ -484,14 +595,25 @@ function closePick(restore = true): void {
   if (restore) document.querySelector<HTMLElement>('[data-open-pick]')?.focus();
 }
 
-function toggleMark(kind: 'like' | 'been', id: string): void {
-  marks = { ...marks, [kind]: toggleId(marks[kind], id) };
+function dataSelector(name: string, value: string): string {
+  const escaped = value.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  return `[data-${name}="${escaped}"]`;
+}
+
+function focusSelector(action: MarkAction, id: string): string {
+  const idSel = dataSelector('id', id);
+  if (marks.dislike.includes(id)) return `[data-mark="clear"]${idSel}`;
+  if (action === 'been') return `[data-mark="been"]${idSel}`;
+  return `[data-mark="dislike"]${idSel}`;
+}
+
+function toggleMark(action: MarkAction, id: string): void {
+  marks = applyMark(marks, action, id);
   saveMarks(marks);
   render();
   if (pickOpen) paintPick();
-  const selector = `[data-mark="${kind}"][data-id="${CSS.escape(id)}"]`;
   const root = pickOpen ? document.querySelector('#pick') : document;
-  const again = root?.querySelector<HTMLElement>(selector);
+  const again = root?.querySelector<HTMLElement>(focusSelector(action, id));
   if (again) again.focus();
   else if (!pickOpen) document.querySelector<HTMLElement>('#content')?.focus();
 }
@@ -521,48 +643,52 @@ function bind(): void {
     if (composing) return;
     window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(() => {
-      const base = activeList();
-      go(listHash({ ...base, q: input.value }), 'replace', 'auto');
-    }, 160);
+      searchTimer = 0;
+      go(listHash(draftList()), 'replace', 'auto');
+    }, SEARCH_DEBOUNCE_MS);
+  });
+  input.addEventListener('search', () => {
+    if (composing || input.value !== '') return;
+    goList({ q: '' }, 'push', true);
   });
 
   form?.addEventListener('submit', (event) => {
     event.preventDefault();
-    window.clearTimeout(searchTimer);
-    const base = activeList();
-    go(listHash({ ...base, q: input.value }), 'push', true);
+    goList({ q: input.value }, 'push', true);
   });
 
   chips?.addEventListener('click', (event) => {
-    window.clearTimeout(searchTimer);
     const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-cat]');
     if (!button) return;
     const category = button.dataset.cat || null;
-    const base = activeList();
-    go(listHash({ ...base, cat: category }), 'push', true);
+    goList({ cat: category }, 'push', true);
   });
+  chips?.addEventListener('scroll', () => updateChipOverflow(), { passive: true });
 
   sort?.addEventListener('change', () => {
-    window.clearTimeout(searchTimer);
-    const base = activeList();
-    go(listHash({ ...base, sort: sortValue() }), 'push', true);
+    goList({ sort: sortValue() }, 'push', true);
   });
 
   document.body.addEventListener('change', (event) => {
     const select = event.target as HTMLElement;
     if (!(select instanceof HTMLSelectElement) || select.id !== 'street') return;
-    window.clearTimeout(searchTimer);
-    const base = activeList();
-    go(listHash({ ...base, street: select.value || null }), 'push', true);
+    goList({ street: select.value || null }, 'push', true);
   });
 
   document.body.addEventListener('click', (event) => {
     const target = event.target as HTMLElement;
-    if (target.closest('a, button')) window.clearTimeout(searchTimer);
+    if (target.closest('a[href^="#/r/"]')) window.clearTimeout(searchTimer);
+
+    if (target.closest('#filter-toggle')) {
+      filtersOpen = !filtersOpen;
+      syncFilterUi();
+      return;
+    }
 
     const mark = target.closest<HTMLButtonElement>('[data-mark]');
-    if (mark?.dataset.id && (mark.dataset.mark === 'like' || mark.dataset.mark === 'been')) {
-      toggleMark(mark.dataset.mark, mark.dataset.id);
+    const action = mark?.dataset.mark;
+    if (mark?.dataset.id && (action === 'been' || action === 'dislike' || action === 'clear')) {
+      toggleMark(action, mark.dataset.id);
       return;
     }
     if (target.closest('[data-pick-close]') || target.id === 'pick') {
@@ -589,17 +715,22 @@ function bind(): void {
     }
     const priceBtn = target.closest<HTMLElement>('[data-price]');
     if (priceBtn) {
-      const base = activeList();
-      go(listHash({ ...base, price: priceBtn.dataset.price || null }), 'push', true);
+      const value = priceBtn.dataset.price ?? '';
+      const nextPrices = value ? togglePrices(draftList().price, value) : [];
+      goList({ price: nextPrices }, 'push', true);
+      document.querySelector<HTMLElement>(value ? dataSelector('price', value) : '[data-price=""]')?.focus();
       return;
     }
     const scopeBtn = target.closest<HTMLElement>('[data-scope]');
-    if (scopeBtn?.dataset.scope === 'all' || scopeBtn?.dataset.scope === 'like' || scopeBtn?.dataset.scope === 'been') {
-      const base = activeList();
-      go(listHash({ ...base, scope: scopeBtn.dataset.scope }), 'push', true);
+    if (scopeBtn?.dataset.scope === 'all' || scopeBtn?.dataset.scope === 'been' || scopeBtn?.dataset.scope === 'dislike') {
+      const scope = scopeBtn.dataset.scope;
+      goList({ scope }, 'push', true);
+      document.querySelector<HTMLElement>(`[data-scope="${scope}"]`)?.focus();
       return;
     }
     if (target.closest('[data-clear], #clear-filters')) {
+      window.clearTimeout(searchTimer);
+      searchTimer = 0;
       input.value = '';
       go('/', 'push', true);
       return;
@@ -607,22 +738,28 @@ function bind(): void {
     const street = target.closest<HTMLElement>('[data-street]');
     if (street?.dataset.street) {
       const name = street.dataset.street;
-      const base = activeList();
-      go(listHash({ ...base, street: base.street === name ? null : name }), 'push', true);
+      const base = draftList();
+      goList({ street: base.street === name ? null : name }, 'push', true);
     }
   });
 
   window.addEventListener('hashchange', () => {
     window.clearTimeout(searchTimer);
+    searchTimer = 0;
     if (pickOpen) closePick(false);
     focusHeading = location.hash.startsWith('#/r/');
+    rewriteLegacyHash();
     render({ scroll: true });
   });
 
-  window.addEventListener('resize', syncBars);
+  window.addEventListener('resize', () => {
+    syncBars();
+    updateChipOverflow();
+  });
+  window.matchMedia(NARROW_QUERY).addEventListener('change', syncFilterUi);
 
   window.addEventListener('storage', (event) => {
-    if (event.key !== MARKS_KEY) return;
+    if (event.key !== MARKS_KEY && event.key !== LEGACY_MARKS_KEY) return;
     marks = loadMarks();
     render();
     if (pickOpen) paintPick();
@@ -661,6 +798,7 @@ function bind(): void {
 }
 
 marks = loadMarks();
+rewriteLegacyHash();
 bind();
 render();
 syncBars();
