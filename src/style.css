@@ -495,6 +495,39 @@ svg {
   font-size: 0.86rem;
 }
 
+/* Desktop column is 1120px; keep 價錢、街道、標記、and 隨機一間 on that one row. */
+@media (min-width: 1200px) {
+  .refine {
+    flex-wrap: nowrap;
+    column-gap: 12px;
+  }
+
+  .refine-group,
+  .refine-actions,
+  .mini-chips {
+    flex-wrap: nowrap;
+  }
+
+  .refine-group,
+  .refine-actions {
+    flex: 0 0 auto;
+    gap: 6px;
+  }
+
+  .mini-chips {
+    gap: 4px;
+  }
+
+  .refine .chip.sm {
+    padding-inline: 6px;
+  }
+
+  .btn.btn-sm {
+    min-height: 36px;
+    padding: 6px 14px;
+  }
+}
+
 .hero {
   position: relative;
   background: #fff;
