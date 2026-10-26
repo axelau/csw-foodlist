@@ -10,7 +10,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ybo7W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "明珠海鮮燒烤",
@@ -25,7 +26,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0yju6W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "東CF士多小食店",
@@ -39,7 +41,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0HQSA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "明利茶餐廳",
@@ -51,7 +54,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Kvu000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "世一冰室",
@@ -63,7 +67,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0XQmD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "爆辣冷麵",
@@ -75,7 +80,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ihuD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "開花結果",
@@ -87,7 +93,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0dQ0D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "燒味滷師 (安發大廈)",
@@ -101,7 +108,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0mMqA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "興記豬什專門店",
@@ -113,7 +121,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0FBOD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "太子海鮮菜館",
@@ -128,7 +137,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0DiS600",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "花月冰室 (元州街)",
@@ -140,7 +150,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0nq8D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "炯記餐室",
@@ -152,7 +163,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0npuB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大煲皇小廚",
@@ -166,19 +178,8 @@
         "火鍋"
       ],
       "url": "https://s.openrice.com/QrbS0U38A00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "OK德海南雞飯專門店",
-      "address": "保安道65號美寧中心地下D3號舖",
-      "price": "$50以下",
-      "score": 4.26,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0q48000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "亮仔食堂",
@@ -190,7 +191,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0RNeC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雪山冰廳 (東景大廈)",
@@ -202,33 +204,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS03Qu900",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "世一冰室",
-      "address": "青山道230號地舖",
-      "price": "$51-100",
-      "score": 4.2,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0GACB00",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "御湯皇",
-      "address": "青山道443號地舖",
-      "price": "$50以下",
-      "score": 4.2,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "湯品"
-      ],
-      "url": "https://s.openrice.com/QrbS0Bnq800",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "精記蛋卷",
@@ -240,7 +217,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Yre000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "初麵",
@@ -252,7 +230,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS062uF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "賓墟餐廳",
@@ -264,20 +243,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0D5i000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "喜樂餐飲.教室",
-      "address": "福華街584號地舖",
-      "price": "$51-100",
-      "score": 4.09,
-      "cuisines": [
-        "港式",
-        "西式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS00na800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "寶樹堂涼茶",
@@ -291,7 +258,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0L2m800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "串燒兄妹 (昌暉大廈)",
@@ -305,34 +273,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0D5qD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "大煲皇小廚",
-      "address": "青山道155-181號天悅廣場地下CA6號舖",
-      "price": "$201-400",
-      "score": 4.03,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "火鍋"
-      ],
-      "url": "https://s.openrice.com/QrbS0yfA100",
-      "source": "OpenRice"
-    },
-    {
-      "name": "星廚",
-      "address": "青山道373-379號昭德大廈地下C舖",
-      "price": "$50以下",
-      "score": 4.01,
-      "cuisines": [
-        "港式",
-        "西式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0hQq100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "唐包點 (港鐵長沙灣站)",
@@ -347,7 +289,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0X2G800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "敏華冰廳 (元州商場)",
@@ -359,7 +302,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0PyK500",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "榮發茶餐美食",
@@ -371,7 +315,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS06QK000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "時時樂餐廳",
@@ -383,7 +328,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Qte000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "餃串Party",
@@ -398,7 +344,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0SW8D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "佳記美食 (青山道)",
@@ -410,21 +357,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0REi900",
-      "source": "OpenRice"
-    },
-    {
-      "name": "許願樹美食",
-      "address": "元州街471號昌華閣地下4號舖",
-      "price": "$101-200",
-      "score": 3.81,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "串燒"
-      ],
-      "url": "https://s.openrice.com/QrbS0iyY000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "尼奧餐廳",
@@ -436,7 +370,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0GLK700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "銀龍茶餐廳",
@@ -450,7 +385,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS0xwe900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "甜記餃子",
@@ -464,7 +400,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0S3uC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新華茶餐廳",
@@ -476,19 +413,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS08Gq000",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "金豪粢飯豆漿店",
-      "address": "元州街249號地下",
-      "price": "$50以下",
-      "score": 3.64,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0LrS000",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "金園茶餐廳",
@@ -500,7 +426,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0La8000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "金華美食",
@@ -512,7 +439,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0WCy0W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "醉瓊樓",
@@ -524,22 +452,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0XLK000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "洪慶海鮮燒臘飯店",
-      "address": "青山道303號 (近發祥街)",
-      "price": "$50以下",
-      "score": 3.45,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "海鮮",
-        "燒臘"
-      ],
-      "url": "https://s.openrice.com/QrbS0440000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新匯江美食中心",
@@ -551,7 +465,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0fwW800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "荷里活冰室 (麗閣商場)",
@@ -563,7 +478,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Rly4W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "勤興茶餐室",
@@ -575,7 +491,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0W4C000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "元朗冰室",
@@ -587,7 +504,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0eHW800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "冰室小菜館",
@@ -599,7 +517,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0JKiB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "銀龍茶餐廳",
@@ -613,7 +532,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS0BL4A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "百份百餐廳 (寶熙苑商場)",
@@ -625,7 +545,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0FhO700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "均鴻茶餐廳",
@@ -637,21 +558,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0D9C100",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "華園餃子館",
-      "address": "元洲街471號地下9號舖",
-      "price": "$50以下",
-      "score": 3.26,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "拉麵"
-      ],
-      "url": "https://s.openrice.com/QrbS0YLa000",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "包點先生 (順寧苑)",
@@ -666,7 +574,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0h7S000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "滙發茶餐廳",
@@ -678,7 +587,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS02qG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "好滿足家常菜",
@@ -690,7 +600,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Ma8000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "唐順興燒味",
@@ -704,7 +615,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0PAG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "喜華餐廳",
@@ -716,21 +628,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS08xa900",
-      "source": "OpenRice"
-    },
-    {
-      "name": "華興點心皇",
-      "address": "東京街31號地下",
-      "price": "$50以下",
-      "score": 3.05,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "點心"
-      ],
-      "url": "https://s.openrice.com/QrbS0L48000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "一粥麵 (元州商場)",
@@ -742,7 +641,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yPg5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "蓮姐小食",
@@ -754,7 +654,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0HYmD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "茶樂冰室",
@@ -766,7 +667,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS07mGD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "君日餐廳 (幸福商場)",
@@ -778,7 +680,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ySg000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "肥老虎美味屋",
@@ -790,7 +693,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0hf0000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "牛奶冰室 (喜韻商場)",
@@ -802,7 +706,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0DvKB00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "巴打冰室",
@@ -814,7 +719,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0CAW800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "豆豆冰室",
@@ -826,7 +732,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0sk8C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "蜜桃冰室",
@@ -838,7 +745,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0bGiH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "皇牌冰室 (天悅廣場)",
@@ -850,7 +758,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0PXOB00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "森記粥店 (麗閣商場)",
@@ -864,7 +773,8 @@
         "粥品"
       ],
       "url": "https://s.openrice.com/QrbS0828A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "濠軒餐廳",
@@ -876,7 +786,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0tfi100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三悅冰室",
@@ -888,7 +799,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0RgiF00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "Skew'd",
@@ -902,7 +814,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0uKaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "一樂冰室",
@@ -914,7 +827,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ygq8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "一興餐室",
@@ -926,7 +840,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ANOD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三餸一湯",
@@ -938,7 +853,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0cNmD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "優先生大閘蟹專門店",
@@ -950,7 +866,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0zRi6W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "包點料理",
@@ -965,7 +882,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0KcOF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "呂錦記手撕雞專門店",
@@ -977,7 +895,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0seuH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "唐坊@快樂小廚 (羅氏商業廣場)",
@@ -989,7 +908,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0eOKH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "唐記包點 (海達邨二期)",
@@ -1004,7 +924,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0bbaB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "嗎哪士多",
@@ -1016,7 +937,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0lNuA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大口九楊枝甘露",
@@ -1030,7 +952,8 @@
         "果汁"
       ],
       "url": "https://s.openrice.com/QrbS0D7eF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "尚品",
@@ -1044,7 +967,8 @@
         "山珍海味"
       ],
       "url": "https://s.openrice.com/QrbS0YDy5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "岱民自由餐",
@@ -1056,19 +980,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0rOKD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "廚房仔美食外賣專門店",
-      "address": "永康街41號匯華工廠大廈地下03舖",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0pBG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "廣發燒臘",
@@ -1082,7 +995,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0128A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "御湯皇",
@@ -1096,7 +1010,8 @@
         "湯品"
       ],
       "url": "https://s.openrice.com/QrbS0SAy5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "搞串燒烤",
@@ -1111,19 +1026,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS06tSB00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "新口味餐廳",
-      "address": "順寧道439號順寧居地下",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0jWK200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新記茶檔",
@@ -1135,7 +1039,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0JVm700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "施兄廚房",
@@ -1147,7 +1052,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0C2KF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "昌華美食店",
@@ -1159,7 +1065,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0kl4A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "樓上派對",
@@ -1175,18 +1082,6 @@
       "source": "OpenRice"
     },
     {
-      "name": "洪運正宗圍村盆菜",
-      "address": "福榮街532地舖",
-      "price": "$51-100",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0Joy000",
-      "source": "OpenRice"
-    },
-    {
       "name": "潮興牛什粉麵茶餐廳",
       "address": "青山道316號地舖",
       "price": "$50以下",
@@ -1196,7 +1091,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS02oWH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "燒遙",
@@ -1211,7 +1107,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0zvs8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "牛奶冰室 (SOHO West)",
@@ -1223,7 +1120,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0C4WD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "瑞生美食",
@@ -1235,7 +1133,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yuE400",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "百草園涼茶",
@@ -1249,7 +1148,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0JaG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "盼盼飯堂",
@@ -1261,7 +1161,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0na8H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "真味坊",
@@ -1275,7 +1176,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0UAWD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "福哥茶記",
@@ -1287,7 +1189,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OaWF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "耆樂食堂",
@@ -1299,7 +1202,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0VHy5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "英記",
@@ -1311,7 +1215,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0IwO000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "茶舍 (麗閣商場)",
@@ -1323,7 +1228,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0lPaD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "荷里活冰室",
@@ -1335,19 +1241,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS00geD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "誘營湯",
-      "address": "福榮街535-570號地下",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0IIS900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "賣菜仔",
@@ -1359,7 +1254,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yJm500",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "辣媽美食",
@@ -1371,7 +1267,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0uWiH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金發美食",
@@ -1383,19 +1280,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0beK900",
-      "source": "OpenRice"
-    },
-    {
-      "name": "金豪粢飯豆漿店",
-      "address": "東沙島街167號地下B1號舖",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0DZOA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金馬鐵板之家",
@@ -1408,7 +1294,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0FRmF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金龍小食",
@@ -1420,7 +1307,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS04YeD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "錦鯉冰室",
@@ -1432,7 +1320,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0gsCF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "阿哥小食",
@@ -1444,7 +1333,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0lNiH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "隱世威記",
@@ -1456,7 +1346,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0bmCB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "馬仔冰室",
@@ -1468,7 +1359,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yZ05W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "魚米 (麗閣商場)",
@@ -1480,7 +1372,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ziW5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "粵菜/海鮮": [
@@ -1494,7 +1387,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS08YSH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "文哥廚房",
@@ -1509,7 +1403,8 @@
         "火鍋"
       ],
       "url": "https://s.openrice.com/QrbS0TOGD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "廚哥",
@@ -1522,7 +1417,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OgKD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "大嘴巴",
@@ -1535,7 +1431,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS09BuD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "王子雞花膠雞湯米線",
@@ -1550,7 +1447,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0SZaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "串皇",
@@ -1566,23 +1464,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0pSqC00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "匠心手作",
-      "address": "順寧道65號地舖",
-      "price": "$51-100",
-      "score": 4.5,
-      "cuisines": [
-        "粵菜 (廣東)",
-        "港式"
-      ],
-      "dishes": [
-        "粉麵/米線",
-        "雲吞/餃子"
-      ],
-      "url": "https://s.openrice.com/QrbS0Qg4C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "品味餃",
@@ -1597,20 +1480,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS07pmD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "葉公館",
-      "address": "青山道255號恆輝閣1樓",
-      "price": "$101-200",
-      "score": 4.37,
-      "cuisines": [
-        "粵菜 (廣東)",
-        "川菜 (四川)"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0IvWB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "八月茶室 (元州街)",
@@ -1623,7 +1494,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0I8CB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "艷姐粉麵牛腩之家",
@@ -1637,7 +1509,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0vSC000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "潮興正宗潮州菜館",
@@ -1649,7 +1522,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yui600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "客家人",
@@ -1661,7 +1535,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0bA0900",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "食鮮港",
@@ -1673,7 +1548,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0tCG900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新贊記點心皇",
@@ -1689,7 +1565,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0bTmG00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "明順海鮮菜館",
@@ -1704,7 +1581,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0BGKA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "香港仔潮州海鮮酒家",
@@ -1719,7 +1597,8 @@
         "海鮮"
       ],
       "url": "https://s.openrice.com/QrbS0WMKA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "碧儷苑·精點粵菜 (羅氏商業廣場)",
@@ -1735,20 +1614,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0mzW500",
-      "source": "OpenRice"
-    },
-    {
-      "name": "聚友",
-      "address": "順寧道29-39號地下D舖",
-      "price": "$101-200",
-      "score": 4.02,
-      "cuisines": [
-        "粵菜 (廣東)",
-        "港式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0zgM100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "明興石磨腸粉",
@@ -1760,7 +1627,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0n6m900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "星公館",
@@ -1774,7 +1642,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0CveC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "錦記鹵鵝店",
@@ -1788,7 +1657,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS043u000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "平發潮洲館",
@@ -1801,7 +1671,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0mgm800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "佛友源素食",
@@ -1816,7 +1687,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS09xy000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大中華飯店",
@@ -1830,7 +1702,8 @@
         "海鮮"
       ],
       "url": "https://s.openrice.com/QrbS0r30D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "棠棠居海鮮菜館",
@@ -1845,7 +1718,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0N3O900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "永隆正宗潮州滷水",
@@ -1857,7 +1731,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0eZy000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "袋記粥店",
@@ -1872,7 +1747,8 @@
         "粥品"
       ],
       "url": "https://s.openrice.com/QrbS01TO900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "銀城金閣海鮮廚房",
@@ -1884,7 +1760,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS02oGC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金翠苑",
@@ -1897,7 +1774,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0cECB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "周記醬料",
@@ -1909,7 +1787,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ZqiA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "歡樂大排檔",
@@ -1925,7 +1804,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0I8CC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "包點超人",
@@ -1939,7 +1819,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS02seB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "潮興正宗打冷小廚",
@@ -1951,7 +1832,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0vkW700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新耀榮粥店",
@@ -1967,34 +1849,8 @@
         "粥品"
       ],
       "url": "https://s.openrice.com/QrbS0Foi000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "紅廚",
-      "address": "福榮街542 號地下",
-      "price": "$201-400",
-      "score": 3.45,
-      "cuisines": [
-        "粵菜 (廣東)",
-        "客家菜"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0S7e100",
-      "source": "OpenRice"
-    },
-    {
-      "name": "大中華飯店",
-      "address": "福榮街539號地舖",
-      "price": "$101-200",
-      "score": 3.44,
-      "cuisines": [
-        "粵菜 (廣東)"
-      ],
-      "dishes": [
-        "海鮮"
-      ],
-      "url": "https://s.openrice.com/QrbS0Iaa000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "洪慶大飯店",
@@ -2010,7 +1866,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0oRK900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "永春堂涼茶",
@@ -2024,7 +1881,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0ZA4000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "德馨苑海鮮酒家",
@@ -2038,7 +1896,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0oAy4W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "鴻福堂",
@@ -2053,7 +1912,8 @@
         "藥膳"
       ],
       "url": "https://s.openrice.com/QrbS0cSa000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "龍興燒臘茶餐廳",
@@ -2067,7 +1927,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS03F4800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "海麗閣海鮮酒家",
@@ -2079,7 +1940,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0TTeA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "星月樓",
@@ -2093,7 +1955,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0Jlm800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "江湖花甲粉",
@@ -2106,19 +1969,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0BtaD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "新華海鮮飯店",
-      "address": "保安道325-329號保安道市政大廈3樓CF8號舖",
-      "price": "$101-200",
-      "score": 3.17,
-      "cuisines": [
-        "粵菜 (廣東)"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0V7O900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "冠華粥品店",
@@ -2132,7 +1984,8 @@
         "粥品"
       ],
       "url": "https://s.openrice.com/QrbS0h7W000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "龍寶酒家",
@@ -2146,7 +1999,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0qpO000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "經典廚房",
@@ -2161,7 +2015,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0y6C300",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "華興點心皇",
@@ -2175,7 +2030,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0Iys3W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "超人燒鵝",
@@ -2190,7 +2046,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0Mz45W0",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "海悅海鮮酒家",
@@ -2204,7 +2061,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS09RuA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "包任你點",
@@ -2220,7 +2078,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0Z50800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "棋哥燒鵝",
@@ -2235,7 +2094,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS01waA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "富軒",
@@ -2249,7 +2109,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS05FuB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "朱敏記大牌檔",
@@ -2263,7 +2124,8 @@
         "海鮮"
       ],
       "url": "https://s.openrice.com/QrbS0Cb8D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "仁和堂",
@@ -2277,7 +2139,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0KI8A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "任點小廚",
@@ -2289,7 +2152,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0WViC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "佳運樓酒家",
@@ -2301,19 +2165,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0B8qD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "厚興瑜記手撕雞",
-      "address": "永隆街3號永隆大廈",
-      "price": "$51-100",
-      "score": null,
-      "cuisines": [
-        "粵菜 (廣東)"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0XPe100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "厚興瑜記手撕雞 (發祥街)",
@@ -2325,7 +2178,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0QRW700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "善福堂",
@@ -2339,21 +2193,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0PPW700",
-      "source": "OpenRice"
-    },
-    {
-      "name": "善福堂",
-      "address": "昌華街23號富華廣場地下6號舖",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "粵菜 (廣東)"
-      ],
-      "dishes": [
-        "涼茶/龜苓膏"
-      ],
-      "url": "https://s.openrice.com/QrbS07Py000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "喜運來點心專門店",
@@ -2367,7 +2208,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0KoKF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "回味谷",
@@ -2380,7 +2222,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0A4CH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "國記粵香居",
@@ -2394,7 +2237,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0kLy8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "安定堂涼茶",
@@ -2408,7 +2252,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS03viD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新寧茶記",
@@ -2421,7 +2266,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OJ8H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新瑞興燒味",
@@ -2435,7 +2281,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0OAG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新華海鮮飯店",
@@ -2447,7 +2294,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0rF0C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "添寶手撕雞 (海達街市)",
@@ -2459,7 +2307,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0MPWB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "焯記鹵水",
@@ -2473,7 +2322,8 @@
         "燒臘"
       ],
       "url": "https://s.openrice.com/QrbS0BmmD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "益鮮美菜館",
@@ -2486,7 +2336,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OQG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "美滿會鵲局小菜",
@@ -2498,7 +2349,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Nhy000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雞姐把關·無骨海南雞",
@@ -2511,7 +2363,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0WdSD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "霓虹獸點心館",
@@ -2526,7 +2379,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0GaWH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "香港仔潮州海鮮酒家",
@@ -2538,7 +2392,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0GMCA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "駿逸薈",
@@ -2551,19 +2406,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Eki800",
-      "source": "OpenRice"
-    },
-    {
-      "name": "鳳翔清遠雞",
-      "address": "發祥街9-11號地下2號舖",
-      "price": "$51-100",
-      "score": null,
-      "cuisines": [
-        "粵菜 (廣東)"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0BUW600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "鴻景堂涼茶",
@@ -2577,7 +2421,8 @@
         "涼茶/龜苓膏"
       ],
       "url": "https://s.openrice.com/QrbS0Zg4000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "龍寶酒家",
@@ -2603,7 +2448,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OPqC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三代目 (SOHO West)",
@@ -2618,7 +2464,8 @@
         "烏冬"
       ],
       "url": "https://s.openrice.com/QrbS0OC8D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "極之拉麵",
@@ -2632,35 +2479,8 @@
         "拉麵"
       ],
       "url": "https://s.openrice.com/QrbS0gx0C00",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "鳥海山鐵板燒",
-      "address": "昌華街23號富華廣場地下18號舖",
-      "price": "$201-400",
-      "score": 4.48,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [
-        "鐵板燒"
-      ],
-      "url": "https://s.openrice.com/QrbS0ZBaA00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "大丈夫食堂",
-      "address": "福榮街541號地下",
-      "price": "$51-100",
-      "score": 4.3,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [
-        "壽司/刺身"
-      ],
-      "url": "https://s.openrice.com/QrbS0q6i800",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "沖繩二段料理 (麗新商業中心)",
@@ -2672,7 +2492,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0NZWF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大丈夫食堂",
@@ -2686,7 +2507,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0es4B00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "新幹線刺身外賣專門店",
@@ -2700,7 +2522,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0zcE300",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "活水和風食堂",
@@ -2712,21 +2535,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0rAS900",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "金鮨",
-      "address": "兼善里44號地下A3號舖",
-      "price": "$101-200",
-      "score": 4.08,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [
-        "壽司/刺身"
-      ],
-      "url": "https://s.openrice.com/QrbS0wxC200",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "海老名沾麵",
@@ -2740,7 +2550,8 @@
         "拉麵"
       ],
       "url": "https://s.openrice.com/QrbS0wgC600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "元気寿司 (泓景滙商場)",
@@ -2754,7 +2565,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0FPq600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "元気寿司 (元州商場)",
@@ -2768,19 +2580,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0jrC700",
-      "source": "OpenRice"
-    },
-    {
-      "name": "OKA's Catering",
-      "address": "福華街544號地下B號",
-      "price": "$51-100",
-      "score": 3.43,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0FQm600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "元祖和風食堂虎藏",
@@ -2792,7 +2593,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS04hS800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "櫻羽居",
@@ -2806,7 +2608,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0Avu200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "鮨芝屋",
@@ -2820,7 +2623,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS01r0H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Kiji Bakery",
@@ -2834,7 +2638,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS09nmH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "亀吉輕食店",
@@ -2846,7 +2651,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0joSH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "六朗亭季節料理居酒屋",
@@ -2861,7 +2667,8 @@
         "廚師發辦"
       ],
       "url": "https://s.openrice.com/QrbS0ce0H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "山崎麵飽",
@@ -2875,21 +2682,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0CnqH00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "新幹線刺身外賣專門店",
-      "address": "元州街450-464號寶華閣地下3號舖",
-      "price": "$101-200",
-      "score": null,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [
-        "壽司/刺身"
-      ],
-      "url": "https://s.openrice.com/QrbS0XWy0W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "橦",
@@ -2903,7 +2697,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0DNGH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "橫濱家系ラーメン野中家",
@@ -2917,21 +2712,8 @@
         "拉麵"
       ],
       "url": "https://s.openrice.com/QrbS0yBS8W0",
-      "source": "OpenRice"
-    },
-    {
-      "name": "櫻羽居",
-      "address": "青山道202號興隆大廈1號",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "日本菜"
-      ],
-      "dishes": [
-        "壽司/刺身"
-      ],
-      "url": "https://s.openrice.com/QrbS0P7W000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "迷日店",
@@ -2943,7 +2725,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0EmKH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "閒行地",
@@ -2955,7 +2738,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yBG5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "阪神",
@@ -2969,7 +2753,8 @@
         "鐵板燒"
       ],
       "url": "https://s.openrice.com/QrbS0rn4C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "食物實驗室",
@@ -2983,7 +2768,8 @@
         "拉麵"
       ],
       "url": "https://s.openrice.com/QrbS0csy6W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "點鮨壽司",
@@ -3013,7 +2799,8 @@
         "韓式炸雞"
       ],
       "url": "https://s.openrice.com/QrbS0cTSC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "SUN HARU (青華閣)",
@@ -3027,7 +2814,8 @@
         "韓式炸雞"
       ],
       "url": "https://s.openrice.com/QrbS0zHA8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "會長之家烤肉",
@@ -3042,7 +2830,8 @@
         "韓燒"
       ],
       "url": "https://s.openrice.com/QrbS0bPeC00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "Terrace in seaside (SOHO West)",
@@ -3055,21 +2844,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0rKSD00",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "SUN HARU (順寧道)",
-      "address": "順寧道65號地舖",
-      "price": "$51-100",
-      "score": 4.29,
-      "cuisines": [
-        "韓國菜"
-      ],
-      "dishes": [
-        "韓式炸雞"
-      ],
-      "url": "https://s.openrice.com/QrbS0IYaB00",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "愛瑪小屋",
@@ -3081,7 +2857,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0ms0C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Schoodlesの研究所",
@@ -3095,7 +2872,8 @@
         "拉麵"
       ],
       "url": "https://s.openrice.com/QrbS07pOH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "韓食媽媽",
@@ -3107,7 +2885,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS09OqD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "泰國菜": [
@@ -3121,7 +2900,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Nt4D00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "孖女廚房泰好味",
@@ -3133,7 +2913,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0e7mD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "美味的泰國菜",
@@ -3145,7 +2926,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0DeaD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "金象",
@@ -3157,7 +2939,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0hYKF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "泰好運",
@@ -3172,7 +2955,8 @@
         "咖喱"
       ],
       "url": "https://s.openrice.com/QrbS03le800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Soi Eat Thai Cuisine",
@@ -3184,7 +2968,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS087q800",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "泰和味",
@@ -3199,7 +2984,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0bIi800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "喜泰味",
@@ -3215,7 +3001,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0J74A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雞仔去骨海南雞專門店 (青山道)",
@@ -3228,7 +3015,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0XIGA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雞仔去骨海南雞專門店 (靄華大廈)",
@@ -3241,7 +3029,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0IM4800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "I'm Thai",
@@ -3253,7 +3042,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0zX47W0",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "越MAMATHAI",
@@ -3265,7 +3055,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0gfOC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "泰叻 (順景華庭)",
@@ -3280,7 +3071,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0rOy600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "泰禾美",
@@ -3292,31 +3084,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0EYuH00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "金泰文泰國菜",
-      "address": "福榮街218號美居中心4座地下41A號舖",
-      "price": "$51-100",
-      "score": null,
-      "cuisines": [
-        "泰國菜"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0N1GB00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "金泰館",
-      "address": "保安道325-329號保安道市政大廈2樓CFS19號舖",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "泰國菜"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS06x8A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "台灣菜": [
@@ -3332,7 +3101,8 @@
         "台式飲品"
       ],
       "url": "https://s.openrice.com/QrbS0No0F00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "獅子茶舍",
@@ -3346,7 +3116,8 @@
         "台式飲品"
       ],
       "url": "https://s.openrice.com/QrbS0y965W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "茶井奶蓋專門",
@@ -3361,7 +3132,8 @@
         "果汁"
       ],
       "url": "https://s.openrice.com/QrbS0vdC900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "煮茶",
@@ -3376,7 +3148,8 @@
         "果汁"
       ],
       "url": "https://s.openrice.com/QrbS0m2S900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "手作功夫茶 (李鄭屋商場)",
@@ -3390,7 +3163,8 @@
         "台式飲品"
       ],
       "url": "https://s.openrice.com/QrbS0IgCA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "手作功夫茶 (幸福商場)",
@@ -3404,7 +3178,8 @@
         "台式飲品"
       ],
       "url": "https://s.openrice.com/QrbS0rQ4A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "貢茶 (映築)",
@@ -3418,7 +3193,8 @@
         "台式飲品"
       ],
       "url": "https://s.openrice.com/QrbS0lPuD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "開台料",
@@ -3430,7 +3206,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0QuGH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "川菜/中菜": [
@@ -3444,7 +3221,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0EbaC00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "魚你相聚",
@@ -3456,7 +3234,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0OVGB00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "馬宮主",
@@ -3468,7 +3247,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0awCC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "嚥宮川粵館",
@@ -3482,7 +3262,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS0AmaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "香辣鮮",
@@ -3497,7 +3278,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0RkGA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "莆鮮味滷麵",
@@ -3511,19 +3293,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS03nWC00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "尚小館",
-      "address": "蘇屋順寧道長發街17號地舖",
-      "price": "$50以下",
-      "score": 3.92,
-      "cuisines": [
-        "滬菜 (上海)"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0JK0800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "多麵館",
@@ -3537,7 +3308,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0HouD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "麻辣川米線",
@@ -3551,21 +3323,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0gIe000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "山東餃子館",
-      "address": "東京街40-42號地下E號舖",
-      "price": "$50以下",
-      "score": 3.55,
-      "cuisines": [
-        "鲁菜 (山東)"
-      ],
-      "dishes": [
-        "雲吞/餃子"
-      ],
-      "url": "https://s.openrice.com/QrbS0bZG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "川味美食",
@@ -3579,7 +3338,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS01AW100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "古城餛飩",
@@ -3593,7 +3353,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0fAG900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "小鮮辣",
@@ -3607,7 +3368,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0V7CC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "山東餃子館",
@@ -3621,7 +3383,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0fcqH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "西式/咖啡店": [
@@ -3638,7 +3401,8 @@
         "All Day Breakfast"
       ],
       "url": "https://s.openrice.com/QrbS0xGeH00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "迦拿",
@@ -3650,7 +3414,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Kp8H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "We Time Cafe",
@@ -3662,7 +3427,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0AKaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "I'M THIRSTY",
@@ -3674,7 +3440,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0IeSD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "齋啡",
@@ -3689,7 +3456,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS0oa8F00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "La Barra Tapas Spanish Restaurant",
@@ -3701,7 +3469,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0JDmA00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "Boholic",
@@ -3713,7 +3482,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0dZaA00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "High Bar by Mak's Beer",
@@ -3727,7 +3497,8 @@
         "酒"
       ],
       "url": "https://s.openrice.com/QrbS0jJCD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "中華豆花麵",
@@ -3739,22 +3510,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0LH8H00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "活饌 - 輕食社企",
-      "address": "長沙灣道1-5號長勝大廈地下E1號舖",
-      "price": "$51-100",
-      "score": 4.3,
-      "cuisines": [
-        "西式"
-      ],
-      "dishes": [
-        "果汁",
-        "沙律"
-      ],
-      "url": "https://s.openrice.com/QrbS0bnOB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "脆味批",
@@ -3768,21 +3525,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0ZaOB00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "白千層",
-      "address": "順寧道50號東寶閣地下6號舖",
-      "price": "$50以下",
-      "score": 4.23,
-      "cuisines": [
-        "西式"
-      ],
-      "dishes": [
-        "果汁"
-      ],
-      "url": "https://s.openrice.com/QrbS0htaA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三寶素食",
@@ -3796,7 +3540,8 @@
         "素食"
       ],
       "url": "https://s.openrice.com/QrbS0CoiD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "% Arabica (SOHO West)",
@@ -3808,7 +3553,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0G5WD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "LUNGO",
@@ -3820,7 +3566,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yi6500",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Mecca Restaurant",
@@ -3835,19 +3582,8 @@
         "咖喱"
       ],
       "url": "https://s.openrice.com/QrbS0fUu700",
-      "source": "OpenRice"
-    },
-    {
-      "name": "哈欠",
-      "address": "東沙島街149-151號地舖",
-      "price": "$51-100",
-      "score": 4.04,
-      "cuisines": [
-        "西式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0Lzk5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Contrast",
@@ -3859,7 +3595,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Oa0A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Try My Bread (營盤街)",
@@ -3873,32 +3610,8 @@
         "三文治"
       ],
       "url": "https://s.openrice.com/QrbS0RF0900",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "浮島食屋",
-      "address": "順寧道50號東寶閣地下6號舖",
-      "price": "$50以下",
-      "score": 3.93,
-      "cuisines": [
-        "西式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0ez84W0",
-      "source": "OpenRice"
-    },
-    {
-      "name": "Coffee Question",
-      "address": "褔華街588號地下B號舖",
-      "price": "$51-100",
-      "score": 3.89,
-      "cuisines": [
-        "意大利菜",
-        "西式"
-      ],
-      "dishes": [],
-      "url": "https://s.openrice.com/QrbS0ONy3W0",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "角樂",
@@ -3912,7 +3625,8 @@
         "All Day Breakfast"
       ],
       "url": "https://s.openrice.com/QrbS0Z68C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "SOS CSW",
@@ -3924,7 +3638,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0kduC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "趣意廚 (順景華庭)",
@@ -3938,7 +3653,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0bzS3W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "61E Coffee",
@@ -3950,21 +3666,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0mDy5W0",
-      "source": "OpenRice"
-    },
-    {
-      "name": "What's Cafe",
-      "address": "營盤街147號天悅廣場地下B2號舖",
-      "price": "$50以下",
-      "score": 3.63,
-      "cuisines": [
-        "西式"
-      ],
-      "dishes": [
-        "薄餅"
-      ],
-      "url": "https://s.openrice.com/QrbS07N4800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "愛群餐廳",
@@ -3976,21 +3679,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0yWI000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "脆味批",
-      "address": "幸福邨幸福商場地下G2號舖",
-      "price": "$51-100",
-      "score": 2.47,
-      "cuisines": [
-        "意大利菜"
-      ],
-      "dishes": [
-        "薄餅"
-      ],
-      "url": "https://s.openrice.com/QrbS0eEW200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Dough Bros Pizza & Doughnuts (瑜悦)",
@@ -4004,7 +3694,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0ekCG00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "La Barra Takeaway",
@@ -4016,7 +3707,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0LPWH00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "Waiting For … Bagel",
@@ -4030,7 +3722,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0fbeH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Wow malimali home",
@@ -4042,7 +3735,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0nm4B00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "哈妃",
@@ -4054,7 +3748,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS01C8B00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "喜樂餐飲烘焙",
@@ -4066,7 +3761,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0Rf4H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "太平洋酒吧 (海旭閣)",
@@ -4080,7 +3776,8 @@
         "酒"
       ],
       "url": "https://s.openrice.com/QrbS0Pq4000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "峻源國際集團有限公司",
@@ -4092,7 +3789,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS000m900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新基裕",
@@ -4104,7 +3802,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0hhqB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "燊峰酒窖",
@@ -4118,7 +3817,8 @@
         "酒"
       ],
       "url": "https://s.openrice.com/QrbS0OV0100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "萊茵吧",
@@ -4132,7 +3832,8 @@
         "酒"
       ],
       "url": "https://s.openrice.com/QrbS0dg0000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "超級健美食品",
@@ -4147,7 +3848,8 @@
         "沙律"
       ],
       "url": "https://s.openrice.com/QrbS0SraB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "火鍋": [
@@ -4165,7 +3867,8 @@
         "雞煲"
       ],
       "url": "https://s.openrice.com/QrbS0vWeH00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "小肥羊·迴轉火鍋",
@@ -4180,7 +3883,8 @@
         "火鍋"
       ],
       "url": "https://s.openrice.com/QrbS0fhqD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "東京の味",
@@ -4196,22 +3900,8 @@
         "任食/放題"
       ],
       "url": "https://s.openrice.com/QrbS0GEuC00",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "靚雞煲",
-      "address": "東京街12號麗閣商場15-16號舖",
-      "price": "$101-200",
-      "score": 3.97,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "火鍋",
-        "雞煲"
-      ],
-      "url": "https://s.openrice.com/QrbS0gtC200",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "火滾肥牛海鮮火鍋專門店",
@@ -4226,21 +3916,8 @@
         "海鮮"
       ],
       "url": "https://s.openrice.com/QrbS02iG000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "Super大中華火鍋",
-      "address": "青山道413號東景大廈1樓",
-      "price": "$101-200",
-      "score": 3.64,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "火鍋"
-      ],
-      "url": "https://s.openrice.com/QrbS0Cgi200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金獎藥膳椒麻雞",
@@ -4268,7 +3945,8 @@
         "火鍋"
       ],
       "url": "https://s.openrice.com/QrbS0hKm700",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     }
   ],
   "粉麵/米線": [
@@ -4284,7 +3962,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0GuaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "魔記車仔麵檔",
@@ -4298,7 +3977,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0SBOF00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三五碗車仔麵",
@@ -4313,22 +3993,8 @@
         "串燒"
       ],
       "url": "https://s.openrice.com/QrbS0MtuD00",
-      "source": "OpenRice + Google/目錄交叉"
-    },
-    {
-      "name": "日日面",
-      "address": "昌華街38號麗寶花園地下38號舖",
-      "price": "$50以下",
-      "score": 4.47,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "車仔麵",
-        "粉麵/米線"
-      ],
-      "url": "https://s.openrice.com/QrbS0x9SA00",
-      "source": "OpenRice"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "6 DEE米線屋 (青山道)",
@@ -4342,7 +4008,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0BkCC00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "樂園魚旦專家 (幸福商場)",
@@ -4358,21 +4025,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0XzC5W0",
-      "source": "OpenRice"
-    },
-    {
-      "name": "越食",
-      "address": "青山道413號東景大廈地下1B號舖",
-      "price": "$51-100",
-      "score": 4.33,
-      "cuisines": [
-        "越南菜"
-      ],
-      "dishes": [
-        "粉麵/米線"
-      ],
-      "url": "https://s.openrice.com/QrbS0kKiA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "好味餃子店",
@@ -4387,7 +4041,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0MDqA00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "肥mo車仔麵",
@@ -4401,22 +4056,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS05VK800",
-      "source": "OpenRice"
-    },
-    {
-      "name": "滕王閣",
-      "address": "東京街56至58號地舖",
-      "price": "$51-100",
-      "score": 4.27,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "車仔麵",
-        "素食"
-      ],
-      "url": "https://s.openrice.com/QrbS0YYm900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "兄妹越南粉",
@@ -4430,7 +4071,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0ymG600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "毛記飯堂",
@@ -4445,7 +4087,8 @@
         "甜品/糖水"
       ],
       "url": "https://s.openrice.com/QrbS0GV0G00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "森記牛雜粉麵",
@@ -4460,37 +4103,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0PEa900",
-      "source": "OpenRice"
-    },
-    {
-      "name": "萍姐美食",
-      "address": "青山道380號和興大廈地舖",
-      "price": "$50以下",
-      "score": 4.13,
-      "cuisines": [
-        "川菜 (四川)"
-      ],
-      "dishes": [
-        "車仔麵",
-        "串燒"
-      ],
-      "url": "https://s.openrice.com/QrbS0Ffy000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "甜記餃子",
-      "address": "昌華街23號富華廣場19號地舖",
-      "price": "$51-100",
-      "score": 4.12,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "粉麵/米線",
-        "雲吞/餃子"
-      ],
-      "url": "https://s.openrice.com/QrbS05ze400",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "一鍋雞",
@@ -4504,7 +4118,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS012GC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "車仔麵皇",
@@ -4518,7 +4133,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0sQK000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "梅花邨小館",
@@ -4532,7 +4148,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0yFm3W0",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "求奇點",
@@ -4546,7 +4163,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0rUm600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "德發茶餐廳",
@@ -4560,7 +4178,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0usK000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "興發麵家",
@@ -4574,21 +4193,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0iaS000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "新記越式牛肉粉",
-      "address": "青山道349號地舖",
-      "price": "$50以下",
-      "score": 3.85,
-      "cuisines": [
-        "越南菜"
-      ],
-      "dishes": [
-        "粉麵/米線"
-      ],
-      "url": "https://s.openrice.com/QrbS01uS200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "合成粥粉麵",
@@ -4603,7 +4209,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0hvi000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "一興粉麵",
@@ -4618,7 +4225,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0nU8900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "裕一品四川雲南米線",
@@ -4633,7 +4241,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0hRG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雲桂香米線專門店",
@@ -4648,7 +4257,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS00JSA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "明德清湯腩",
@@ -4663,7 +4273,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS054WA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "德記粉麵茶餐廳",
@@ -4677,21 +4288,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0Jq8000",
-      "source": "OpenRice"
-    },
-    {
-      "name": "雲南風味小鍋米線",
-      "address": "福榮街573號地舖",
-      "price": "$50以下",
-      "score": 3.72,
-      "cuisines": [
-        "滇菜 (雲南)"
-      ],
-      "dishes": [
-        "粉麵/米線"
-      ],
-      "url": "https://s.openrice.com/QrbS046u700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "鴻運車仔麵",
@@ -4705,7 +4303,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0r3O000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "囍麵",
@@ -4735,7 +4334,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0E6S900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "越泰軒",
@@ -4750,7 +4350,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0Udq700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "順豐麵家",
@@ -4764,7 +4365,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0q44000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "南記粉麵 (元州商場)",
@@ -4780,7 +4382,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0aY8A00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "譚仔三哥米線 (元州商場)",
@@ -4794,7 +4397,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0MFGC00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "西少爺",
@@ -4808,7 +4412,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0bpWC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "坤記竹昇麵",
@@ -4823,7 +4428,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0Yy2000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "師傅仔 (金碧閣)",
@@ -4837,7 +4443,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0yGG3W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雲南老巷",
@@ -4851,7 +4458,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0qkK700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "笑金蝦粥麵",
@@ -4866,7 +4474,8 @@
         "粥品"
       ],
       "url": "https://s.openrice.com/QrbS0TmiC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "金園粉麵店",
@@ -4880,7 +4489,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0Z5K000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "譚仔雲南米線 (金球閣)",
@@ -4894,7 +4504,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0c2O000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "君好粉麵專家",
@@ -4908,7 +4519,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0ZrK000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "香港仔正宗魚蛋王",
@@ -4922,7 +4534,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0LriC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "日日面",
@@ -4937,7 +4550,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0VcSD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "囍記車仔麵",
@@ -4951,7 +4565,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS0Ln4H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "壹碗佰味",
@@ -4965,23 +4580,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0iGCH00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "外婆辣酒米線專門店",
-      "address": "青山道413號創食薈1樓14號舖",
-      "price": "$51-100",
-      "score": null,
-      "cuisines": [
-        "港式",
-        "川菜 (四川)"
-      ],
-      "dishes": [
-        "粉麵/米線",
-        "烏冬"
-      ],
-      "url": "https://s.openrice.com/QrbS0MaWA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "富貴粉麵",
@@ -4996,7 +4596,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0hFeG00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "幸福麵館",
@@ -5010,7 +4611,8 @@
         "車仔麵"
       ],
       "url": "https://s.openrice.com/QrbS05YOH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新滋味軒",
@@ -5024,7 +4626,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0BLq700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "榮記麵家",
@@ -5038,7 +4641,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS0Qq4000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "譚仔三哥米線",
@@ -5067,7 +4671,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0QmCH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "雲在線小鍋米線紅薯粉",
@@ -5081,7 +4686,8 @@
         "粉麵/米線"
       ],
       "url": "https://s.openrice.com/QrbS08uiH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "快餐/連鎖": [
@@ -5095,7 +4701,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0nRy6W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "麥當勞 (蘇屋商場)",
@@ -5109,19 +4716,21 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0uWCA00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "急便丼",
       "address": "元州街162-188號天悅廣場地下A4號舖",
       "price": "$50以下",
-      "score": 4.47,
+      "score": 4.48,
       "cuisines": [
         "日本菜"
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0DzA5W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "家湯溫暖",
@@ -5136,7 +4745,8 @@
         "沙律"
       ],
       "url": "https://s.openrice.com/QrbS08tCB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "MOS Burger (麗閣邨)",
@@ -5150,7 +4760,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0Wd8A00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "快樂蜂 (家壹)",
@@ -5165,7 +4776,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0q50B00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "意樂餐廳 (寶熙苑商場)",
@@ -5178,7 +4790,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS05H8800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "麥當勞 (幸福商場)",
@@ -5192,7 +4805,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS007CA00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "麥當勞 (美居中心)",
@@ -5206,7 +4820,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0YLK000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "麥當勞 (元州街)",
@@ -5220,7 +4835,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0mGW000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "薩莉亞意式餐廳 (喜薈商場)",
@@ -5234,7 +4850,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0ANO800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "星巴克咖啡",
@@ -5246,7 +4863,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0AxmB00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "八方雲集鍋貼水餃專門店 (元州商場)",
@@ -5260,7 +4878,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0Ika100",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大快活 (喜薈)",
@@ -5272,7 +4891,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0nIu800",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "大家樂 (元州商場)",
@@ -5286,7 +4906,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS0oK4800",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "君戶鍋貼大王",
@@ -5301,7 +4922,8 @@
         "雲吞/餃子"
       ],
       "url": "https://s.openrice.com/QrbS0BZi000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "肯德基家鄉雞 (KFC)",
@@ -5313,7 +4935,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0mPi600",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "麥當勞 (瑞麗閣)",
@@ -5327,7 +4950,8 @@
         "漢堡包"
       ],
       "url": "https://s.openrice.com/QrbS0mWW000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "意樂餐廳 (幸福商場)",
@@ -5340,7 +4964,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0asGA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大家樂 (幸福商場)",
@@ -5354,7 +4979,8 @@
         "無肉餐單"
       ],
       "url": "https://s.openrice.com/QrbS0Qyi100",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "美心MX (蘇屋商場)",
@@ -5366,7 +4992,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0YZeC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "必勝客 (順景華庭)",
@@ -5380,7 +5007,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0qr0000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "爭鮮迴轉壽司 (元州商場)",
@@ -5394,7 +5022,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0axa900",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "大快活 (SOHO West)",
@@ -5406,7 +5035,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0XfKD00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "必勝客 (幸福商場)",
@@ -5420,7 +5050,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0ofmD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "爭鮮外帶壽司 (港鐵長沙灣站)",
@@ -5434,7 +5065,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS09IaH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "華御結 (港鐵長沙灣站)",
@@ -5448,7 +5080,8 @@
         "壽司/刺身"
       ],
       "url": "https://s.openrice.com/QrbS0jmqC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "薩莉亞意式餐廳 (映築)",
@@ -5462,7 +5095,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0YpmH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "甜品/冰品": [
@@ -5478,7 +5112,8 @@
         "雪糕/乳酪"
       ],
       "url": "https://s.openrice.com/QrbS0zuq8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "CLS Coffee & Bar",
@@ -5490,7 +5125,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS087aH00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Cake Sakura",
@@ -5504,7 +5140,8 @@
         "西式糕點"
       ],
       "url": "https://s.openrice.com/QrbS0T20B00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "甜心婆婆",
@@ -5521,7 +5158,8 @@
         "中式糖水"
       ],
       "url": "https://s.openrice.com/QrbS0L3eA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "櫻桃麵飽西餅",
@@ -5535,7 +5173,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0CnS800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "三井飽餅專門店",
@@ -5549,7 +5188,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0gvi000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "英王麵包店",
@@ -5563,7 +5203,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0GWKA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "喜樂點心甜品專門店",
@@ -5579,22 +5220,8 @@
         "點心"
       ],
       "url": "https://s.openrice.com/QrbS02fGD00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "榮華餅家",
-      "address": "青山道300號",
-      "price": "$50以下",
-      "score": 3.87,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "麵包店",
-        "唐餅"
-      ],
-      "url": "https://s.openrice.com/QrbS0L2K000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "四喜麵包西餅",
@@ -5608,7 +5235,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0Yha700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "甜一刻",
@@ -5623,7 +5251,8 @@
         "甜品/糖水"
       ],
       "url": "https://s.openrice.com/QrbS0zCM100",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "芒B甜品",
@@ -5637,7 +5266,8 @@
         "甜品/糖水"
       ],
       "url": "https://s.openrice.com/QrbS0mGeD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "順興隆桂記荳品廠",
@@ -5651,7 +5281,8 @@
         "中式糖水"
       ],
       "url": "https://s.openrice.com/QrbS0xYm000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "批&撻專門店",
@@ -5665,7 +5296,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0ObW200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "美其香餅家",
@@ -5679,7 +5311,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0SaS000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "御記糖水專門店",
@@ -5693,7 +5326,8 @@
         "甜品/糖水"
       ],
       "url": "https://s.openrice.com/QrbS0EoC800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Cafe 330",
@@ -5708,7 +5342,8 @@
         "西式糕點"
       ],
       "url": "https://s.openrice.com/QrbS0L7i700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "松記糖水店",
@@ -5723,7 +5358,8 @@
         "中式糖水"
       ],
       "url": "https://s.openrice.com/QrbS0r04000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "東京麵包餅食 (長發街)",
@@ -5737,7 +5373,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0FqK000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "聖安娜餅屋 (港鐵長沙灣站)",
@@ -5751,7 +5388,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS04iK000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "聖安娜餅屋 (寶熙苑商場)",
@@ -5765,7 +5403,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0q1S000",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "檸檬廊",
@@ -5779,7 +5418,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0sAG000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "豐麥園麵包",
@@ -5794,7 +5434,8 @@
         "中式包點"
       ],
       "url": "https://s.openrice.com/QrbS0dxu200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "貴族甜品 (元州街)",
@@ -5809,7 +5450,8 @@
         "中式糖水"
       ],
       "url": "https://s.openrice.com/QrbS0Rn0800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新樂富麵包西餅",
@@ -5823,7 +5465,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS09d4700",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "MAMA Bakery (寶熙苑商場)",
@@ -5839,7 +5482,8 @@
         "三文治"
       ],
       "url": "https://s.openrice.com/QrbS0Qpy6W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Patisserie.B.K",
@@ -5853,7 +5497,8 @@
         "西式糕點"
       ],
       "url": "https://s.openrice.com/QrbS0K0KB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "Rewind",
@@ -5868,21 +5513,8 @@
         "薄餅"
       ],
       "url": "https://s.openrice.com/QrbS0Yf4H00",
-      "source": "OpenRice"
-    },
-    {
-      "name": "新樂富美食",
-      "address": "永隆街11號地舖",
-      "price": "$50以下",
-      "score": null,
-      "cuisines": [
-        "港式"
-      ],
-      "dishes": [
-        "麵包店"
-      ],
-      "url": "https://s.openrice.com/QrbS0uy6000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "新樂富麵包西餅",
@@ -5896,7 +5528,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS08um200",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "木村面包屋",
@@ -5910,7 +5543,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS03yM600",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "東京麵包餅食 (海盈邨)",
@@ -5924,7 +5558,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0UeaC00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "榮華餅家 (青山道)",
@@ -5939,7 +5574,8 @@
         "唐餅"
       ],
       "url": "https://s.openrice.com/QrbS075y500",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "永福豆品",
@@ -5953,7 +5589,8 @@
         "甜品/糖水"
       ],
       "url": "https://s.openrice.com/QrbS0zmw8W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "百份百大師‧即造烘焙 (寶熙苑商場)",
@@ -5967,7 +5604,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0m98800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "美心西餅 (元州商場)",
@@ -5981,7 +5619,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0cxO800",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "英王麵包店",
@@ -5997,7 +5636,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0TqKD00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "麥田餅店",
@@ -6011,7 +5651,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0TOaA00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "麥芝連餅店",
@@ -6025,7 +5666,8 @@
         "麵包店"
       ],
       "url": "https://s.openrice.com/QrbS0YW8C00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ],
   "其他（東南亞／南亞等）": [
@@ -6039,7 +5681,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0PH4H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "蘇山雞飯",
@@ -6052,7 +5695,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0wA8A00",
-      "source": "OpenRice + Google/目錄交叉"
+      "source": "OpenRice + Google/目錄交叉",
+      "status": "open"
     },
     {
       "name": "COSY",
@@ -6065,7 +5709,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0zsg4W0",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "蘇亞印度餐廳",
@@ -6079,7 +5724,8 @@
         "咖喱"
       ],
       "url": "https://s.openrice.com/QrbS0rKC000",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "超哥印尼餐廳",
@@ -6091,7 +5737,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0SFeB00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     },
     {
       "name": "越南媽媽",
@@ -6103,7 +5750,8 @@
       ],
       "dishes": [],
       "url": "https://s.openrice.com/QrbS0R98H00",
-      "source": "OpenRice"
+      "source": "OpenRice",
+      "status": "open"
     }
   ]
 }

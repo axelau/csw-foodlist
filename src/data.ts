@@ -42,7 +42,7 @@ export const STREETS = [
 
 export const PRICE_BANDS = ['$50以下', '$51-100', '$101-200', '$201-400'] as const;
 
-export const DATA_AS_OF = '2026年10月26日';
+export const DATA_AS_OF = '2026年10月27日';
 
 const STREET_FIXES: readonly (readonly [string, string])[] = [
   ['元洲街', '元州街'],
