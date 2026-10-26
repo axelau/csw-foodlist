@@ -461,7 +461,7 @@ function updateRefine(route: ListRoute): void {
     )
     .join('');
   const clear = isDefaultList(route) ? '' : `<button type="button" class="text-btn" data-clear>清除篩選</button>`;
-  refine.innerHTML = `<div class="refine-group"><span class="refine-label" id="price-label">價錢</span><div class="mini-chips" role="group" aria-labelledby="price-label">${prices}</div></div><div class="refine-group"><span class="refine-label" id="street-label">街道</span><select id="street" class="street-select" aria-labelledby="street-label">${streetOptions}</select></div><div class="refine-group"><span class="refine-label" id="scope-label">標記<span class="refine-hint">此篩選內</span></span><div class="mini-chips" role="group" aria-labelledby="scope-label">${scopeButtons}</div></div><div class="refine-actions"><button type="button" class="btn btn-sm" data-open-pick ${ready ? '' : 'disabled'}>隨機一間</button>${clear}</div>`;
+  refine.innerHTML = `<div class="refine-group"><span class="refine-label" id="price-label">價錢</span><div class="mini-chips" role="group" aria-labelledby="price-label">${prices}</div></div><div class="refine-group"><span class="refine-label" id="street-label">街道</span><select id="street" class="street-select" aria-labelledby="street-label">${streetOptions}</select></div><div class="refine-group"><span class="refine-label" id="scope-label">標記<span class="refine-hint">此篩選內</span></span><div class="mini-chips" role="group" aria-labelledby="scope-label">${scopeButtons}</div></div><div class="refine-actions">${clear}<button type="button" class="btn btn-sm" data-open-pick ${ready ? '' : 'disabled'}>隨機一間</button></div>`;
 }
 
 function updateChrome(route: Route): void {
