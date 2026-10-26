@@ -35,7 +35,7 @@ npm run preview
 
 啟用後，網站網址是 [https://axelau.github.io/csw-foodlist/](https://axelau.github.io/csw-foodlist/)。
 
-不是用 `/docs` 資料夾，也不是 `gh-pages` 分支。
+不是用 `/docs` 資料夾，也不是 `gh-pages` 分支。如果 Pages 尚未啟用，推上 `main` 時 workflow 會在 Setup Pages 這步失敗。選好 GitHub Actions 之後，到 Actions 重新執行「Deploy GitHub Pages」。
 
 ## 資料
 
